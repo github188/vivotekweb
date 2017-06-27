@@ -1,0 +1,929 @@
+<!DOCTYPE html>
+<html lang="en">
+<!--[if lt IE 7]><html class="no-js lt-ie9 lt-ie8 lt-ie7"><![endif]-->
+<!--[if IE 7]><html class="no-js lt-ie9 lt-ie8"><![endif]-->
+<!--[if IE 8]><html class="no-js lt-ie9"><![endif]-->
+<!--[if gt IE 8]><!--><html class="no-js"><!--<![endif]-->
+
+
+
+
+
+<head>
+ <meta charset="utf-8">
+ <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+ <title>iViewer | VIVOTEK Mobile Surveillance App | User-Friendly Interface | Video Clip Playback | PiP &amp; PTZ Control | Fisheye Dewarp</title>
+ <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+ <meta name="description" content="iViewer is developed to allow users to monitor locations remotely by providing access to surveillance camera video directly from their iOS or Android handheld device.">
+ <meta name="keyword" content="vivotek, mobile surveillance app, iviewer, user-friendly interface, video clip playback, pip &amp; ptz control, fisheye dewarp">
+ <meta name="author" content="VIVOTEK">
+ <!-- SCHEMA.ORG MARKUP FOR FACEBOOK --> 
+ <meta property="og:title" content="iViewer | VIVOTEK Mobile Surveillance App | User-Friendly Interface | Video Clip Playback | PiP &amp; PTZ Control | Fisheye Dewarp" >
+ <meta property="og:url" content="http://www.vivotek.com/iviewer/">
+ <meta property="og:image" content="http://www.vivotek.com/image/products/banner/iviewer.jpg">
+ <meta property="og:description" content="iViewer is developed to allow users to monitor locations remotely by providing access to surveillance camera video directly from their iOS or Android handheld device." >
+ <meta property="og:site_name" content="VIVOTEK"/>
+ <!-- TWITTER CARD DATA -->
+ <meta name="twitter:card" content="summary_large_image">
+ <meta name="twitter:site" content="@vivotek">
+ <meta name="twitter:creator" content="@vivotek">
+ <!-- OTHER OPEN GRAPH DATA --> 
+ <meta property="og:type" content="product" />
+ <link rel="stylesheet" href="/css/bootstrap.min.css">
+ <link rel="stylesheet" href="/css/bootstrap-theme.min.css">
+ <link rel="stylesheet" href="/css/fontello/fontello.min.css">
+ <link rel="stylesheet" href="/css/fontello/animation.css">
+ <link rel="stylesheet" href="/css/jplist/styles.min.css">
+ <link rel="stylesheet" href="/css/jplist/jplist.min.css">
+ <link rel="stylesheet" href="/css/rus/jquery.tosrus.all.css">
+ <link rel="stylesheet" href="/css/mgmenu_universal/mgmenu.min.css">
+ <link rel="stylesheet" href="/css/zozotabs/zozo.tabs.min.css">
+ <link rel="stylesheet" href="/css/zozotabs/zozo.tabs.flat.min.css">
+ <link rel="stylesheet" href="/css/vivotek.min.css">
+ <style type="text/css">
+ .jplist-grid-view .list-item .block .dl_btn { display: block; height: 3.8em;}
+ .jplist-grid-view .list-item .block .dl_btn_qig, .jplist-grid-view .list-item .block .dls { display: block; height: 3.8em;}
+ </style>
+ <!--[if lt IE 9]>
+  <link rel="stylesheet" href="/image/all/iconic/font/css/iconic-glyphs-legacy.css">
+ <![endif]-->
+ <script src="http://www.google-analytics.com/ga.js"></script>
+ <script src="/js/modernizr/modernizr-2.6.2-respond-1.1.0.min.js"></script>
+ <!-- BROWSER FAVICON -->
+ <link rel="icon" href="image/all/VIVOTEK_icon.ico">
+ <!-- iPad RETINA -->
+ <link rel="apple-touch-icon-precomposed" sizes="144x144" href="image/all/VIVOTEK_icon_ipad_r.png">
+ <!-- iPhone RETINA -->
+ <link rel="apple-touch-icon-precomposed" sizes="114x114" href="image/all/VIVOTEK_icon_iphone_r.png">
+ <!-- iPad -->
+ <link rel="apple-touch-icon-precomposed" sizes="72x72" href="image/all/VIVOTEK_icon_ipad.png">
+ <!-- iPhone -->
+ <link rel="apple-touch-icon-precomposed" sizes="57x57" href="image/all/VIVOTEK_icon_iphone.png">
+</head>
+
+
+
+
+<body class="homebody">
+<!--[if lt IE 7]>
+<p class="chromeframe">
+You are using an <strong>outdated</strong>
+browser. Please
+<a href="http://browsehappy.com/">upgrade your browser</a>
+or
+<a href="http://www.google.com/chromeframe/?redirect=true">activate Google Chrome Frame</a>
+to improve your experience.
+</p>
+<![endif]-->
+
+
+
+
+
+ <!-- NAV MEGA MENU START -->
+ <div class="navbar navbar-static-top vivotek_home_navbar" role="navigation">
+ <!--  <div class="navbar navbar-default navbar-static-top vivotek_home_navbar" role="navigation"> -->
+
+
+
+ <!-- !LOGO AND LANGUAGE START -->
+ <a name="top"></a>
+  <div class="container-fluid bg_white">
+   <div class="row">
+
+    <div class="col-xs-0 col-sm-0 col-md-0 col-lg-1"></div>
+    <div class="col-xs-10 col-sm-10 col-md-9 col-lg-8"><div class="div_clear_8"></div><a href="http://www.vivotek.com/" target="_self"><img src="/image/all/VIVOTEK_logo.svg" class="vivotek_logoimg" /></a><div class="div_clear_8"></div></div>
+       
+
+    <!-- <div class="col-xs-2 col-sm-2 col-md-2 col-lg-2">
+     <div class="div_clear_1_68"></div>
+     <div class="btn-group pull-right vivotek_lang">
+      <h1 class="sr-only">Language Navigation</h1>
+      <nav>
+      <button type="button" class="btn btn-default dropdown-toggle vivotek_nav_dropdown-toggle" data-toggle="dropdown">
+       <i class="icon-fontello-globe-3 blue font_size_138"></i>
+       <span class="caret"></span>
+      </button>
+      <ul class="dropdown-menu vivotek_lang_dropdown-menu">
+       <li>
+        <a target="_self" href="/ip8362/" class="active">
+        <h1>English</h1>
+        </a>
+       </li>
+       <li>
+        <a target="_self" href="/de/ip8362/">
+        <h1>Deutsch</h1>
+        </a>
+       </li>
+       <li>
+        <a target="_self" href="/es/ip8362/">
+        <h1>Español</h1>
+        </a>
+       </li>
+       <li>
+        <a target="_self" href="/fr/ip8362/">
+        <h1>Français</h1>
+        </a>
+       </li>
+       <li>
+        <a target="_self" href="/jp/ip8362/">
+        <h1>日本語</h1>
+        </a>
+       </li>
+       <li>
+        <a target="_self" href="/pt/ip8362/">
+        <h1>Português</h1>
+        </a>
+       </li>
+       <li>
+        <a target="_self" href="/ru/ip8362/">
+        <h1>Русский</h1>
+        </a>
+       </li>
+       <li>
+        <a target="_self" href="/tw/ip8362/">
+        <h1>繁體中文</h1>
+        </a>
+       </li>
+       <li>
+        <a target="_self" href="/cn/ip8362/">
+        <h1>简体中文</h1>
+        </a>
+       </li>
+      </ul>
+     </nav>
+     </div>
+    </div> -->
+
+
+    <div class="col-xs-0 col-sm-0 col-md-1 col-lg-1"></div>
+
+   </div>
+ </div>
+ <!-- !LOGO AND LANGUAGE END -->
+
+
+
+   </div>
+  </div>
+  <!-- NAV MEGA MENU CONTAINER END -->   
+
+
+
+ </div>
+ <!-- NAV MEGA MENU END -->
+
+
+
+
+
+ <!-- !CONTENT MAIN START -->
+ <div class="container">
+  <div class="row">
+  <div class="col-md-12">
+    <h1 class="pro_head">User-Friendly Interface | Video Clip Playback | PiP & PTZ Control | Fisheye Dewarp | Mobile Surveillance App iViewer</h1>
+    <img src="/image/products/banner/iviewer.jpg" alt="iViewer" class="width_100">
+  </div>
+
+  <!-- ZOZO TABS START -->
+  <div id="tabbed-nav" class="pro">
+    <ul>
+      <li data-link="ui"><a>UI</a></li>
+      <li data-link="ios"><a>iOS</a></li>
+      <li data-link="android"><a>Android</a></li>
+      <li data-link="downloads"><a>Downloads</a></li>
+      <!-- <li data-link="accessorie"><a>Accessories</a></li> -->
+      <!-- <li data-link="others"><a>Others</a></li> -->
+      <!-- <li data-link="success"><a>Success Stories</a></li> -->
+    </ul>
+
+    <!-- OVERVIEW TAB START -->
+    <div>
+      <div class="row">
+
+      <div class="div_clear_8"></div>
+      
+        <div class="col-xs-1 col-sm-2 visible-xs-* visible-sm-* hidden-md hidden-lg"></div>
+        <div class="col-xs-10 col-sm-8 col-md-4">
+          <img src="/image/products/others/iviewer_3_01.jpg" alt="VIVOTEk iViewer App UI" class="width_100">
+          <div class="div_clear_18"></div>
+        </div>
+        <div class="col-xs-1 col-sm-2 visible-xs-* visible-sm-* hidden-md hidden-lg"></div>
+
+        <div class="clearfix visible-xs-* visible-sm-* hidden-md hidden-lg"></div>
+
+        <div class="col-xs-1 col-sm-2 visible-xs-* visible-sm-* hidden-md hidden-lg"></div>
+        <div class="col-xs-10 col-sm-8 col-md-4">
+          <img src="/image/products/others/iviewer_3_02.jpg" alt="VIVOTEk iViewer App UI" class="width_100">
+          <div class="div_clear_18"></div>
+        </div>
+        <div class="col-xs-1 col-sm-2 visible-xs-* visible-sm-* hidden-md hidden-lg"></div>
+
+        <div class="clearfix visible-xs-* visible-sm-* hidden-md hidden-lg"></div>
+
+        <div class="col-xs-1 col-sm-2 visible-xs-* visible-sm-* hidden-md hidden-lg"></div>
+        <div class="col-xs-10 col-sm-8 col-md-4">
+          <img src="/image/products/others/iviewer_3_03.jpg" alt="VIVOTEk iViewer App UI" class="width_100">
+          <div class="div_clear_18"></div>
+        </div>
+        <div class="col-xs-1 col-sm-2 visible-xs-* visible-sm-* hidden-md hidden-lg"></div>
+
+        <div class="clearfix visible-xs-* visible-sm-* hidden-md hidden-lg"></div>
+
+        <div class="div_clear_8"></div>
+
+        <div class="col-xs-1 col-sm-2 visible-xs-* visible-sm-* hidden-md hidden-lg"></div>
+        <div class="col-xs-10 col-sm-8 col-md-4">
+          <img src="/image/products/others/iviewer_3_04.jpg" alt="VIVOTEk iViewer App UI" class="width_100">
+          <div class="div_clear_18"></div>
+        </div>
+        <div class="col-xs-1 col-sm-2 visible-xs-* visible-sm-* hidden-md hidden-lg"></div>
+
+        <div class="clearfix visible-xs-* visible-sm-* hidden-md hidden-lg"></div>
+
+        <div class="col-xs-1 col-sm-2 visible-xs-* visible-sm-* hidden-md hidden-lg"></div>
+        <div class="col-xs-10 col-sm-8 col-md-4">
+          <img src="/image/products/others/iviewer_3_05.jpg" alt="VIVOTEk iViewer App UI" class="width_100">
+          <div class="div_clear_18"></div>
+        </div>
+        <div class="col-xs-1 col-sm-2 visible-xs-* visible-sm-* hidden-md hidden-lg"></div>
+
+      </div>
+    </div>
+    <!-- OVERVIEW TAB END -->
+
+    <!-- SPEC. TAB START -->
+    <div>
+      <div class="row">
+        <div class="col-xs-1"></div>
+        <div class="col-xs-10">
+          <div class="row">
+            <div class="col-sm-3 col-md-4 hidden-xs visible-sm-* visible-md-* visible-lg-*"></div>
+            <div class="col-sm-6 col-md-3">
+              <a href="https://itunes.apple.com/us/app/vivotek-iviewer-classic/id917207211" target="_blank">
+              <img src="/image/products/others/iviewer_1_3_ios_qr.png" alt="VIVOTEK iViewer App on App Store" class="width_100">
+              </a>
+            </div>
+            <div class="col-sm-3 hidden-xs visible-sm-* hidden-md hidden-lg"></div>
+          </div>
+          <h3>iOS</h3>
+          <p class="t84">iViewer is developed to allow users to monitor locations remotely by providing access to surveillance camera video directly from their iOS or Android handheld device.</p>
+          <p class="t84">The re-designed and easy-to-use interface allows users to monitor live video from hundreds of cameras. The user may access cameras managed by VAST (central &amp; video management software), ST7501 (free video management software), VIVOTEK NVR, or make direct connections to individual cameras via IP address or IP finder. The iViewer also allows access to one way audio, PTZ and PiP screen control, fisheye dewarping, snapshot and the capability to playback recorded video from VIVOTEK VAST/ST7501 and NVR.</p>
+          <div class="div_clear_8"></div>
+          <h3>What's New in Version 3.5.7</h3>
+          <ul class="pro_ul_t84">
+            <li>The HTTPS Encrypted Connection between iViewer and Camera/NVR/VAST (v1.12 or above)</li>
+            <li>Supports Two-Way Audio for Camera</li>
+            <li>Supports VAST Substation</li>
+          </ul>
+          <div class="div_clear_8"></div>          
+          <h3>Features</h3>
+          <ul class="pro_ul_t84">
+            <li>H.265 Support</li> 
+            <li>Multi-channel Live View &amp; Single Channel Playback</li>
+            <li>Variable-Speed Fast-Forward and Reverse for Playback</li>
+            <li>Multi-Stream Selection</li>
+            <li>Vertical (Portrait) or Horizontal (Landscape) Mode Rotation</li>
+            <li>Snapshot Option</li>
+            <li>PTZ Control</li>
+            <li>PiP (Picture in Picture) Control</li>
+            <li>Fisheye Camera Dewarp (1O,1P,1R Mode)</li>
+            <li>Fisheye Camera Local Dewarp (Depending on Streaming Camera)</li>
+            <li>Two-Way Audio (For Camera Only)</li>
+          </ul>
+          <div class="div_clear_8"></div>
+          <h3>System Requirements</h3>
+          <ul class="pro_ul_t84">
+            <li>Supports Handheld, Mobile and Tablet Devices</li>
+            <li>iOS 8.0 or Later</li>
+            <li>iPhone 6 Series, iPhone 5 Series and iPhone 4s</li>
+            <li>iPad Air Series, iPad mini Series, iPad (2nd Generation or Above)</li>
+            <li>iPod touch (5th Generation or Above)</li>
+          </ul>
+          <div class="div_clear_8"></div>
+          <h3>Support List</h3>
+          <ul class="pro_ul_t84">
+            <li>VIVOTEK Network Cameras (7000 &amp; 8000 &amp; 9000 Series)</li>
+            <li>VIVOTEK NVR (ND &amp; NR Series)</li>
+            <li>VIVOTEK Software (ST7501, VAST)</li>
+          </ul>
+          <div class="div_clear_38"></div>
+          </div>
+          <div class="col-xs-1"></div>
+        </div>
+      </div>
+      <!-- SPEC. TAB END -->
+
+      <!-- VIDEO TAB START -->
+      <div>
+      <div class="row">
+        <div class="col-xs-1"></div>
+        <div class="col-xs-10">
+          <div class="row">
+            <div class="col-sm-3 col-md-4 hidden-xs visible-sm-* visible-md-* visible-lg-*"></div>
+            <div class="col-sm-6 col-md-3">
+              <a href="https://play.google.com/store/apps/details?id=vivotek.iviewer2.app" target="_blank">
+              <img src="/image/products/others/iviewer_1_3_android_qr.png" alt="VIVOTEK iViewer App on App Store" class="width_100">
+              </a>
+            </div>
+            <div class="col-sm-3 hidden-xs visible-sm-* hidden-md hidden-lg"></div>
+          </div>
+          <h3>Android</h3>
+          <p class="t84">iViewer is developed to allow users to monitor locations remotely by providing access to surveillance camera video directly from their iOS or Android handheld device.</p>
+          <p class="t84">The re-designed and easy-to-use interface allows users to monitor live video from hundreds of cameras. The user may access cameras managed by VAST (central &amp; video management software), ST7501 (free video management software), VIVOTEK NVR, or make direct connections to individual cameras via IP address or IP finder. The iViewer also allows access to one way audio, PTZ and PiP screen control, fisheye dewarping, snapshot and the capability to playback recorded video from VIVOTEK VAST/ST7501 and NVR.</p>
+          <div class="div_clear_8"></div>
+          <h3>What's New in Version 3.5.5</h3>
+          <ul class="pro_ul_t84">
+            <li>The HTTPS Encrypted Connection between iViewer and Camera/NVR/VAST (v1.12 or above)</li>
+            <li>Supports Two-Way Audio for Camera</li>
+            <li>Displays Static Snapshot in Multi-Cell View to Save Bandwidth</li>
+            <li>Supports VAST Substation</li>
+          </ul>
+          <div class="div_clear_8"></div>
+          <h3>Features</h3>
+          <ul class="pro_ul_t84">
+            <li>H.265 Support</li>
+            <li>Multi-channel Live View &amp; Single Channel Playback</li>
+            <li>Multi-Stream selection</li>
+            <li>Vertical (Portrait) or Horizontal (Landscape) Mode Rotating</li>
+            <li>Snapshot Option</li>
+            <li>PTZ Control</li>
+            <li>PiP (Picture in Picture) Control</li>
+            <li>Fisheye Camera Dewarp (1O,1P,1R Mode)</li>
+            <li>Fisheye Camera Local Dewarp (According to the camera streaming)</li>
+            <li>Two-Way Audio (For Camera Only)</li>
+            <li>Add Camera Update in Single View (3.1.5)</li>
+          </ul>
+          <div class="div_clear_8"></div>
+          <h3>System Requirements</h3>
+          <ul class="pro_ul_t84">
+            <li>Support handheld, mobile and tablet devices</li>
+            <li>Android 4.0 or above</li>
+          </ul>
+          <div class="div_clear_8"></div>
+          <h3>Support List</h3>
+          <ul class="pro_ul_t84">
+            <li>VIVOTEK Network Cameras (7000 &amp; 8000 &amp; 9000 Series)</li>
+            <li>VIVOTEK NVR (ND &amp; NR Series)</li>
+            <li>VIVOTEK Software (ST7501, VAST)</li>
+          </ul>
+          <div class="div_clear_38"></div>
+          </div>
+          <div class="col-xs-1"></div>
+        </div>
+      </div>
+      <!-- VIDEO TAB END -->
+
+      <!-- DOWNLOAD TAB START -->
+      <div>
+        <div class="row">
+          <div class="col-xs-1"></div>
+          <div class="col-xs-10">
+            <h3>Downloads</h3>
+            <!-- JPLIST TABLE START -->
+            <div id="demodl" class="box jplist">
+              <!-- FILTER PANEL START -->
+              <div class="jplist-panel box panel-top">
+                <div 
+                  class="jplist-views" 
+                  data-control-type="views" 
+                  data-control-name="views" 
+                  data-control-action="views"
+                  data-default="jplist-grid-view"
+                  style="display:none;">
+                  <button type="button" class="jplist-view jplist-list-view" data-type="jplist-list-view"></button>
+                  <button type="button" class="jplist-view jplist-grid-view" data-type="jplist-grid-view"></button>
+                  <button type="button" class="jplist-view jplist-thumbs-view" data-type="jplist-thumbs-view"></button>
+                </div>
+              </div>
+              <!-- FILTER PANEL END -->
+              <!-- DATA START -->
+              <div class="list box text-shadow jplist_tbale_area jplist_tbale_pro">
+
+                <!-- ALIGNMENT STICKER -->
+                <!-- <div class="list-item box">
+                  <div class="img"><img data-file-extension="Sti" data-src="/image/all/iconic/svg/smart/file.svg" class="iconic iconic-md iconic-size-lg" alt="file"></div>
+                  <div class="block">
+                    <h1 class="jplist_dl_title">Alignment Sticker</h1>
+                    <div class="dl_btn">
+                      <a href="http://download.vivotek.com/downloadfile/downloads/alignmentsticker/ivieweralignmentsticker.pdf" target="_blank" class="btn btn-default btn-sm">Download</a>
+                    </div>
+                    <div class="div_clear_18"></div>
+                  </div>
+                </div> -->
+            
+                <!-- DATASHEETS -->
+                <!-- <div class="list-item box">
+                  <div class="img"><img data-file-extension="DS" data-src="/image/all/iconic/svg/smart/file.svg" class="iconic iconic-md iconic-size-lg" alt="file"></div>
+                  <div class="block">
+                    <h1 class="jplist_dl_title">Datasheets</h1>
+                    <div class="dl_btn">
+                      <a href="http://download.vivotek.com/downloadfile/downloads/datasheets/iviewerdatasheet_en.pdf" target="_blank" class="btn btn-default btn-sm">English</a>
+                      <a href="http://download.vivotek.com/downloadfile/downloads/datasheets/iviewerdatasheet_de.pdf" target="_blank" class="btn btn-default btn-sm">Deutsch</a>
+                      <a href="http://download.vivotek.com/downloadfile/downloads/datasheets/iviewerdatasheet_es.pdf" target="_blank" class="btn btn-default btn-sm">Español</a>
+                      <a href="http://download.vivotek.com/downloadfile/downloads/datasheets/iviewerdatasheet_fr.pdf" target="_blank" class="btn btn-default btn-sm">Français</a>
+                      <a href="http://download.vivotek.com/downloadfile/downloads/datasheets/iviewerdatasheet_it.pdf" target="_blank" class="btn btn-default btn-sm">Italiano</a>
+                      <a href="http://download.vivotek.com/downloadfile/downloads/datasheets/iviewerdatasheet_pt.pdf" target="_blank" class="btn btn-default btn-sm">Português</a>
+                      <a href="http://download.vivotek.com/downloadfile/downloads/datasheets/iviewerdatasheet_ru.pdf" target="_blank" class="btn btn-default btn-sm">Русский</a>
+                      <a href="http://download.vivotek.com/downloadfile/downloads/datasheets/iviewerdatasheet_tw.pdf" target="_blank" class="btn btn-default btn-sm">繁體中文</a>
+                      <a href="http://download.vivotek.com/downloadfile/downloads/datasheets/iviewerdatasheet_cn.pdf" target="_blank" class="btn btn-default btn-sm">简体中文</a>
+                    </div>
+                    <div class="div_clear_18"></div>
+                  </div>
+                </div> -->
+
+                <!-- FIRMWARE -->
+                <!-- <div class="list-item box">
+                  <div class="img"><img data-file-extension="FW" data-src="/image/all/iconic/svg/smart/file.svg" class="iconic iconic-md iconic-size-lg" alt="file"></div>
+                  <div class="block">
+                    <h1 class="jplist_dl_title">Firmware</h1>
+                    <div class="dl_btn">
+                      <a href="http://download.vivotek.com/downloadfile/downloads/firmware/iviewerfirmware.zip" target="_blank" class="btn btn-default btn-sm">Ver. 0305a</a>
+                    </div>
+                    <div class="div_clear_18"></div>
+                  </div>
+                </div> -->
+
+                <!-- PLUGIN -->
+                <!-- <div class="list-item box">
+                  <div class="img"><img data-file-extension="PI" data-src="/image/all/iconic/svg/smart/file.svg" class="iconic iconic-md iconic-size-lg" alt="file"></div>
+                  <div class="block">
+                    <h1 class="jplist_dl_title">Plug-in</h1>
+                    <div class="dl_btn">
+                      <a href="http://download.vivotek.com/downloadfile/downloads/plugin/vivotek_milestone_fisheye_plugin_x64.zip" target="_blank" class="btn btn-default btn-sm">Milestone Enhancer x64</a>
+                      <a href="http://download.vivotek.com/downloadfile/downloads/plugin/vivotek_milestone_fisheye_plugin_x86.zip" target="_blank" class="btn btn-default btn-sm">Milestone Enhancer x86</a>
+                    </div>
+                    <div class="div_clear_18"></div>
+                  </div>
+                </div> -->
+
+                <!-- PHOTOS -->
+                <div class="list-item box">
+                  <div class="img"><img data-file-extension="PIC" data-src="/image/all/iconic/svg/smart/file.svg" class="iconic iconic-md iconic-size-lg" alt="file"></div>
+                  <div class="block">
+                    <h1 class="jplist_dl_title">PHOTOS</h1>
+                    <div class="dl_btn">
+                      <a href="http://download.vivotek.com/downloadfile/downloads/productimages/iviewer.zip" target="_blank" class="btn btn-default btn-sm">Download</a>
+                    </div>
+                    <div class="div_clear_18"></div>
+                  </div>
+                </div>
+
+                <!-- QIG -->
+                <!-- <div class="list-item box">
+                  <div class="img"><img data-file-extension="QIG" data-src="/image/all/iconic/svg/smart/file.svg" class="iconic iconic-md iconic-size-lg" alt="file"></div>
+                  <div class="block">
+                    <h1 class="jplist_dl_title">Quick Guides</h1>
+                    <div class="dl_btn_qig">
+                      <a href="http://download.vivotek.com/downloadfile/downloads/quickguides/iviewerguide_en.pdf" target="_blank" class="btn btn-default btn-sm">English</a>
+                      <a href="http://download.vivotek.com/downloadfile/downloads/quickguides/iviewerguide_ar.pdf" target="_blank" class="btn btn-default btn-sm">العربية</a>
+                      <a href="http://download.vivotek.com/downloadfile/downloads/quickguides/iviewerguide_cs.pdf" target="_blank" class="btn btn-default btn-sm">Čeština</a>
+                      <a href="http://download.vivotek.com/downloadfile/downloads/quickguides/iviewerguide_da.pdf" target="_blank" class="btn btn-default btn-sm">Dansk</a>
+                      <a href="http://download.vivotek.com/downloadfile/downloads/quickguides/iviewerguide_de.pdf" target="_blank" class="btn btn-default btn-sm">Deutsch</a>
+                      <a href="http://download.vivotek.com/downloadfile/downloads/quickguides/iviewerguide_es.pdf" target="_blank" class="btn btn-default btn-sm">Español</a>
+                      <a href="http://download.vivotek.com/downloadfile/downloads/quickguides/iviewerguide_id.pdf" target="_blank" class="btn btn-default btn-sm">Indonesia</a>
+                      <a href="http://download.vivotek.com/downloadfile/downloads/quickguides/iviewerguide_it.pdf" target="_blank" class="btn btn-default btn-sm">Italiano</a>
+                      <a href="http://download.vivotek.com/downloadfile/downloads/quickguides/iviewerguide_fr.pdf" target="_blank" class="btn btn-default btn-sm">Français</a>
+                      <a href="http://download.vivotek.com/downloadfile/downloads/quickguides/iviewerguide_jp.pdf" target="_blank" class="btn btn-default btn-sm">日本语</a>
+                      <a href="http://download.vivotek.com/downloadfile/downloads/quickguides/iviewerguide_nl.pdf" target="_blank" class="btn btn-default btn-sm">Nederlands</a>
+                      <a href="http://download.vivotek.com/downloadfile/downloads/quickguides/iviewerguide_pl.pdf" target="_blank" class="btn btn-default btn-sm">Polski</a>
+                      <a href="http://download.vivotek.com/downloadfile/downloads/quickguides/iviewerguide_pt.pdf" target="_blank" class="btn btn-default btn-sm">Português</a>
+                      <a href="http://download.vivotek.com/downloadfile/downloads/quickguides/iviewerguide_ru.pdf" target="_blank" class="btn btn-default btn-sm">Русский</a>
+                       <a href="http://download.vivotek.com/downloadfile/downloads/quickguides/iviewerguide_sv.pdf" target="_blank" class="btn btn-default btn-sm">Svenska</a>
+                      <a href="http://download.vivotek.com/downloadfile/downloads/quickguides/iviewerguide_tu.pdf" target="_blank" class="btn btn-default btn-sm">Türk</a>
+                      <a href="http://download.vivotek.com/downloadfile/downloads/quickguides/iviewerguide_tw.pdf" target="_blank" class="btn btn-default btn-sm">繁體中文</a>
+                       <a href="http://download.vivotek.com/downloadfile/downloads/quickguides/iviewerguide_cn.pdf" target="_blank" class="btn btn-default btn-sm">简体中文</a>
+                    </div>
+                    <div class="div_clear_18"></div>
+                  </div>
+                </div> -->
+
+                <!-- SOFTWARE -->
+                <!-- <div class="list-item box">
+                  <div class="img"><img data-file-extension="VAST" data-src="/image/all/iconic/svg/smart/file.svg" class="iconic iconic-md iconic-size-lg" alt="file"></div>
+                  <div class="block">
+                    <h1 class="jplist_dl_title">VAST</h1>
+                    <div class="dl_btn">
+                      <a href="http://download.vivotek.com/downloadfile/downloads/software/vast_aio.zip" target="_blank" class="btn btn-default btn-sm">AIO 1.9.0.8</a>
+                    </div>
+                    <div class="div_clear_18"></div>
+                  </div>
+                </div> -->
+
+                <!-- MANUAL -->
+                <div class="list-item box">
+                  <div class="img"><img data-file-extension="Man" data-src="/image/all/iconic/svg/smart/file.svg" class="iconic iconic-md iconic-size-lg" alt="file"></div>
+                  <div class="block">
+                    <h1 class="jplist_dl_title">User's Manual</h1>
+                    <div class="dl_btn">
+                      <a href="http://download.vivotek.com/downloadfile/downloads/usersmanuals/iviewermanual_en.pdf" target="_blank" class="btn btn-default btn-sm">Download</a>
+                    </div>
+                    <div class="div_clear_18"></div>
+                  </div>
+                </div>
+
+              </div>
+              <!-- DATA END -->
+            </div>
+            <!-- JPLIST TABLE END -->
+          </div>
+          <div class="col-xs-1"></div>
+        </div>
+      </div>
+      <!-- DOWNLOAD TAB END -->
+
+      <!-- ACCESSORIES TAB START -->
+      <!-- <div>
+        <div class="row">
+          <div class="col-md-1"></div>
+          <div class="col-md-10">
+            <div class="row">
+
+             <div class="col-md-5">
+              <h3>Accessories</h3>
+              <a href="http://download.vivotek.com/downloadfile/products/accessories/ip8151_accessories.pdf" target="_blank">
+              <img src="/image/products/others/ip8151_41.png" alt="" class="width_100  text_center">
+              </a>
+              <div class="div_clear_8"></div>
+              <div class="dl_btn text_center">
+                <a href="http://download.vivotek.com/downloadfile/products/accessories/ip8151_accessories.pdf" target="_blank" class="btn btn-default btn-sm">More Info. >></a>
+              </div>
+             </div>
+
+             <div class="col-md-2"></div>
+
+             <div class="col-md-5">
+              <h3>PoE Solution</h3>
+              <a href="/poe" target="_blank">
+              <img src="/image/products/poe/products_45_poe_application_model.jpg" alt="" class="width_100">
+              </a>
+              <div class="dl_btn text_center">
+                <a href="/poe" target="_blank" class="btn btn-default btn-sm">More Info. >></a>
+              </div>
+             </div>
+
+            </div>
+          <div class="col-md-1"></div>
+          </div>
+        </div>
+      </div> -->
+      <!-- ACCESSORIES TAB END -->
+
+      <!-- OTHERS TAB START -->
+      <!-- <div>
+        <div class="row">
+          <div class="col-md-1"></div>
+          <div class="col-md-10">
+            <div class="pro_others">
+              <h3>Product Front View</h3>
+              <img src="/image/products/view/iviewerfview.png" alt="iViewer - Front View">
+              <h3>Product Rear View</h3>
+              <img src="/image/products/view/iviewerrview.png" alt="iViewer - Rear View"> -->
+              <!-- <h3>Product Internal View</h3>
+              <img src="/image/products/view/ivieweriview.png" alt="iViewer - Rear View"> -->
+              <!-- <h3>Product Outer View</h3>
+              <img src="/image/products/view/ivieweroview.png" alt="iViewer - Rear View"> -->
+              <!-- <h3>What's included</h3>
+              <img src="/image/products/include/iviewer.png" alt="iViewer - What's included">
+            </div>
+          </div>
+          <div class="col-md-1"></div>
+        </div>
+      </div> -->
+      <!-- OTHERS TAB END -->
+
+      <!-- SUCCESS STORIES TAB START -->
+      <!-- <div>
+        <div class="row">
+          <div class="col-md-1"></div>
+          <div class="col-md-10">
+            <h3>Success Stories</h3> -->
+            <!-- JPLIST TABLE START -->
+            <!-- <div id="demosuccess" class="box jplist"> -->
+              <!-- FILTER PANEL START -->
+              <!-- <div class="jplist-panel box panel-top">
+                <div 
+                  class="jplist-views" 
+                  data-control-type="views" 
+                  data-control-name="views" 
+                  data-control-action="views"
+                  data-default="jplist-grid-view"
+                  style="display:none;">
+                  <button type="button" class="jplist-view jplist-list-view" data-type="jplist-list-view"></button>
+                  <button type="button" class="jplist-view jplist-grid-view" data-type="jplist-grid-view"></button>
+                  <button type="button" class="jplist-view jplist-thumbs-view" data-type="jplist-thumbs-view"></button>
+                </div>
+              </div> -->
+              <!-- FILTER PANEL END -->
+              <!-- DATA START -->
+
+              <!-- <div class="list box text-shadow jplist_tbale_area jplist_tbale_pro">
+               <div class="list-item box"> --><!-- 140 -->
+                <!-- <div class="img"><a href="/an-ip-surveillance-system-enabled-students-at-national-chi-nan-university-to-use-the-library-safely-and-effectively/" target="_blank"><img src="/image/pressroom/successstories/success_140_list.jpg" alt="An IP Surveillance System Enabled Students at National Chi Nan University to Use the Library Safely and Effectively"/></a></div>
+                <div class="block">
+                  <p class="t84 title"><a href="/an-ip-surveillance-system-enabled-students-at-national-chi-nan-university-to-use-the-library-safely-and-effectively/" target="_blank">An IP Surveillance System Enabled Students at National Chi Nan University to Use the Library Safely and Effectively</a></p>
+                  <p class="t84 theme">
+                    <span class="education"><span class="iconic iconic-globe" title="Category" aria-hidden="true"></span> Education</span>
+                    <span class="iran"><span class="iconic iconic-globe" title="Country" aria-hidden="true"></span> Iran</span>
+                    <span class="cc8130 fd8135h iviewer"><span class="iconic iconic-video" title="Support Model" aria-hidden="true"></span> CC8130 FD8135H iViewer</span>
+                  </p>
+                </div>
+               </div>
+              </div> -->
+
+              <!-- DATA END -->
+            <!-- </div> -->
+            <!-- JPLIST TABLE END -->
+          <!-- <div class="col-md-1"></div>
+          </div>
+        </div>
+      </div> -->
+      <!-- SUCCESS STORIES TAB END -->
+
+   </div>
+   <!-- ZOZO TABS END -->
+
+
+
+
+
+
+
+
+
+
+      <div class="container-fluid sia_pro_apply">
+       <div class="row align_center">
+        <div class="col-sm-12">
+         <div class="border_top_dot_w1_gray"></div>
+         <div class="div_clear_68"></div>
+         <div class="addthis_toolbox addthis_default_style addthis_32x32_style pro">
+          <a class="addthis_button_facebook pro"><i class="icon-fontello-facebook"></i></a>
+          <a class="addthis_button_twitter pro"><i class="icon-fontello-twitter"></i></a>
+          <a class="addthis_button_pinterest_share pro"><i class="icon-fontello-pinterest"></i></a>
+          <a class="addthis_button_linkedin pro"><i class="icon-fontello-linkedin"></i></a>
+          <a class="addthis_button_email pro"><i class="icon-fontello-at"></i></a>
+          <a class="addthis_button_qrfin pro"><i class="icon-fontello-qrcode"></i></a>
+          <a class="addthis_button_compact pro"><i class="icon-fontello-share"></i></a>
+         </div>
+         <div class="div_clear_38"></div>
+         <a href="#top" class="gototop pro"><i class="icon-fontello-angle-up"></i></a>
+         <div class="div_clear_38"></div>
+        </div>
+       </div>
+      </div>
+
+
+
+
+
+
+
+  </div>
+ </div>
+ <!-- !CONTENT MAIN END -->
+
+
+
+
+
+ <!-- !FOOTER START -->
+ <footer>
+ 
+ <!-- !FOOTER NAV START -->
+ <div class="jumbotron vivotek_footer_jumbotron">
+  <div class="container">
+  
+   <div class="row">
+   
+   <!-- Sitelink starts -->
+   <!-- !FOOTER SUB NAV START -->
+   <h1 class="sr-only">Sub Navigation</h1>
+   <nav>
+   <ul class="col-sm-12 col-md-8 nav nav-pills vivotek_footer_nav">
+    <li class="dropup">
+     <a href="/about-vivotek/" class="dropdown-toggle" data-toggle="dropdown"><h1>About VIVOTEK <b class="caret"></b></h1></a>
+     <ul class="dropdown-menu vivotek_footer_nav-dropdown-menu">
+     <li><a href="/about-vivotek/" target="_self"><h2>Overview</h2></a></li>
+     <li><a href="/milestones/" target="_self"><h2>Milestone</h2></a></li>
+     <li><a href="/awards/" target="_self"><h2>Awards</h2></a></li>
+     <li><a href="http://green.vivotek.com/" target="_blank"><h2>Green VIVOTEK</h2></a></li>
+     <li><a href="/patent/" target="_self"><h2>Patent</h2></a></li>
+     <li><a href="/privacy/" target="_self"><h2>Privacy Policy</h2></a></li>
+     </ul>
+    </li>
+    <li class="dropup">
+     <a href="/news/" class="dropdown-toggle" data-toggle="dropdown"><h1>Pressroom <b class="caret"></b></h1></a>
+     <ul class="dropdown-menu vivotek_footer_nav-dropdown-menu">
+     <li><a href="/news/" target="_self"><h2>News</h2></a></li>
+     <li><a href="/success-stories/" target="_self"><h2>Success Stories</h2></a></li>
+     <li><a href="/e-newsletters/" target="_self"><h2>E-Newsletters</h2></a></li>
+     </ul>
+    </li>
+    <li><a href="/event/" target="_self"><h1>Events</h1></a></li>
+    <li><a href="/careers/" target="_self"><h1>Career</h1></a></li>
+    <li><a href="/tw/投資人園地/" target="_self"><h1>Investors</h1></a></li>
+    <li><a href="/contact/" target="_self"><h1>Contact Us</h1></a></li>
+    <li><a href="/sitemap/" target="_self"><h1>Site Map</h1></a></li>
+    <!-- <li><a href="http://www.vivotek.com/profile/" target="_self">My Profile</a></li> -->
+   </ul>
+   </nav>
+   <!-- !FOOTER SUB NAV END -->
+  
+   <!-- !FOOTER SOCIAL MEDIA START -->
+   <h1 class="sr-only">VIVOTEK @ Social Media</h1>
+   <nav>
+   <ul class="col-sm-12 col-md-4 list-unstyled list-inline tooltips vivotek_footer_social">
+    <li id="enews"><a href="/e-newsletters/" data-toggle="tooltip" data-placement="bottom" title="" data-original-title="Subscribe eNews" target="_blank"><i class="ss-icon">&#xF652;</i><span class="sr-only"><h1>Subscribe Monthly eNews</h1></span></a></li>
+    <li id="youtube"><a href="http://www.youtube.com/user/vivotekweb/" data-toggle="tooltip" data-placement="top" title="" data-original-title="VIVOTEK @ YouTube" target="_blank"><i class="ss-icon">&#xF630;</i><span class="sr-only"><h1>VIVOTEK @ YouTube</h1></span></a></li>
+    <li id="facebook"><a href="http://www.facebook.com/VIVOTEKGlobal/" data-toggle="tooltip" data-placement="bottom" title="" data-original-title="Follow VIVOTEK @ Facebook" target="_blank"><i class="ss-icon">&#xF610;</i><span class="sr-only"><h1>Follow VIVOTEK @ Facebook</h1></span></a></li>
+    <li id="twitter"><a href="http://twitter.com/vivotek/" data-toggle="tooltip" data-placement="top" title="" data-original-title="Follow VIVOTEK's Tweets" target="_blank"><i class="ss-icon">&#xF611;</i><span class="sr-only"><h1>Follow VIVOTEK's Tweets</h1></span></a></li>
+   </ul>
+   </nav>
+   <!-- !FOOTER SOCIAL MEDIA END -->
+   <!-- Sitelink ends -->
+  
+   </div>
+  
+  </div>
+ </div>
+ <!-- !FOOTER NAV END -->
+ 
+ <!-- !FOOTER BOTTOM END -->
+ <div class="container vivotek_footer_copyright_container">
+ 
+  <div class="row">
+
+  <!-- !FOOTER EMC START -->
+  <!-- <h1 class="sr-only">VIVOTEK Quality Certification</h1>
+  <section>
+   <img src="/image/homepage/emc.png" alt="VIVOTEK Quality Certification" class="col-sm-12 col-md-4 pull-right vivotek_footer_emc">
+   <ul class="sr-only">
+    <li><h1>FCC</h1></li>
+    <li><h1>CE</h1></li>
+    <li><h1>TL9000</h1></li>
+    <li><h1>TUV</h1></li>
+    <li><h1>RoHS</h1></li>
+    <li><h1>IEC</h1></li>
+    <li><h1>IECQ</h1></li>
+   </ul>
+  </section> -->
+  <!-- !FOOTER EMC END -->
+  <!-- !FOOTER COPYRIGHT START -->
+  <h1 class="sr-only">Copyright</h1>
+  <section>
+   <h2 class="col-sm-12 col-md-8 vivotek_footer_copyright">Copyright &copy; VIVOTEK Inc. All rights reserved.</h2>
+  </section>
+  <!-- !FOOTER OVER START -->
+  
+  </div>
+ 
+ </div>
+ <!-- !FOOTER BOTTOM END -->
+ 
+ </footer>
+ <!-- !FOOTER END -->
+
+
+
+
+
+ <!-- !JAVASCRIPT START -->
+ <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.1/jquery.min.js"></script>
+ <script>window.jQuery || document.write('<script src="/js/jquery/jquery-1.10.1.min.js"><\/script>')</script>
+ <script src="/js/bootstrap/bootstrap.min.js"></script>
+ <script src="/js/bootstrap/application.min.js"></script>
+ <script src="http://cdnjs.cloudflare.com/ajax/libs/jquery-throttle-debounce/1.1/jquery.ba-throttle-debounce.min.js"></script>
+ 
+ <script src="/js/bootstrap/highlight.min.js"></script>
+ <script src="/js/bootstrap/holder.min.js"></script>
+ <script src="/js/bootstrap/jquery.min.js"></script>
+
+ <!-- !ICONIC 字型 START -->
+ <script src="/js/iconic/iconic.min.js"></script>
+ <!-- !ICONIC 字型 END -->
+ <!-- !ZOZOTABS JAVASCRIPT START -->
+ <script src="/js/zozotabs/zozo.tabs.min.js"></script>
+ <script>
+  jQuery(document).ready(function ($) {
+    $("#tabbed-nav").zozoTabs({
+      bordered:false,
+      deeplinking: true,
+      defaultTab: "ui",
+      position: "top-compact",
+      rounded: false,
+      spaced: true,
+      style: "clean",
+      theme: "flat-alizarin",
+      animation: {
+        easing: "easeInOutExpo",
+        duration: 600,
+        effects: "slideH"
+      },
+      size:"large"
+    });
+  });
+ </script>
+ <!-- !ZOZOTABS JAVASCRIPT END -->
+ <!-- !JPLIST 表格篩選 START -->
+ <script src="/js/jplist/jplist.min.js"></script>
+ <script>
+  $('document').ready(function(){
+   $('#demoover').jplist({
+    itemsBox: '.list' 
+    ,itemPath: '.list-item' 
+    ,panelPath: '.jplist-panel'
+    ,deepLinking: true
+    ,'views':{
+    className: 'Views'
+    ,options: {}
+    }
+   });
+   $('#demodl').jplist({
+    itemsBox: '.list' 
+    ,itemPath: '.list-item' 
+    ,panelPath: '.jplist-panel'
+    ,deepLinking: true
+    ,'views':{
+    className: 'Views'
+    ,options: {}
+    }
+   });
+   $('#demoacc').jplist({
+    itemsBox: '.list' 
+    ,itemPath: '.list-item' 
+    ,panelPath: '.jplist-panel'
+    ,deepLinking: true
+    ,'views':{
+    className: 'Views'
+    ,options: {}
+    }
+   });
+   $('#demopoe').jplist({
+    itemsBox: '.list' 
+    ,itemPath: '.list-item' 
+    ,panelPath: '.jplist-panel'
+    ,deepLinking: true
+    ,'views':{
+    className: 'Views'
+    ,options: {}
+    }
+   });
+   $('#demosuccess').jplist({
+    itemsBox: '.list' 
+    ,itemPath: '.list-item' 
+    ,panelPath: '.jplist-panel'
+    ,deepLinking: true
+    ,'views':{
+    className: 'Views'
+    ,options: {}
+    }
+   });
+  });
+ </script>
+ <!-- !JPLIST 表格篩選 END -->
+ <!-- !模糊背景圖 START -->
+ <script src="/js/bg_blue_scroll/bg_blue_scroll_successstories_style_7.js"></script>
+ <!-- !模糊背景圖 END -->
+ <!-- SHART - ADD THIS TOOL START -->
+ <script type="text/javascript" src="//s7.addthis.com/js/300/addthis_widget.js#pubid=vivotekweb" async></script>
+ <!-- SHART - ADD THIS TOOL END -->
+ <!-- !VU START -->
+ <script type="text/javascript"> 
+  adroll_adv_id = "Q5EVWUESQNFYTBVCGGOK6E"; 
+  adroll_pix_id = "QGLQD55G7ZGWLCEJ2KWV4X"; 
+  (function () {
+  var oldonload = window.onload; 
+  window.onload = function(){ 
+   __adroll_loaded=true; 
+   var scr = document.createElement("script"); 
+   var host = (("https:" == document.location.protocol) ? "https://s.adroll.com" : "http://a.adroll.com"); 
+   scr.setAttribute('async', 'true'); 
+   scr.type = "text/javascript"; 
+   scr.src = host + "/j/roundtrip.js"; 
+   ((document.getElementsByTagName('head') || [null])[0] || 
+    document.getElementsByTagName('script')[0].parentNode).appendChild(scr); 
+   if(oldonload){oldonload()}}; 
+  }()); 
+ </script>
+ <!-- !VU END -->
+ <!-- !GOOGLE-ANALYTICS START -->
+ <script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-1877002-1', 'auto');
+  ga('set', 'contentGroup1', 'Products');
+  ga('set', 'contentGroup2', 'Software - App');
+  ga('send', 'pageview');
+
+ </script>
+ <!-- !GOOGLE-ANALYTICS END -->
+ <!-- !JAVASCRIPT END -->
+
+
+
+</body>
+</html>
