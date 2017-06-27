@@ -1,0 +1,292 @@
+<!DOCTYPE html>
+<html lang="en">
+<!--[if lt IE 7]><html class="no-js lt-ie9 lt-ie8 lt-ie7"><![endif]-->
+<!--[if IE 7]><html class="no-js lt-ie9 lt-ie8"><![endif]-->
+<!--[if IE 8]><html class="no-js lt-ie9"><![endif]-->
+<!--[if gt IE 8]><!--><html class="no-js"><!--<![endif]-->
+<head>
+ <meta charset="utf-8">
+ <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+ <meta name="viewport" content="width=device-width, initial-scale=1.0">
+ <title>How to periodically take snapshot for Time Lapse recording | VIVOTEK</title>
+ <meta name="description" content="This document describes how to periodically capture snapshot for Time Lapse recording.">
+ <link rel="stylesheet" href="../../css/bootstrap.min.css">
+ <link rel="stylesheet" href="../../css/bootstrap-theme.min.css">
+ <link rel="stylesheet" href="../../css/iconic/iconic-bootstrap.min.css">
+ <link rel="stylesheet" href="../../css/fontello/fontello.min.css">
+ <link rel="stylesheet" href="../../css/vivotek.min.css">
+ <style type="text/css">
+  .iconic-file-page, .iconic-file-extension { fill: rgba(255,255,255,1);}
+  .iconic-file-flap { fill: rgba(255,255,255,1);}
+  ul li {
+    line-height: 2.5em;
+  }
+  img {
+    max-width: 100%;
+    height: auto;
+  }
+ </style>
+ <!--[if lt IE 9]>
+  <link rel="stylesheet" href="/image/all/iconic/font/css/iconic-glyphs-legacy.css">
+ <![endif]-->
+ <!-- BROWSER FAVICON -->
+ <link rel="icon" href="image/all/VIVOTEK_icon.ico">
+ <!-- iPad RETINA -->
+ <link rel="apple-touch-icon-precomposed" sizes="144x144" href="image/all/VIVOTEK_icon_ipad_r.png">
+ <!-- iPhone RETINA -->
+ <link rel="apple-touch-icon-precomposed" sizes="114x114" href="image/all/VIVOTEK_icon_iphone_r.png">
+ <!-- iPad -->
+ <link rel="apple-touch-icon-precomposed" sizes="72x72" href="image/all/VIVOTEK_icon_ipad.png">
+ <!-- iPhone -->
+ <link rel="apple-touch-icon-precomposed" sizes="57x57" href="image/all/VIVOTEK_icon_iphone.png">
+ <script type="application/ld+json">
+ {
+   "@context": "http://schema.org",
+   "@type": "BreadcrumbList",
+   "itemListElement": [{
+     "@type": "ListItem",
+     "position": 1,
+     "item": {
+       "@id": "http://www.vivotek.com",
+       "name": "Home",
+       "image": "http://www.vivotek.com/image/all/VIVOTEK_logo.png"
+     }
+   },{
+     "@type": "ListItem",
+     "position": 2,
+     "item": {
+       "@id": "http://www.vivotek.com/support/faq/",
+       "name": "FAQ"
+     }
+   },{
+     "@type": "ListItem",
+     "position": 3,
+     "item": {
+       "@id": "http://www.vivotek.com/support/faq/applicationq11.html",
+       "name": "Application Q11",       
+     }
+   }]
+ }
+ </script>
+  <script async src="http://www.google-analytics.com/ga.js"></script>  
+  <!-- !GOOGLE-ANALYTICS START -->
+  <script>
+    (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+    (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+    m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+    })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+
+    ga('create', 'UA-1877002-1', 'auto');
+    ga('send', 'pageview');
+
+  </script>
+  <!-- !GOOGLE-ANALYTICS END -->
+	<!-- Google Tag Manager -->
+	<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+	new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+	j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+	'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+	})(window,document,'script','dataLayer','GTM-KV2JCZ');</script>
+	<!-- End Google Tag Manager -->
+</head>
+<body class="homebody">
+	<!-- Google Tag Manager (noscript) -->
+	<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-KV2JCZ"
+	height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+	<!-- End Google Tag Manager (noscript) -->
+<!--[if lt IE 7]>
+<p class="chromeframe">
+You are using an <strong>outdated</strong>
+browser. Please
+<a href="http://browsehappy.com/">upgrade your browser</a>
+or
+<a href="http://www.google.com/chromeframe/?redirect=true">activate Google Chrome Frame</a>
+to improve your experience.
+</p>
+<![endif]-->
+
+
+
+
+
+
+
+    <!-- !CONTENT MAIN START -->
+    
+    <div class="mar_l_058 mar_t_088">
+      <a href="http://www.vivotek.com/"><img src="/image/all/VIVOTEK_logo.png" class="vivotek_logoimg"></a>
+    </div>
+
+    <div class="div_clear_18"></div>
+    
+    <div class="container-fluid bg_blue_5">
+      <div class="row">
+       <div class="col-xs-1 col-md-2"></div>
+       <div class="col-xs-10 col-md-8">
+        <div class="div_clear_18"></div>
+        <p class="white mar_b_138">
+        <span class="iconic iconic-bookmark iconic-sm" title="Tel" aria-hidden="true"></span> Application Q11</p>
+        <h2 class="white mar_b_138">
+        <span class="iconic iconic-chat iconic-md" title="chat" aria-hidden="true"></span> 
+        How to periodically take snapshot for Time Lapse recording</h2>
+        <div class="div_clear_8"></div>
+       </div>
+       <div class="col-xs-1 col-md-2"></div>
+
+      </div>
+    </div>
+
+
+
+
+    <div class="div_clear_38"></div>
+
+    <div class="container-fluid">
+      <div class="row">       
+       <div class="col-xs-1 col-md-2"></div>
+       <div class="col-xs-10 col-md-8">
+
+       <ol class="breadcrumb font_size_128">
+         <li><a href="/index.html">Home</a></li>
+         <li><a href="/support/faq/">FAQ</a></li>
+         <li><a href="/support/faq/applicationq11.html">Application Q11</a></li>
+       </ol>
+
+
+
+       <h4>Introduction</h4>
+        <p>
+          This document describes how to periodically capture snapshot for Time Lapse recording.</p>
+        <p>
+          Note that these instructions apply to the IP8151 camera. The procedure and interface for other camera models will differ slightly.</p>
+        <ol>
+          <li>
+            Configure the camera's settings.
+            <ol>
+              <li>
+                Log in to the camera's web interface.</li>
+              <li>
+                Synchronize the camera's clock to either a computer or NTP server. Alternatively, you can manually adjust the time. <!-- <img src="/image/support/appnote/a201209251041492_pic_1.jpg" style="display:block; border:solid 1px #999;"> --></li>
+              <li>
+                Enable the <strong>Timestamp and video title</strong> feature for the captured snapshot image if you need it. <!-- <img src="/image/support/appnote/a201209251041492_pic_2.jpg" style="display:block; border:solid 1px #999;"> --></li>
+              <li>
+                Add an event in the "Event settings" page. <!-- <img src="/image/support/appnote/a201209251041492_pic_3.jpg" style="display:block; border:solid 1px #999;"> --></li>
+              <li>
+                Follow the numbered steps illustrated in the figure below to set up periodic recording. Set the trigger time based on your particular needs. For example, if you need only six snapshots per day, you can set the trigger time to 240 minutes, in which case the camera will trigger the event and capture snapshot(s) every four hours. <!-- <img src="/image/support/appnote/a201209251041492_pic_4.jpg" style="display:block; border:solid 1px #999;"> --></li>
+              <li>
+                Follow the numbered steps illustrated in the figure below to add attached media. The choice of "0 pre-event image(s)&rdquo; and "0 post-event image(s)&rdquo; means that the camera will capture only one snapshot when the event is triggered. Note that you can also append the date and time to the file name if you wish; otherwise, the previous snapshot will be overwritten. <!-- <img src="/image/support/appnote/a201209251041492_pic_5.jpg" style="display:block; border:solid 1px #999;"> --></li>
+              <li>
+                Follow the numbered steps illustrated in the figure below to save snapshots to an SD card. You can designate an FTP, SMTP, HTTP, or NAS server for saving snapshots as well. <!-- <img src="/image/support/appnote/a201209251041492_pic_6.jpg" style="display:block; border:solid 1px #999;"> --></li>
+            </ol>
+          </li>
+          <li>
+            Access local storage over FTP.
+            <ol>
+              <li>
+                Enter the following URL in the Address field in the Internet Explorer or other FTP-capable browser:<strong> ftp://root:&lt;The password of camera&gt;@&lt;IP address of your camera&gt;/../../mnt/auto/CF</strong>, substituting the required text indicated by the bracketed items - for example, <strong>ftp://root:password@192.168.41.235/../../mnt/auto/CF</strong>. Note that for security reasons, only the root account can access the files via FTP. <!-- <img src="/image/support/appnote/a201209251041492_pic_7.jpg" style="display:block; border:solid 1px #999;"> --></li>
+              <li>
+                You will see a folder called "ncmf&rdquo;. Double-click to open it, and locate the file labeled with the recording date of the snapshot you wish to view. <!-- <img src="/image/support/appnote/a201209251041492_pic_8.jpg" style="display:block; border:solid 1px #999;"> --></li>
+              <li>
+                Download - Select the desired files or folders, then use copy-and-paste to download them to your computer. <!-- <img src="/image/support/appnote/a201209251041492_pic_9.jpg" style="display:block; border:solid 1px #999;"> --></li>
+            </ol>
+          </li>
+          <li>
+            Convert JPEG files to video clip.
+            <ol>
+              <li>
+                After downloading all snapshots, you can use <a href="http://www.google.com/#q=time+lapse+software&amp;fp=1" target="_blank">third-party software</a> to convert them into a video clip. An example for your reference is available via the link below:</iframe>
+              
+                <div>
+                  <div class="row">
+                    <div class="col-md-6">
+                      <div class="div_clear_18"></div>
+                      <div class="pro_tab_video embed-responsive embed-responsive-16by9">
+                        <iframe class="embed-responsive-item" width="1650" height="928" src="https://www.youtube.com/embed/m8hBz928A4I?showinfo=0" frameborder="0" allowfullscreen></iframe>
+                      </div>              
+                      </div>
+                    <div class="col-md-6"></div>
+                  </div>
+                </div>
+
+              </li>
+            </ol>
+          </li>
+        </ol>
+
+
+
+
+       </div>
+       <div class="div_clear_68"></div>
+       <div class="col-xs-1 col-md-2"></div>
+
+      </div>
+    </div>
+
+
+
+
+
+    <div class="container-fluid sia_pro_apply bg_blue_5">
+       <div class="row align_center">
+        <div class="col-sm-12">
+
+         <div class="div_clear_88"></div>
+         <h2 class="white font_size_238">Downloads</h2>
+         <div class="visible-xs hidden-sm hidden-md hidden-lg div_clear_28"></div>
+         <a href="http://download.vivotek.com/downloadfile/support/faq/applicationq11.pdf" target="_blank"><img data-file-extension="PDF" data-src="/image/all/iconic/svg/smart/file.svg" class="iconic iconic-md iconic-size-lg white" alt="file"></a>
+         <div class="div_clear_18"></div>
+         </div>
+         <div class="div_clear_38"></div>
+         <div class="border_top_dot_w1_gray"></div>
+
+         <div class="div_clear_68"></div>
+         <div class="addthis_toolbox addthis_default_style addthis_32x32_style">
+          <a class="addthis_button_facebook"><i class="icon-fontello-facebook"></i></a>
+          <a class="addthis_button_twitter"><i class="icon-fontello-twitter"></i></a>
+          <a class="addthis_button_pinterest_share"><i class="icon-fontello-pinterest"></i></a>
+          <a class="addthis_button_linkedin"><i class="icon-fontello-linkedin"></i></a>
+          <a class="addthis_button_email"><i class="icon-fontello-at"></i></a>
+          <a class="addthis_button_qrfin"><i class="icon-fontello-qrcode"></i></a>
+          <a class="addthis_button_compact"><i class="icon-fontello-share"></i></a>
+         </div>
+         <div class="div_clear_38"></div>
+         <a href="#top" class="gototop"><i class="icon-fontello-angle-up"></i></a>
+         <div class="div_clear_38"></div>
+        </div>
+       </div>
+    </div>
+    <!-- !CONTENT MAIN END -->
+
+
+
+
+ <!-- !JAVASCRIPT START -->
+ <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.1/jquery.min.js"></script>
+ <script>window.jQuery || document.write('<script src="js/jquery/jquery-1.10.1.min.js"><\/script>')</script>
+ <script src="../../js/bootstrap/bootstrap.min.js"></script>
+ <!-- !ICONIC 字型 START -->
+ <script src="../../js/iconic/iconic.min.js"></script>
+ <!-- !ICONIC 字型 END -->
+ <!-- !VU START -->
+ <script type="text/javascript"> 
+  adroll_adv_id = "Q5EVWUESQNFYTBVCGGOK6E"; 
+  adroll_pix_id = "QGLQD55G7ZGWLCEJ2KWV4X"; 
+  (function () {
+  var oldonload = window.onload; 
+  window.onload = function(){ 
+   __adroll_loaded=true; 
+   var scr = document.createElement("script"); 
+   var host = (("https:" == document.location.protocol) ? "https://s.adroll.com" : "http://a.adroll.com"); 
+   scr.setAttribute('async', 'true'); 
+   scr.type = "text/javascript"; 
+   scr.src = host + "/j/roundtrip.js"; 
+   ((document.getElementsByTagName('head') || [null])[0] || 
+    document.getElementsByTagName('script')[0].parentNode).appendChild(scr); 
+   if(oldonload){oldonload()}}; 
+  }()); 
+ </script>
+ <!-- !VU END -->
+ <!-- !JAVASCRIPT END -->
+</body>
+</html>

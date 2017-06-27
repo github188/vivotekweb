@@ -1,0 +1,569 @@
+<!DOCTYPE html>
+<html lang="en">
+<!--[if lt IE 7]><html class="no-js lt-ie9 lt-ie8 lt-ie7"><![endif]-->
+<!--[if IE 7]><html class="no-js lt-ie9 lt-ie8"><![endif]-->
+<!--[if IE 8]><html class="no-js lt-ie9"><![endif]-->
+<!--[if gt IE 8]><!--><html class="no-js"><!--<![endif]-->
+<head>
+ <meta charset="utf-8">
+ <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+ <meta name="viewport" content="width=device-width, initial-scale=1.0">
+ <title>How to access VAST via a web interface | VIVOTEK</title>
+ <meta name="description" content="VIVOTEK's VAST central management software provides reliable recording, easy system management, and excellent scalability for a diverse range of IP surveillance applications. Through its server/client architecture, users can carry out remote management on a large-scale system and benefit from a robust IP surveillance.">
+ <link rel="stylesheet" href="../../css/bootstrap.min.css">
+ <link rel="stylesheet" href="../../css/bootstrap-theme.min.css">
+ <link rel="stylesheet" href="../../css/iconic/iconic-bootstrap.min.css">
+ <link rel="stylesheet" href="../../css/fontello/fontello.min.css">
+ <link rel="stylesheet" href="../../css/vivotek.min.css">
+ <style type="text/css">
+  .iconic-file-page, .iconic-file-extension { fill: rgba(255,255,255,1);}
+  .iconic-file-flap { fill: rgba(255,255,255,1);}
+  ul li {
+    line-height: 2.5em;
+  }
+  img {
+    max-width: 100%;
+    height: auto;
+  }
+ </style>
+ <!--[if lt IE 9]>
+  <link rel="stylesheet" href="/image/all/iconic/font/css/iconic-glyphs-legacy.css">
+ <![endif]-->
+ <!-- BROWSER FAVICON -->
+ <link rel="icon" href="image/all/VIVOTEK_icon.ico">
+ <!-- iPad RETINA -->
+ <link rel="apple-touch-icon-precomposed" sizes="144x144" href="image/all/VIVOTEK_icon_ipad_r.png">
+ <!-- iPhone RETINA -->
+ <link rel="apple-touch-icon-precomposed" sizes="114x114" href="image/all/VIVOTEK_icon_iphone_r.png">
+ <!-- iPad -->
+ <link rel="apple-touch-icon-precomposed" sizes="72x72" href="image/all/VIVOTEK_icon_ipad.png">
+ <!-- iPhone -->
+ <link rel="apple-touch-icon-precomposed" sizes="57x57" href="image/all/VIVOTEK_icon_iphone.png">
+ <script type="application/ld+json">
+ {
+   "@context": "http://schema.org",
+   "@type": "BreadcrumbList",
+   "itemListElement": [{
+     "@type": "ListItem",
+     "position": 1,
+     "item": {
+       "@id": "http://www.vivotek.com",
+       "name": "Home",
+       "image": "http://www.vivotek.com/image/all/VIVOTEK_logo.png"
+     }
+   },{
+     "@type": "ListItem",
+     "position": 2,
+     "item": {
+       "@id": "http://www.vivotek.com/support/faq/",
+       "name": "FAQ"
+     }
+   },{
+     "@type": "ListItem",
+     "position": 3,
+     "item": {
+       "@id": "http://www.vivotek.com/support/faq/vastq05.html",
+       "name": "VAST Q05",       
+     }
+   }]
+ }
+ </script>
+  <script async src="http://www.google-analytics.com/ga.js"></script>  
+  <!-- !GOOGLE-ANALYTICS START -->
+  <script>
+    (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+    (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+    m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+    })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+
+    ga('create', 'UA-1877002-1', 'auto');
+    ga('send', 'pageview');
+
+  </script>
+  <!-- !GOOGLE-ANALYTICS END -->
+	<!-- Google Tag Manager -->
+	<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+	new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+	j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+	'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+	})(window,document,'script','dataLayer','GTM-KV2JCZ');</script>
+	<!-- End Google Tag Manager -->
+</head>
+<body class="homebody">
+	<!-- Google Tag Manager (noscript) -->
+	<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-KV2JCZ"
+	height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+	<!-- End Google Tag Manager (noscript) -->
+<!--[if lt IE 7]>
+<p class="chromeframe">
+You are using an <strong>outdated</strong>
+browser. Please
+<a href="http://browsehappy.com/">upgrade your browser</a>
+or
+<a href="http://www.google.com/chromeframe/?redirect=true">activate Google Chrome Frame</a>
+to improve your experience.
+</p>
+<![endif]-->
+
+
+
+
+
+
+
+    <!-- !CONTENT MAIN START -->
+    
+    <div class="mar_l_058 mar_t_088">
+      <a href="http://www.vivotek.com/"><img src="/image/all/VIVOTEK_logo.png" class="vivotek_logoimg"></a>
+    </div>
+
+    <div class="div_clear_18"></div>
+    
+    <div class="container-fluid bg_blue_5">
+      <div class="row">
+       <div class="col-xs-1 col-md-2"></div>
+       <div class="col-xs-10 col-md-8">
+        <div class="div_clear_18"></div>
+        <p class="white mar_b_138">
+        <span class="iconic iconic-bookmark iconic-sm" title="Tel" aria-hidden="true"></span> VAST Q05</p>
+        <h2 class="white mar_b_138">
+        <span class="iconic iconic-chat iconic-md" title="chat" aria-hidden="true"></span> 
+        How to access VAST via a web interface</h2>
+        <div class="div_clear_8"></div>
+       </div>
+       <div class="col-xs-1 col-md-2"></div>
+
+      </div>
+    </div>
+
+
+
+
+    <div class="div_clear_38"></div>
+
+    <div class="container-fluid">
+      <div class="row">       
+       <div class="col-xs-1 col-md-2"></div>
+       <div class="col-xs-10 col-md-8">
+
+       <ol class="breadcrumb font_size_128">
+         <li><a href="/index.html">Home</a></li>
+         <li><a href="/support/faq/">FAQ</a></li>
+         <li><a href="/support/faq/vastq05.html">VAST Q05</a></li>
+       </ol>
+
+
+
+        <h4>Introduction</h4>
+        <p>
+         VIVOTEK's VAST central management software provides reliable recording, easy system management, and excellent scalability for a diverse range of IP surveillance applications. Through its server/client architecture, users can carry out remote management on a large-scale system and benefit from a robust IP surveillance.</p>
+        <p>
+         You can enable the web access function in LiveClient, and then you can access VAST LiveView and Playback via Internet web browser. The user-interface is totally different from the program.</p>
+        <p>
+         LiveClient allows you to access VAST LiveView and Playback via an Internet web browser. This document describes the benefits of using this feature, and explains the browser-based user interface for VAST LiveView and Playback.</p>
+        <h4>Why you might need web access for VAST</h4>
+        <ol>
+         <li>
+          VAST cannot be installed on your computer - For various reasons, you may not be able to install the VAST LiveClient/Playback program - for example, lack of sufficient space on the computer's hard disk.</li>
+         <li>
+          You only wish to view video - If you only wish to view video - either live streaming or recorded files - but have no need for other functionality, you can use a web browser for viewing. (i.e. Internet Explorer 6, Firefox 3.5 or above)</li>
+        </ol>
+        <h4>Using web access</h4>
+        <ol>
+         <li>
+          Select "Enable Web Access" - You can find the "Enable Web Access" option in Configuration &gt; Station Settings &gt; - Network Settings. It is selected by default. See Figures 1and 2.
+          <p>
+           <img alt="vastq05_01" src="/image/support/faq/vastq05_01.jpg"><br>
+           Network Settings</p>
+          <p>
+           <img alt="vastq05_02" src="/image/support/faq/vastq05_02.jpg"><br>
+           Enabling Web Access</p>
+         </li>
+         <li>
+          Enter the IP Address in the address field
+          <ol>
+           <li>
+            Launch your web browser (Microsoft&reg; Internet Explorer 6, Mozilla Firefox 3.5 or above)</li>
+           <li>
+            (2) Enter the IP address and station port of the VAST station in the address field. (http://127.0.0.1:3454 or http://&lt;IP address of the VAST station&gt;:&lt;Station Port&gt;). Press Enter.</li>
+           <li>
+            When the authorization window appears, enter the username and password.
+            <p>
+             <img alt="vastq05_03" src="/image/support/faq/vastq05_03.jpg"><br>
+             The authorized window</p>
+           </li>
+           <li>
+            The web interface for VAST LiveView will be displayed in your browser.</li>
+          </ol>
+         </li>
+         <li>
+          Install the VAST plug-in
+          <ol>
+           <li>
+            If you are viewing a live stream or recorded file for the first time, an alert will appear notifying you of the need to install the required plug-in. Follow the instructions to install it on your computer.
+            <p>
+             <img alt="vastq05_04" src="/image/support/faq/vastq05_04.jpg"><br>
+             Internet Explorer</p>
+            <p>
+             <img alt="vastq05_05" src="/image/support/faq/vastq05_05.jpg"><br>
+             Mozilla Firefox</p>
+           </li>
+           <li>
+            Install the ActiveX plug-in called "Windowless Live streaming Control". If you are using Mozilla Firefox, install the add-ons called "VAST Web Console LiveView Plugin v1.0.0.x" and "VAST Web Console Playback Plugin v1.0.0.x".
+            <p>
+             <img alt="vastq05_06" src="/image/support/faq/vastq05_06.jpg"<br>
+             Windowless Live streaming Control</p>
+            <p>
+             <img alt="vastq05_07" src="/image/support/faq/vastq05_07.jpg"><br>
+             VAST Web Console Plugin</p>
+           </li>
+          </ol>
+         </li>
+         <li>
+          Begin using VAST - After installing the appropriate plug-in(s), you can use all the VAST functions available through the web interface. The next chapter introduces these functions.</li>
+        </ol>
+        <h4>LiveView / Playback configuration</h4>
+        <ol>
+         <li>
+          LiveView user interface
+          <p>
+           <img alt="vastq05_08" src="/image/support/faq/vastq05_08.jpg"><br>
+           A. Address field B. Menu bar C. Live video monitoring window D. Camera List</p>
+          <ol>
+           <li>
+            Address field<br>
+            <img alt="vastq05_09" src="/image/support/faq/vastq05_09.jpg"</li>
+           <li>
+            Menu bar<br>
+            <img alt="vastq05_10" src="/image/support/faq/vastq05_10.jpg"<br><br>
+            <img alt="vastq05_11" src="/image/support/faq/vastq05_11.jpg"</li>
+           <li>
+            Live video monitoring window<br>
+            <img alt="vastq05_12" src="/image/support/faq/vastq05_12.jpg"><br><br>
+            <img alt="vastq05_13" src="/image/support/faq/vastq05_13.jpg"></li>
+           <li>
+            Camera List<br>
+            <img alt="vastq05_14" src="/image/support/faq/vastq05_14.jpg"></li>
+          </ol>
+         </li>
+         <li>
+          Playback user interface
+          <p>
+           <img alt="vastq05_15" src="/image/support/faq/vastq05_15.jpg"><br>
+           A. Recording Date B. Recording Time C. Camera List D. Recorded video playback window E. Video clips list</p>
+          <ol>
+           <li>
+            Recorded video playback window<br>
+            <img alt="vastq05_16" src="/image/support/faq/vastq05_16.jpg"></li>
+           <li>
+            Video clips list<br>
+            <img alt="vastq05_17" src="/image/support/faq/vastq05_17.jpg"></li>
+          </ol>
+         </li>
+         <li>
+          Managing devices - Please follow the steps below to Insert Camera window:
+          <ol>
+           <li>
+            Bring up the Insert Camera window by clicking on Settings &gt; Camera &gt; Insert on the menu bar.</li>
+           <li>
+            Add or update devices associated with the station.<br>
+            <img alt="vastq05_18" src="/image/support/faq/vastq05_18.jpg">
+            <ol>
+             <li>
+              Adding devices - Adding devices on the LAN.
+              <p>
+               You can add devices on the LAN to a station easily by using the Auto Search function.</p>
+              <ol>
+               <li>
+                Select Sortby model name to make it easier to find aparticular device.</li>
+               <li>
+                Select any devices on the LAN that you wishadd,or click Select Allor Clear All.</li>
+               <li>
+                Click Next to proceed.<br>
+                <img alt="vastq05_19" src="/image/support/faq/vastq05_19.jpg"><br><br>
+                <img alt="vastq05_20" src="/image/support/faq/vastq05_20.jpg"></li>
+               <li>
+                Click Finish to complete the addition of any devices you selected.</li>
+               <li>
+                You can add other devices or modify the settings in the Camera setting area.Click Next when done to proceed.<br>
+                <img alt="vastq05_21" src="/image/support/faq/vastq05_21.jpg"></li>
+               <li>
+                Click Close to return to the main page.</li>
+              </ol>
+             </li>
+             <li>
+              Adding devices with a known IP address
+              <p>
+               You can use the following steps to add devices with a known IP address to a station.</p>
+              <ol>
+               <li>
+                Click Next to proceed.</li>
+               <li>
+                If no devices were selected,an alert message will appear.<br>
+                <img alt="vastq05_22" src="/image/support/faq/vastq05_22.jpg"><br><br>
+                <img alt="vastq05_23" src="/image/support/faq/vastq05_23.jpg"</li>
+               <li>
+                In the Camera setting area, enter the camera's name, port used, username, and password (if necessary).</li>
+               <li>
+                Click Next top roceed.</li>
+               <li>
+                Click Close to return to the main page.<br>
+                <img alt="vastq05_24" src="/image/support/faq/vastq05_24.jpg"><br><br>
+                <img alt="vastq05_25" src="/image/support/faq/vastq05_25.jpg"></li>
+              </ol>
+             </li>
+             <li>
+              View live video
+              <p>
+               Move the mouse to the camera list and double-click to view the video stream from that camera. To remove the live feed from the live video monitoring window, press Ctrl then double-click.<br>
+               <img alt="vastq05_26" src="/image/support/faq/vastq05_26.jpg"></p>
+             </li>
+             <li>
+              PTZ controls
+              <p>
+               Move the cursor inside the video cell to access PTZ controls for the corresponding camera.<br>
+               <img alt="vastq05_27" src="/image/support/faq/vastq05_27.jpg"></p>
+             </li>
+             <li>
+              Snapshot
+              <p>
+               Right-click in the live video monitoring window, then select Snapshot. A new window with the snapshot will appear and allow you to save the snapshot.<br>
+               <img alt="vastq05_28" src="/image/support/faq/vastq05_28.jpg"></p>
+             </li>
+             <li>
+              Updating camera settings
+              <p>
+               Right-click in the live video monitoring window, then click Properties to bring up a new window where you can update camera settings.<br>
+               <img alt="vastq05_29" src="/image/support/faq/vastq05_29.jpg"><br><br>
+               <img alt="vastq05_30" src="/image/support/faq/vastq05_30.jpg"><br><br>
+               <img alt="vastq05_31" src="/image/support/faq/vastq05_31.jpg"></p>
+             </li>
+             <li>
+              Deleting devices from the server
+              <ol>
+               <li>
+                Click Settings &gt; Camera &gt; Remove on the menu bar.<br>
+                <img alt="vastq05_32" src="/image/support/faq/vastq05_32.jpg"></li>
+               <li>
+                When the Remove Camera window appears, you can remove devices from the station.<br>
+                <img alt="vastq05_33" src="/image/support/faq/vastq05_33.jpg"></li>
+               <li>
+                From the list, select a device that you wish to remove. You can select Remove with media files to delete any recording files on the device as well.</li>
+               <li>
+                Click Next to proceed.<br>
+                <img alt="vastq05_34" src="/image/support/faq/vastq05_34.jpg"></li>
+               <li>
+                Check the Deletion Summary information, and click Delete if you wish to proceed.<br>
+                <img alt="vastq05_35" src="/image/support/faq/vastq05_35.jpg"></li>
+               <li>
+                An alert dialog requesting confirmation will appear.<br>
+                <img alt="vastq05_36" src="/image/support/faq/vastq05_36.jpg"</li>
+               <li>
+                Click Close to return to the main page.<br>
+                <img alt="vastq05_37" src="/image/support/faq/vastq05_37.jpg"></li>
+              </ol>
+             </li>
+             <li>
+              Updating devices - Please follow the steps below to update a device:
+              <ol>
+               <li>
+                Click Settings &gt; Camera &gt; Update on the menu bar to bring up a list of the cameras on the station.</li>
+               <li>
+                Select the camera you wish to update.<br>
+                <img alt="vastq05_38" src="/image/support/faq/vastq05_38.jpg"></li>
+               <li>
+                The Update Camera window will appear. You can then update devices on the station.<br>
+                <img alt="vastq05_39" src="/image/support/faq/vastq05_39.jpg"><br><br>
+                <img alt="vastq05_40" src="/image/support/faq/vastq05_40.jpg"></li>
+              </ol>
+             </li>
+            </ol>
+           </li>
+          </ol>
+         </li>
+         <li>
+          Changing LiveView's layout
+          <p>
+           Changing the Layout of the Live Video Monitoring Window</p>
+          <p>
+           VAST LiveView supports the simultaneous display of up to 32 channels of video on a single monitor, and allows you to change its layout based on the number of channels displayed.</p>
+          <p>
+           Configuring the layout mode</p>
+          <p>
+           Click Layout on the menu bar. Select the desired layout mode and the layout window will change accordingly. Eight layout modes are illustrated below:<br>
+           <img alt="" src="/image/support/faq/vastq05_41.jpg" style="width: 318px; height: 198px" /><br><br>
+           <img alt="" src="/image/support/faq/vastq05_42.jpg" style="width: 218px; height: 409px" /></p>
+         </li>
+         <li>
+          Managing user accounts
+          <p>
+           VAST allows users to add user accounts to a station with five authorization levels with different sets of permissions: Administrator &gt; Power User &gt; User &gt; Operator &gt; Guest. Briefly, Administrators have the highest privileges, while Power Users can add/edit users and specify them as Power Users, Users, Operators, or Guests. For further details, refer to the VAST user manual.</p>
+          <p>
+           Managing a user account</p>
+          <ol>
+           <li>
+            Adding a new user account
+            <ol>
+             <li>
+              Click Settings &gt; User &gt; Add on the menu bar.</li>
+             <li>
+              When the Add User window appears, enter the user name and password, and specify the the user type (User Role).</li>
+             <li>
+              Click Finish to add the user account to the station.<br>
+              <img alt="" src="/image/support/faq/vastq05_43.jpg" style="width: 319px; height: 102px" /><br><br>
+              <img alt="" src="/image/support/faq/vastq05_44.jpg" style="width: 418px; height: 209px" /></li>
+            </ol>
+           </li>
+           <li>
+            User account permissions
+            <p>
+             Administrator is granted all access privileges, while other types of user receive a limited set of privileges. To modify permissions, log in as an Administrator.</p>
+            <ol>
+             <li>
+              Instead of clicking Finish as in step c above, click Next to display the Permission setting page.</li>
+             <li>
+              If you wish to customize the permissions given to the user, select or deselect the relevant items.</li>
+             <li>
+              Click Next to set the Accessible Cameras.<br>
+              <img alt="" src="/image/support/faq/vastq05_45.jpg" style="width: 418px; height: 191px" /></li>
+             <li>
+              If you wish to customize the set of accessible devices for the user, select or deselect the relevant items.</li>
+             <li>
+              Click Next to set the Accessible Substations.<br>
+              <img alt="" src="/image/support/faq/vastq05_46.jpg" style="width: 418px; height: 208px" /></li>
+             <li>
+              If you wish to customize the set of accessible substations for the user, select or deselect the relevant items.</li>
+             <li>
+              Click Finish to go to the main page.<br>
+              <img alt="" src="/image/support/faq/vastq05_47.jpg" style="width: 418px; height: 210px" /></li>
+            </ol>
+           </li>
+           <li>
+            Deleting a user account
+            <ol>
+             <li>
+              Click Settings &gt; User &gt; Delete on the menu bar.<br>
+              <img alt="" src="/image/support/faq/vastq05_48.jpg" style="width: 417px; height: 175px" /></li>
+             <li>
+              The Delete User window will appear.</li>
+             <li>
+              If you wish to delete a user, select that user in the list.</li>
+             <li>
+              Click Next to bring up the Deletion summary.<br>
+              <img alt="" src="/image/support/faq/vastq05_49.jpg" style="width: 418px; height: 193px" /></li>
+             <li>
+              Click Delete to delete the selected user account.<br>
+              <img alt="" src="/image/support/faq/vastq05_50.jpg" style="width: 418px; height: 207px" /></li>
+             <li>
+              A dialog box will appear, asking you confirm that you wish to delete the user account. Click OK to confirm.<br>
+              <img alt="" src="/image/support/faq/vastq05_51.jpg" style="width: 218px; height: 73px" /></li>
+             <li>
+              Click Close to go to the main page.<br>
+              <img alt="" src="/image/support/faq/vastq05_52.jpg" style="width: 418px; height: 207px" /></li>
+            </ol>
+           </li>
+          </ol>
+         </li>
+         <li>
+          Configuring client settings
+          <ol>
+           <li>
+            Deinterlace
+            <p>
+             Click Settings &gt; Client Settings &gt; Deinterlace on the menu bar. This feature is available on the VS7100.<br>
+             <img alt="" src="/image/support/faq/vastq05_53.jpg" style="width: 419px; height: 261px" /></p>
+           </li>
+          </ol>
+         </li>
+         <li>
+          Playing back recorded video
+          <p>
+           Click System &gt; Playback on the menu bar to display the Playback window.</p>
+          <ol>
+           <li>
+            <img alt="" src="/image/support/faq/vastq05_54.jpg" style="width: 318px; height: 323px" /><br>
+            Double-click the desired camera in the Camera List to play the recorded files.</li>
+           <li>
+            Alternatively, you can select an event to view the recorded files associated with the event trigger.<br>
+            <img alt="" src="/image/support/faq/vastq05_55.jpg" style="width: 418px; height: 234px" /></li>
+          </ol>
+         </li>
+        </ol>
+
+
+
+
+       </div>
+       <div class="div_clear_68"></div>
+       <div class="col-xs-1 col-md-2"></div>
+
+      </div>
+    </div>
+
+
+
+
+
+    <div class="container-fluid sia_pro_apply bg_blue_5">
+       <div class="row align_center">
+        <div class="col-sm-12">
+
+         <div class="div_clear_88"></div>
+         <h2 class="white font_size_238">Downloads</h2>
+         <div class="visible-xs hidden-sm hidden-md hidden-lg div_clear_28"></div>
+         <a href="http://download.vivotek.com/downloadfile/support/faq/vastq05.pdf" target="_blank"><img data-file-extension="PDF" data-src="/image/all/iconic/svg/smart/file.svg" class="iconic iconic-md iconic-size-lg white" alt="file"></a>
+         <div class="div_clear_18"></div>
+         </div>
+         <div class="div_clear_38"></div>
+         <div class="border_top_dot_w1_gray"></div>
+
+         <div class="div_clear_68"></div>
+         <div class="addthis_toolbox addthis_default_style addthis_32x32_style">
+          <a class="addthis_button_facebook"><i class="icon-fontello-facebook"></i></a>
+          <a class="addthis_button_twitter"><i class="icon-fontello-twitter"></i></a>
+          <a class="addthis_button_pinterest_share"><i class="icon-fontello-pinterest"></i></a>
+          <a class="addthis_button_linkedin"><i class="icon-fontello-linkedin"></i></a>
+          <a class="addthis_button_email"><i class="icon-fontello-at"></i></a>
+          <a class="addthis_button_qrfin"><i class="icon-fontello-qrcode"></i></a>
+          <a class="addthis_button_compact"><i class="icon-fontello-share"></i></a>
+         </div>
+         <div class="div_clear_38"></div>
+         <a href="#top" class="gototop"><i class="icon-fontello-angle-up"></i></a>
+         <div class="div_clear_38"></div>
+        </div>
+       </div>
+    </div>
+    <!-- !CONTENT MAIN END -->
+
+
+
+
+ <!-- !JAVASCRIPT START -->
+ <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.1/jquery.min.js"></script>
+ <script>window.jQuery || document.write('<script src="js/jquery/jquery-1.10.1.min.js"><\/script>')</script>
+ <script src="../../js/bootstrap/bootstrap.min.js"></script>
+ <!-- !ICONIC 字型 START -->
+ <script src="../../js/iconic/iconic.min.js"></script>
+ <!-- !ICONIC 字型 END -->
+ <!-- !VU START -->
+ <script type="text/javascript"> 
+  adroll_adv_id = "Q5EVWUESQNFYTBVCGGOK6E"; 
+  adroll_pix_id = "QGLQD55G7ZGWLCEJ2KWV4X"; 
+  (function () {
+  var oldonload = window.onload; 
+  window.onload = function(){ 
+   __adroll_loaded=true; 
+   var scr = document.createElement("script"); 
+   var host = (("https:" == document.location.protocol) ? "https://s.adroll.com" : "http://a.adroll.com"); 
+   scr.setAttribute('async', 'true'); 
+   scr.type = "text/javascript"; 
+   scr.src = host + "/j/roundtrip.js"; 
+   ((document.getElementsByTagName('head') || [null])[0] || 
+    document.getElementsByTagName('script')[0].parentNode).appendChild(scr); 
+   if(oldonload){oldonload()}}; 
+  }()); 
+ </script>
+ <!-- !VU END -->
+ <!-- !JAVASCRIPT END -->
+</body>
+</html>

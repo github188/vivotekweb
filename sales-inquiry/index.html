@@ -1,0 +1,993 @@
+<META HTTP-EQUIV="Content-type" CONTENT="text/html; charset=UTF-8">
+ <title>Sales Inquiry | VIVOTEK</title>
+ <meta name="description" content="">
+ <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+ <link rel="stylesheet" href="http://www.vivotek.com/css/bootstrap.css">
+ <link rel="stylesheet" href="http://www.vivotek.com/css/bootstrap-theme.min.css">
+ <link rel="stylesheet" href="http://www.vivotek.com/css/fontello/fontello.css">
+ <link rel="stylesheet" href="http://www.vivotek.com/css/fontello/animation.css">
+ <link rel="stylesheet" href="http://www.vivotek.com/css/iconic/iconic-bootstrap.css">
+ <link rel="stylesheet" href="http://www.vivotek.com/css/mgmenu_universal/mgmenu.css">
+ <link rel="stylesheet" href="http://www.vivotek.com/css/vivotek.css">
+ <!--[if lt IE 9]>
+  <link rel="stylesheet" href="/image/all/iconic/font/css/iconic-glyphs-legacy.css">
+ <![endif]-->
+ <script src="http://www.google-analytics.com/ga.js"></script>
+ <script src="http://www.vivotek.com/js/modernizr/modernizr-2.6.2-respond-1.1.0.min.js"></script>
+ <Script type="text/javascript">
+
+var postState = '';
+var postCountry = '';
+var state = '\
+AU:ACT:Australian Capital Territory|\
+AU:NSW:New South Wales|\
+AU:NT:Northern Territory|\
+AU:QLD:Queensland|\
+AU:SA:South Australia|\
+AU:TAS:Tasmania|\
+AU:VIC:Victoria|\
+AU:WA:Western Australia|\
+BR:AC:Acre|\
+BR:AL:Alagoas|\
+BR:AM:Amazonas|\
+BR:AP:Amapá|\
+BR:BA:Bahia|\
+BR:CE:Ceará|\
+BR:DF:Distrito Federal|\
+BR:ES:Espírito Santo|\
+BR:GO:Goiás|\
+BR:MA:Maranhão|\
+BR:MG:Minas Gerais|\
+BR:MS:Mato Grosso do Sul|\
+BR:MT:Mato Grosso|\
+BR:PA:Pará|\
+BR:PB:Paraíba|\
+BR:PE:Pernambuco|\
+BR:PI:Piauí|\
+BR:PR:Paraná|\
+BR:RJ:Rio de Janeiro|\
+BR:RN:Rio Grande do Norte|\
+BR:RO:Rondônia|\
+BR:RR:Roraima|\
+BR:RS:Rio Grande do Sul|\
+BR:SC:Santa Catarina|\
+BR:SE:Sergipe|\
+BR:SP:São Paulo|\
+BR:TO:Tocantins|\
+CN:11:Beijing|\
+CN:12:Tianjin|\
+CN:13:Hebei|\
+CN:14:Shanxi|\
+CN:15:Nei Mongol|\
+CN:21:Liaoning|\
+CN:22:Jilin|\
+CN:23:Heilongjiang|\
+CN:31:Shanghai|\
+CN:32:Jiangsu|\
+CN:33:Zhejiang|\
+CN:34:Anhui|\
+CN:35:Fujian|\
+CN:36:Jiangxi|\
+CN:37:Shandong|\
+CN:41:Henan|\
+CN:42:Hubei|\
+CN:43:Hunan|\
+CN:44:Guangdong|\
+CN:45:Guangxi|\
+CN:46:Hainan|\
+CN:50:Chongqing|\
+CN:51:Sichuan|\
+CN:52:Guizhou|\
+CN:53:Yunnan|\
+CN:54:Xizang|\
+CN:61:Shaanxi|\
+CN:62:Gansu|\
+CN:63:Qinghai|\
+CN:64:Ningxia|\
+CN:65:Xinjiang|\
+CN:92:Macao|\
+IE:CE:Clare|\
+IE:CN:Cavan|\
+IE:CO:Cork|\
+IE:CW:Carlow|\
+IE:D:Dublin|\
+IE:DL:Donegal|\
+IE:G:Galway|\
+IE:KE:Kildare|\
+IE:KK:Kilkenny|\
+IE:KY:Kerry|\
+IE:LD:Longford|\
+IE:LH:Louth|\
+IE:LK:Limerick|\
+IE:LM:Leitrim|\
+IE:LS:Laois|\
+IE:MH:Meath|\
+IE:MN:Monaghan|\
+IE:MO:Mayo|\
+IE:OY:Offaly|\
+IE:RN:Roscommon|\
+IE:SO:Sligo|\
+IE:TA:Tipperary|\
+IE:WD:Waterford|\
+IE:WH:Westmeath|\
+IE:WW:Wicklow|\
+IE:WX:Wexford|\
+IN:AN:Andaman and Nicobar Islands|\
+IN:AP:Andhra Pradesh|\
+IN:AR:Arunachal Pradesh|\
+IN:AS:Assam|\
+IN:BR:Bihar|\
+IN:CH:Chandigarh|\
+IN:CT:Chhattisgarh|\
+IN:DD:Daman and Diu|\
+IN:DL:Delhi|\
+IN:DN:Dadra and Nagar Haveli|\
+IN:GA:Goa|\
+IN:GJ:Gujarat|\
+IN:HP:Himachal Pradesh|\
+IN:HR:Haryana|\
+IN:JH:Jharkhand|\
+IN:JK:Jammu and Kashmir|\
+IN:KA:Karnataka|\
+IN:KL:Kerala|\
+IN:LD:Lakshadweep|\
+IN:MH:Maharashtra|\
+IN:ML:Meghalaya|\
+IN:MN:Manipur|\
+IN:MP:Madhya Pradesh|\
+IN:MZ:Mizoram|\
+IN:NL:Nagaland|\
+IN:OR:Odisha|\
+IN:PB:Punjab|\
+IN:PY:Puducherry|\
+IN:RJ:Rajasthan|\
+IN:SK:Sikkim|\
+IN:TN:Tamil Nadu|\
+IN:TR:Tripura|\
+IN:UP:Uttar Pradesh|\
+IN:UT:Uttarakhand|\
+IN:WB:West Bengal|\
+IT:AG:Agrigento|\
+IT:AL:Alessandria|\
+IT:AN:Ancona|\
+IT:AO:Aosta|\
+IT:AP:Ascoli Piceno|\
+IT:AQ:L Aquila|\
+IT:AR:Arezzo|\
+IT:AT:Asti|\
+IT:AV:Avellino|\
+IT:BA:Bari|\
+IT:BG:Bergamo|\
+IT:BI:Biella|\
+IT:BL:Belluno|\
+IT:BN:Benevento|\
+IT:BO:Bologna|\
+IT:BR:Brindisi|\
+IT:BS:Brescia|\
+IT:BT:Barletta-Andria-Trani|\
+IT:BZ:Bolzano|\
+IT:CA:Cagliari|\
+IT:CB:Campobasso|\
+IT:CE:Caserta|\
+IT:CH:Chieti|\
+IT:CI:Carbonia-Iglesias|\
+IT:CL:Caltanissetta|\
+IT:CN:Cuneo|\
+IT:CO:Como|\
+IT:CR:Cremona|\
+IT:CS:Cosenza|\
+IT:CT:Catania|\
+IT:CZ:Catanzaro|\
+IT:EN:Enna|\
+IT:FC:Forlì-Cesena|\
+IT:FE:Ferrara|\
+IT:FG:Foggia|\
+IT:FI:Florence|\
+IT:FM:Fermo|\
+IT:FR:Frosinone|\
+IT:GE:Genoa|\
+IT:GO:Gorizia|\
+IT:GR:Grosseto|\
+IT:IM:Imperia|\
+IT:IS:Isernia|\
+IT:KR:Crotone|\
+IT:LC:Lecco|\
+IT:LE:Lecce|\
+IT:LI:Livorno|\
+IT:LO:Lodi|\
+IT:LT:Latina|\
+IT:LU:Lucca|\
+IT:MB:Monza and Brianza|\
+IT:MC:Macerata|\
+IT:ME:Messina|\
+IT:MI:Milan|\
+IT:MN:Mantua|\
+IT:MO:Modena|\
+IT:MS:Massa and Carrara|\
+IT:MT:Matera|\
+IT:NA:Naples|\
+IT:NO:Novara|\
+IT:NU:Nuoro|\
+IT:OG:Ogliastra|\
+IT:OR:Oristano|\
+IT:OT:Olbia-Tempio|\
+IT:PA:Palermo|\
+IT:PC:Piacenza|\
+IT:PD:Padua|\
+IT:PE:Pescara|\
+IT:PG:Perugia|\
+IT:PI:Pisa|\
+IT:PN:Pordenone|\
+IT:PO:Prato|\
+IT:PR:Parma|\
+IT:PT:Pistoia|\
+IT:PU:Pesaro and Urbino|\
+IT:PV:Pavia|\
+IT:PZ:Potenza|\
+IT:RA:Ravenna|\
+IT:RC:Reggio Calabria|\
+IT:RE:Reggio Emilia|\
+IT:RG:Ragusa|\
+IT:RI:Rieti|\
+IT:RM:Rome|\
+IT:RN:Rimini|\
+IT:RO:Rovigo|\
+IT:SA:Salerno|\
+IT:SI:Siena|\
+IT:SO:Sondrio|\
+IT:SP:La Spezia|\
+IT:SR:Syracuse|\
+IT:SS:Sassari|\
+IT:SV:Savona|\
+IT:TA:Taranto|\
+IT:TE:Teramo|\
+IT:TN:Trento|\
+IT:TO:Turin|\
+IT:TP:Trapani|\
+IT:TR:Terni|\
+IT:TS:Trieste|\
+IT:TV:Treviso|\
+IT:UD:Udine|\
+IT:VA:Varese|\
+IT:VB:Verbano-Cusio-Ossola|\
+IT:VC:Vercelli|\
+IT:VE:Venice|\
+IT:VI:Vicenza|\
+IT:VR:Verona|\
+IT:VS:Medio Campidano|\
+IT:VT:Viterbo|\
+IT:VV:Vibo Valentia|\
+MX:AG:Aguascalientes|\
+MX:BC:Baja California|\
+MX:BS:Baja California Sur|\
+MX:CH:Chihuahua|\
+MX:CL:Colima|\
+MX:CM:Campeche|\
+MX:CO:Coahuila|\
+MX:CS:Chiapas|\
+MX:DF:Federal District|\
+MX:DG:Durango|\
+MX:GR:Guerrero|\
+MX:GT:Guanajuato|\
+MX:HG:Hidalgo|\
+MX:JA:Jalisco|\
+MX:ME:Mexico State|\
+MX:MI:Michoacán|\
+MX:MO:Morelos|\
+MX:NA:Nayarit|\
+MX:NL:Nuevo León|\
+MX:OA:Oaxaca|\
+MX:PB:Puebla|\
+MX:QE:Querétaro|\
+MX:QR:Quintana Roo|\
+MX:SI:Sinaloa|\
+MX:SL:San Luis Potosí|\
+MX:SO:Sonora|\
+MX:TB:Tabasco|\
+MX:TL:Tlaxcala|\
+MX:TM:Tamaulipas|\
+MX:VE:Veracruz|\
+MX:YU:Yucatán|\
+MX:ZA:Zacatecas|\
+';
+
+// Country data table
+//
+// To edit the list, just delete a line or add a line. Order is important.
+// The order displayed here is the order it appears on the drop down.
+//
+var country = '\
+AF:Afghanistan|\
+AX:Aland Islands|\
+AL:Albania|\
+DZ:Algeria|\
+AD:Andorra|\
+AO:Angola|\
+AI:Anguilla|\
+AQ:Antarctica|\
+AG:Antigua and Barbuda|\
+AR:Argentina|\
+AM:Armenia|\
+AW:Aruba|\
+AU:Australia|\
+AT:Austria|\
+AZ:Azerbaijan|\
+BS:Bahamas|\
+BH:Bahrain|\
+BD:Bangladesh|\
+BB:Barbados|\
+BY:Belarus|\
+BE:Belgium|\
+BZ:Belize|\
+BJ:Benin|\
+BM:Bermuda|\
+BT:Bhutan|\
+BO:Bolivia, Plurinational State of|\
+BQ:Bonaire, Sint Eustatius and Saba|\
+BA:Bosnia and Herzegovina|\
+BW:Botswana|\
+BV:Bouvet Island|\
+BR:Brazil|\
+IO:British Indian Ocean Territory|\
+BN:Brunei Darussalam|\
+BG:Bulgaria|\
+BF:Burkina Faso|\
+BI:Burundi|\
+KH:Cambodia|\
+CM:Cameroon|\
+CV:Cape Verde|\
+KY:Cayman Islands|\
+CF:Central African Republic|\
+TD:Chad|\
+CL:Chile|\
+CN:China|\
+CX:Christmas Island|\
+CC:Cocos (Keeling) Islands|\
+CO:Colombia|\
+KM:Comoros|\
+CG:Congo|\
+CD:Congo, the Democratic Republic of the|\
+CK:Cook Islands|\
+CR:Costa Rica|\
+CI:Cote d\'Ivoire|\
+HR:Croatia|\
+CU:Cuba|\
+CW:Curaçao|\
+CY:Cyprus|\
+CZ:Czech Republic|\
+DK:Denmark|\
+DJ:Djibouti|\
+DM:Dominica|\
+DO:Dominican Republic|\
+EC:Ecuador|\
+EG:Egypt|\
+SV:El Salvador|\
+GQ:Equatorial Guinea|\
+ER:Eritrea|\
+EE:Estonia|\
+ET:Ethiopia|\
+FK:Falkland Islands (Malvinas)|\
+FO:Faroe Islands|\
+FJ:Fiji|\
+FI:Finland|\
+FR:France|\
+GF:French Guiana|\
+PF:French Polynesia|\
+TF:French Southern Territories|\
+GA:Gabon|\
+GM:Gambia|\
+GE:Georgia|\
+DE:Germany|\
+GH:Ghana|\
+GI:Gibraltar|\
+GR:Greece|\
+GL:Greenland|\
+GD:Grenada|\
+GP:Guadeloupe|\
+GT:Guatemala|\
+GG:Guernsey|\
+GN:Guinea|\
+GW:Guinea-Bissau|\
+GY:Guyana|\
+HT:Haiti|\
+HM:Heard Island and McDonald Islands|\
+VA:Holy See (Vatican City State)|\
+HN:Honduras|\
+HK:Hong Kong|\
+HU:Hungary|\
+IS:Iceland|\
+IN:India|\
+ID:Indonesia|\
+IR:Iran, Islamic Republic of|\
+IQ:Iraq|\
+IE:Ireland|\
+IM:Isle of Man|\
+IL:Israel|\
+IT:Italy|\
+JM:Jamaica|\
+JP:Japan|\
+JE:Jersey|\
+JO:Jordan|\
+KZ:Kazakhstan|\
+KE:Kenya|\
+KI:Kiribati|\
+KP:Korea, Democratic People\'s Republic of|\
+KR:Korea, Republic of|\
+KW:Kuwait|\
+KG:Kyrgyzstan|\
+LA:Lao People\'s Democratic Republic|\
+LV:Latvia|\
+LB:Lebanon|\
+LS:Lesotho|\
+LR:Liberia|\
+LY:Libya|\
+LI:Liechtenstein|\
+LT:Lithuania|\
+LU:Luxembourg|\
+MO:Macao|\
+MK:Macedonia, the former Yugoslav Republic of|\
+MG:Madagascar|\
+MW:Malawi|\
+MY:Malaysia|\
+MV:Maldives|\
+ML:Mali|\
+MT:Malta|\
+MH:Marshall Islands|\
+MQ:Martinique|\
+MR:Mauritania|\
+MU:Mauritius|\
+YT:Mayotte|\
+MX:Mexico|\
+MD:Moldova, Republic of|\
+MC:Monaco|\
+MN:Mongolia|\
+ME:Montenegro|\
+MS:Montserrat|\
+MA:Morocco|\
+MZ:Mozambique|\
+MM:Myanmar|\
+NK:Nagorno-Karabakh|\
+NA:Namibia|\
+NR:Nauru|\
+NP:Nepal|\
+NL:Netherlands|\
+NC:New Caledonia|\
+NZ:New Zealand|\
+NI:Nicaragua|\
+NE:Niger|\
+NG:Nigeria|\
+NU:Niue|\
+NF:Norfolk Island|\
+MP:Northern Mariana Islands|\
+NO:Norway|\
+OM:Oman|\
+PK:Pakistan|\
+PW:Palau|\
+PS:Palestinian Territory, Occupied|\
+PA:Panama|\
+PG:Papua New Guinea|\
+PY:Paraguay|\
+PE:Peru|\
+PH:Philippines|\
+PN:Pitcairn|\
+PL:Poland|\
+PT:Portugal|\
+PR:Puerto Rico|\
+QA:Qatar|\
+RE:Reunion|\
+RO:Romania|\
+RU:Russian Federation|\
+RW:Rwanda|\
+BL:Saint Barthélemy|\
+SH:Saint Helena, Ascension and Tristan da Cunha|\
+KN:Saint Kitts and Nevis|\
+LC:Saint Lucia|\
+MF:Saint Martin (French part)|\
+PM:Saint Pierre and Miquelon|\
+VC:Saint Vincent and the Grenadines|\
+WS:Samoa|\
+SM:San Marino|\
+ST:Sao Tome and Principe|\
+SA:Saudi Arabia|\
+SN:Senegal|\
+RS:Serbia|\
+SC:Seychelles|\
+SL:Sierra Leone|\
+SG:Singapore|\
+SX:Sint Maarten (Dutch part)|\
+SK:Slovakia|\
+SI:Slovenia|\
+SB:Solomon Islands|\
+SO:Somalia|\
+ZA:South Africa|\
+GS:South Georgia and the South Sandwich Islands|\
+SS:South Sudan|\
+ES:Spain|\
+LK:Sri Lanka|\
+SD:Sudan|\
+SR:Suriname|\
+SJ:Svalbard and Jan Mayen|\
+SZ:Swaziland|\
+SE:Sweden|\
+CH:Switzerland|\
+SY:Syrian Arab Republic|\
+TW:Taiwan|\
+TJ:Tajikistan|\
+TZ:Tanzania, United Republic of|\
+TH:Thailand|\
+TL:Timor-Leste|\
+TG:Togo|\
+TK:Tokelau|\
+TO:Tonga|\
+TT:Trinidad and Tobago|\
+TN:Tunisia|\
+TR:Turkey|\
+TM:Turkmenistan|\
+TC:Turks and Caicos Islands|\
+TV:Tuvalu|\
+UG:Uganda|\
+UA:Ukraine|\
+AE:United Arab Emirates|\
+GB:United Kingdom|\
+UY:Uruguay|\
+UZ:Uzbekistan|\
+VU:Vanuatu|\
+VE:Venezuela, Bolivarian Republic of|\
+VN:Viet Nam|\
+VG:Virgin Islands, British|\
+WF:Wallis and Futuna|\
+EH:Western Sahara|\
+YE:Yemen|\
+ZM:Zambia|\
+ZW:Zimbabwe\
+';
+
+	function TrimString(sInString) {
+	  if ( sInString ) {
+		sInString = sInString.replace( /^\s+/g, "" );// strip leading
+		return sInString.replace( /\s+$/g, "" );// strip trailing
+	  }
+	}
+
+	// Populates the country selected with the counties from the country list
+	function populateCountry(defaultCountry) {
+	  if ( postCountry != '' ) {
+		defaultCountry = postCountry;
+	  }
+	  var countryLineArray = country.split('|');  // Split into lines
+	  var selObj = document.getElementById('country_code');
+	  selObj.options[0] = new Option('Select Country','');
+	  selObj.selectedIndex = 0;
+	  for (var loop = 0; loop < countryLineArray.length; loop++) {
+		lineArray = countryLineArray[loop].split(':');
+		countryCode  = TrimString(lineArray[0]);
+		countryName  = TrimString(lineArray[1]);
+		if ( countryCode != '' ) {
+		  selObj.options[loop + 1] = new Option(countryName, countryCode);
+		}
+		if ( defaultCountry == countryCode ) {
+		  selObj.selectedIndex = loop + 1;
+		}
+	  }
+	}
+
+	function populateState() {
+	  
+	  var selObj = document.getElementById('state_code');
+	  var foundState = false;
+	  // Empty options just in case new drop down is shorter
+	  if ( selObj.type == 'select-one' ) {
+		
+		for (var i = 0; i < selObj.options.length; i++) {
+		  selObj.options[i] = null;
+		}
+		selObj.options.length=null;
+		selObj.options[0] = new Option('','');
+		selObj.selectedIndex = 0;
+	  }
+	  
+	  // Populate the drop down with states from the selected country
+	  var stateLineArray = state.split("|");  // Split into lines
+	  var optionCntr = 1;
+	  for (var loop = 0; loop < stateLineArray.length; loop++) {
+		lineArray = stateLineArray[loop].split(":");
+		countryCode  = TrimString(lineArray[0]);
+		stateCode    = TrimString(lineArray[1]);
+		stateName    = TrimString(lineArray[2]);
+		
+	  if (document.getElementById('country_code').value == countryCode && countryCode != '' ) {
+		// If it's a input element, change it to a select
+
+		  if ( selObj.type == 'text' ) {
+			parentObj = document.getElementById('state_code').parentNode;
+			parentObj.removeChild(selObj);
+			var inputSel = document.createElement("SELECT");
+			inputSel.setAttribute("name","state_code");
+			inputSel.setAttribute("id","state_code");
+			parentObj.appendChild(inputSel) ;
+			selObj = document.getElementById('state_code');
+			selObj.options[0] = new Option('','');
+			selObj.selectedIndex = 0;
+			
+		  }
+		  
+		  if ( stateName != '' ) {
+			selObj.options[optionCntr] = new Option(stateName, stateCode);
+		  }
+		  
+		  // See if it's selected from a previous post
+		  if ( stateName == postState && countryCode == postCountry ) {
+			selObj.selectedIndex = optionCntr;
+		  }
+		  
+		  
+		  
+		  foundState = true;
+		  optionCntr++
+		}
+	  }
+	  
+	  //State handler
+	  if(document.getElementById('country_code').value == "US" || 
+		 document.getElementById('country_code').value == "CA" ||
+		 document.getElementById('country_code').value == "IN" ||
+		 document.getElementById('country_code').value == "CN" ||
+		 document.getElementById('country_code').value == "AU"){
+		var stateObj = document.getElementById('state_code');
+		stateObj.required = true;
+		stateObj.className = "form-control";
+		redStar("stateId",true);
+	  }else{
+		var stateObj = document.getElementById('state_code');
+		
+		stateObj.required = false;
+		stateObj.className = "form-control";
+		redStar("stateId",false);
+		
+	  }
+	  
+	  //Zip handler
+	  if(document.getElementById('country_code').value == "US" || 
+	     document.getElementById('country_code').value == "CA"){
+		var zipObj = document.getElementById('Zip');
+		var stateObj = document.getElementById('state_code');
+		
+		stateObj.required = true;
+		stateObj.className = "form-control";
+		redStar("stateId",true);
+		
+		zipObj.required = true;
+		redStar("zipId",true);
+		
+	  }else{
+		var zipObj = document.getElementById('Zip');
+		
+		zipObj.required = false;
+		redStar("zipId",false);
+		
+	  }
+	  
+	  // If the country has no states, change the select to a text box
+	  if ( ! foundState ) {
+		parentObj = document.getElementById('state_code').parentNode;
+		parentObj.removeChild(selObj);
+		
+		var inputEl = document.createElement("INPUT");
+		inputEl.setAttribute("id", "state_code");
+		inputEl.setAttribute("type", "text");
+		inputEl.setAttribute("name", "state_code");
+		inputEl.setAttribute("size", 20);
+		inputEl.setAttribute("value", postState);
+		inputEl.setAttribute("class", "form-control");
+		
+		parentObj.appendChild(inputEl);
+		
+	  }
+	}
+	
+	
+	function redStar(lid, toggle){
+		var lbl = document.getElementById(lid);
+	    if(!toggle){
+			lbl.className ="";
+		}else{
+			lbl.className = "Red_8";
+		}
+		
+	}
+	
+	function initCountry(country) {
+	  populateCountry(country);
+	  populateState();
+	}
+</script>
+ <!-- BROWSER FAVICON -->
+ <link rel="icon" href="image/all/VIVOTEK_icon.ico">
+ <!-- iPad RETINA -->
+ <link rel="apple-touch-icon-precomposed" sizes="144x144" href="image/all/VIVOTEK_icon_ipad_r.png">
+ <!-- iPhone RETINA -->
+ <link rel="apple-touch-icon-precomposed" sizes="114x114" href="image/all/VIVOTEK_icon_iphone_r.png">
+ <!-- iPad -->
+ <link rel="apple-touch-icon-precomposed" sizes="72x72" href="image/all/VIVOTEK_icon_ipad.png">
+ <!-- iPhone -->
+ <link rel="apple-touch-icon-precomposed" sizes="57x57" href="image/all/VIVOTEK_icon_iphone.png">
+</head>
+
+
+
+
+<body class="homebody">
+<!--[if lt IE 7]>
+<p class="chromeframe">
+You are using an <strong>outdated</strong>
+browser. Please
+<a href="http://browsehappy.com/">upgrade your browser</a>
+or
+<a href="http://www.google.com/chromeframe/?redirect=true">activate Google Chrome Frame</a>
+to improve your experience.
+</p>
+<![endif]-->
+
+  <div class="container">
+    <div class="row">
+        <div class="col-xs-1 col-sm-1 col-md-2"></div>
+        <div class="col-xs-10 col-sm-10 col-md-8">
+
+        	<form action="https://www.salesforce.com/servlet/servlet.WebToLead?encoding=UTF-8" method="POST">
+        	<input type=hidden name="oid" value="00D90000000xGLq">
+        	<input type=hidden name="retURL" value="http://www.vivotek.com/web/appform/applyfinish.aspx">
+        	<!--<input type="hidden" name="debug" value=1>  -->
+        	<!--<input type="hidden" name="debugEmail" value="swonizuka@163.com">   -->
+
+                <h1 class="text_center blue_vivotek font_size_188">Sales Inquiry</h1>
+                <p>You may contact the local distributors for any VIVOTEK product inquires.Our distributors' contact details are listed on this website. If you are interested in open talks with VIVOTEK's sales representatives, please kindly provide us with the below information. Thank you very much for your cooperation.</p>
+                <h4 class="red_8">* Indicate required field</h4>
+                <div class="div_clear_8 border_bot_dot border_w1 grey_3"></div>
+                <div class="div_clear_18"></div>
+
+                <div class="form-group">
+                    <label for="first_name">First Name:</label>
+                    <input id="first_name" maxlength="40" name="first_name" type="text" class="form-control"/>
+                </div>
+
+                <div class="form-group">
+                    <label for="last_name" class="red_8">* Last Name:</label>
+                    <input id="last_name" maxlength="80" name="last_name" size="20" type="text" required="true" class="form-control"/>
+                </div>
+
+                <div class="form-group">
+                    <label for="title">Title:</label>
+                    <input id="title" maxlength="40" name="title" size="20" type="text" class="form-control"/>
+                </div>
+
+                <div class="form-group">
+                    <label for="email" class="red_8">* Email:</label>
+                    <input id="email" maxlength="80" name="email" size="20" type="text" required="true" class="form-control"/>
+                </div>
+
+                <div class="form-group">
+                    <label for="Phone" class="red_8">* Contact Tel:</label>
+                   	<input id="Phone" maxlength="40" name="phone" size="20" type="text" required="true" class="form-control"/>
+                </div>
+
+                <div class="form-group">
+                    <label for="company" class="red_8">* Company:</label>
+                    <input id="company" maxlength="40" name="company" size="20" type="text" required="true" class="form-control"/>
+                </div>
+
+                <div class="form-group">
+                    <label for="00N9000000CCNOt">Business Type:</label>
+                    <select id="00N9000000CCNOt" name="00N9000000CCNOt" title="Business Type" class="form-control">
+						<option value="">--None--</option>
+						<option value="End-user">End-user</option>
+						<option value="Distributor">Distributor</option>
+						<option value="System Integrator">System Integrator</option>
+						<option value="Sales Rep">Sales Rep</option>
+						<option value="Installer">Installer</option>
+						<option value="Reseller">Reseller</option>
+						<option value="Consultant">Consultant</option>
+						<option value="Other">Other</option>
+					</select>
+                </div>
+
+                <div class="form-group">
+                    <label for="industry" class="red_8">* Industry:</label>
+                    <select id="industry" name="industry" required="true" class="form-control">
+						<option value="">--None--</option>
+						<option value="Agriculture">Agriculture</option>
+						<option value="Apparel">Apparel</option>
+						<option value="Banking">Banking</option>
+						<option value="Biotechnology">Biotechnology</option>
+						<option value="Chemicals">Chemicals</option>
+						<option value="Communications">Communications</option>
+						<option value="Construction">Construction</option>
+						<option value="Consulting">Consulting</option>
+						<option value="Education">Education</option>
+						<option value="Electronics">Electronics</option>
+						<option value="Energy">Energy</option>
+						<option value="Engineering">Engineering</option>
+						<option value="Entertainment">Entertainment</option>
+						<option value="Environmental">Environmental</option>
+						<option value="Finance">Finance</option>
+						<option value="Food &amp; Beverage">Food &amp; Beverage</option>
+						<option value="Government">Government</option>
+						<option value="Healthcare">Healthcare</option>
+						<option value="Hospitality">Hospitality</option>
+						<option value="Insurance">Insurance</option>
+						<option value="Machinery">Machinery</option>
+						<option value="Manufacturing">Manufacturing</option>
+						<option value="Media">Media</option>
+						<option value="Military">Military</option>
+						<option value="Not For Profit">Not For Profit</option>
+						<option value="Recreation">Recreation</option>
+						<option value="Retail">Retail</option>
+						<option value="Shipping">Shipping</option>
+						<option value="Technology">Technology</option>
+						<option value="Telecommunications">Telecommunications</option>
+						<option value="Transportation">Transportation</option>
+						<option value="Utilities">Utilities</option>
+						<option value="Other">Other</option>
+					</select>
+                </div>
+
+                <div class="form-group">
+                    <label for="employees">No. of Employee:</label>
+                   	<input id="employees" name="employees" size="20" type="text" value="" class="form-control"/>
+                </div>
+
+                <div class="form-group">
+                    <label for="country_code" class="red_8">* Country:</label>
+                    <select id="country_code" name="country_code" title="Country" onchange='populateState()' required="true" class="form-control">
+                    </select>
+                </div>
+
+                <div class="form-group">
+                    <label id="stateId" for="state_code" class="red_8">* State/Province:</label>
+                    <select id="state_code" name="state_code" title="State" required="true" class="form-control">
+                    </select>
+                </div>
+
+                <div class="form-group">
+                    <label for="city">City:</label>
+                   	<input id="city" maxlength="40" name="city" size="20" type="text" class="form-control"/>
+                </div>
+
+                <div class="form-group">
+                    <label for="street">Street:</label>
+                   	<textarea id="street" name="street" rows="3" class="form-control"></textarea>
+                </div>
+
+                <div class="form-group">
+                    <label id="zipId" for="Zip" class="red_8">* Zip:</label>
+                   	<input id="Zip" maxlength="255" name="Zip" size="20" type="text" required="true" class="form-control"//>
+                </div>
+
+                <div class="form-group">
+                    <label for="URL">Company Website:</label>
+                    <input id="URL" maxlength="80" name="URL" size="20" type="text" class="form-control"/>
+                </div>
+
+                <div class="form-group">
+                    <label for="00N9000000E5D2g" class="red_8">* Inquiry:</label>
+					<select id="00N9000000E5D2g" name="00N9000000E5D2g" title="Inquiry" required="true" class="form-control">
+						<option value="">--None--</option>
+						<option value="Price &amp; Product Info">Price &amp; Product Info</option>
+						<option value="Product Info">Product Info</option>
+						<option value="Request Price">Request Price</option>
+						<option value="Others">Others</option>
+					</select>
+                </div>
+
+                <div class="form-group">
+                    <label for="00N9000000E5D2d">Comments:</label>
+                   	<textarea  id="00N9000000E5D2d" name="00N9000000E5D2d" rows="4" type="text" wrap="soft" class="form-control"></textarea>
+                </div>
+
+				<script type="text/javascript">initCountry('US'); </script>
+
+				<input type="submit" value="Submit" onclick ="return check();" class="btn btn-info btn-lg">
+				
+				<script type="text/javascript">
+					
+					function isValidUSZip(sZip) {
+					    var reg = /^\d{5}(-\d{4})?$/;
+					    return reg.test(sZip);
+					}
+					
+					function isValidEmail(email) { 
+						var reg = /^([A-Za-z0-9_\-\.])+\@([A-Za-z0-9_\-\.])+\.([A-Za-z]{2,4})$/;
+						return reg.test(email);
+					}
+					
+					function check(){
+					
+						var isCheck =false;
+						var lName = document.getElementById("last_name").value;
+						var email = document.getElementById("email").value;
+						var company = document.getElementById("company").value;
+						var state = document.getElementById("state_code").value;
+						var inquiry = document.getElementById("00N9000000E5D2g").value;
+						var Zip = document.getElementById("Zip").value;
+						var industry = document.getElementById("industry").value;
+						var country = document.getElementById('country_code').value;
+						var errMsg ='';
+						if(lName!='' && email!='' && company!='' &&industry!='' && inquiry!='' && country != '' ){
+							isCheck=true;
+						}else{
+							isCheck = false;
+							errMsg = 'Required Fields Empty! \n';
+						}
+						
+						if(country == "CA" ||
+						   country == "IN" ||
+						   country == "CN" ||
+						   country == "AU" ||
+						   country == "US"){
+							if(state==''){
+								isCheck = false;
+								errMsg = 'Required Fields Empty! \n';
+							}
+						}
+						
+						if(country == "US" ){
+							if(state=='' ||  Zip==''){
+								isCheck = false;
+								errMsg = 'Required Fields Empty! \n';
+							}
+						}
+
+						if(country == "CA"){
+							if(state=='' || Zip==''){
+								isCheck = false;
+								errMsg = 'Required Fields Empty! \n';
+							}
+						}
+						
+						if((country != "CA" &&
+						   country != "IN" &&
+						   country != "CN" &&
+						   country != "AU" &&
+						   country != "US") && state!=''){
+							document.getElementById("state_code").value = "";
+						   }
+						
+						if(!isValidEmail(email)){
+							isCheck = false;
+							errMsg += 'Invalid Email format!'
+						}
+						
+						if(isCheck){
+							alert('Thanks for submit the Lead information to us!');
+						}else{
+							alert(errMsg);
+						}
+						return isCheck;
+					}
+				</script>
+				</form>
+
+        </div>
+        <div class="col-xs-1 col-sm-1 col-md-2"></div>
+    </div>
+
+
+
+ <!-- !JAVASCRIPT START -->
+ <!-- !GOOGLE-ANALYTICS START -->
+ <script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-1877002-1', 'auto');
+  ga('send', 'pageview');
+
+ </script>
+ <!-- !GOOGLE-ANALYTICS OVER -->
+ <!-- !JAVASCRIPT OVER -->
+
+
+
+</body>
+</html>

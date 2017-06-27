@@ -1,0 +1,446 @@
+<!DOCTYPE html>
+<html lang="en">
+<!--[if lt IE 7]><html class="no-js lt-ie9 lt-ie8 lt-ie7"><![endif]-->
+<!--[if IE 7]><html class="no-js lt-ie9 lt-ie8"><![endif]-->
+<!--[if IE 8]><html class="no-js lt-ie9"><![endif]-->
+<!--[if gt IE 8]><!--><html class="no-js"><!--<![endif]-->
+
+
+
+
+
+<head>
+ <meta charset="utf-8">
+ <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+ <title>How to troubleshoot when you find the IR reflection problem on the camera | VIVOTEK</title>
+ <meta name="description" content="">
+ <meta name="viewport" content="width=device-width, initial-scale=1.0">
+ <link rel="stylesheet" href="../../css/bootstrap.min.css">
+ <link rel="stylesheet" href="../../css/bootstrap-theme.min.css">
+ <link rel="stylesheet" href="../../css/iconic/iconic-bootstrap.css">
+ <link rel="stylesheet" href="../../css/fontello/fontello.min.css">
+ <link rel="stylesheet" href="../../css/vivotek.min.css">
+ <style type="text/css">
+  .iconic-file-page, .iconic-file-extension { fill: rgba(19,120,187,1);}
+  .iconic-file-flap { fill: rgba(19,120,187,1);}
+ </style>
+ <!--[if lt IE 9]>
+  <link rel="stylesheet" href="/image/all/iconic/font/css/iconic-glyphs-legacy.css">
+ <![endif]-->
+ <!-- BROWSER FAVICON -->
+ <link rel="icon" href="image/all/VIVOTEK_icon.ico">
+ <!-- iPad RETINA -->
+ <link rel="apple-touch-icon-precomposed" sizes="144x144" href="image/all/VIVOTEK_icon_ipad_r.png">
+ <!-- iPhone RETINA -->
+ <link rel="apple-touch-icon-precomposed" sizes="114x114" href="image/all/VIVOTEK_icon_iphone_r.png">
+ <!-- iPad -->
+ <link rel="apple-touch-icon-precomposed" sizes="72x72" href="image/all/VIVOTEK_icon_ipad.png">
+ <!-- iPhone -->
+ <link rel="apple-touch-icon-precomposed" sizes="57x57" href="image/all/VIVOTEK_icon_iphone.png">
+	<!-- Google Tag Manager -->
+	<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+	new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+	j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+	'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+	})(window,document,'script','dataLayer','GTM-KV2JCZ');</script>
+	<!-- End Google Tag Manager -->
+</head>
+
+
+
+
+<body class="homebody">
+<!-- Google Tag Manager (noscript) -->
+<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-KV2JCZ"
+ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+<!-- End Google Tag Manager (noscript) -->
+<!--[if lt IE 7]>
+<p class="chromeframe">
+You are using an <strong>outdated</strong>
+browser. Please
+<a href="http://browsehappy.com/">upgrade your browser</a>
+or
+<a href="http://www.google.com/chromeframe/?redirect=true">activate Google Chrome Frame</a>
+to improve your experience.
+</p>
+<![endif]-->
+
+
+
+    <!-- !LOGO AND LANGUAGE START -->
+    <a name="top"></a>
+    <div class="container-fluid bg_white">
+      <div class="row">
+
+       <div class="col-xs-0 col-sm-0 col-md-0 col-lg-1"></div>
+       <div class="col-xs-10 col-sm-10 col-md-9 col-lg-8"><div class="div_clear_8"></div><a href="http://www.vivotek.com/" target="_self"><br>
+          <img src="/image/all/VIVOTEK_logo.svg" class="vivotek_logoimg" /></a><div class="div_clear_8"></div></div>
+       
+
+      <!-- <div class="col-xs-2 col-sm-2 col-md-2 col-lg-2">
+       <div class="div_clear_1_68"></div>
+       <div class="btn-group pull-right vivotek_lang">
+        <h1 class="sr-only">Language Navigation</h1>
+         <nav>
+          <button type="button" class="btn btn-default dropdown-toggle vivotek_nav_dropdown-toggle" data-toggle="dropdown">
+           <i class="icon-fontello-globe-3 blue font_size_138"></i>
+           <span class="caret"></span>
+          </button>
+          <ul class="dropdown-menu vivotek_lang_dropdown-menu">
+           <li>
+          
+            <a href="/vivotek-p2p-service-application-ezconnect-frees-users-from-information-security-risks/" target="_self" class="active">
+            <h1>English</h1>
+            </a>
+           
+        </li>
+           <li>
+          
+            <a href="/de/die-vivotek-p2p-service-anwendung-ezconnect-schützt-anwender-vor-risiken-der-informationssicherheit/" target="_self">
+            <h1>Deutsch</h1>
+            </a>
+           
+        </li>
+           <li>
+          
+            <a href="/es/aplicación-de-servicio-p2p-de-vivotek-ezconnect-libera-a-los-usuarios-de-los-riesgos-de-seguridad-de-la-información/" target="_self">
+            <h1>Español</h1>
+            </a>
+           
+        </li>
+           <li>
+          
+            <a href="/fr/l-enregistreur-vidéo-réseau-vivotek-nd8322p-la-technologie-de-surveillance-haut-de-gamme-désormais-accessible-au-grand-public/" target="_self">
+            <h1>Français</h1>
+            </a>
+           
+        </li>
+           <li>
+          
+            <a href="/it/l-applicazione-di-servizio-p2p-di-vivotek-ezconnect-libera-gli-utenti-da-rischi-sulla-sicurezza-informatica/" target="_self">
+            <h1>Italiano</h1>
+            </a>
+           
+        </li>
+           <li>
+          
+            <a href="/jp/vivotekのp2pサービスアプリケーション-ezconnect-は-ユーザーを情報セキュリティリスクから守ります/" target="_self">
+            <h1>日本語</h1>
+            </a>
+           
+        </li>
+           <li>
+          
+            <a href="/pt/nd8322p-da-vivotek-o-maior-nível-de-tecnologia-de-vigilância-agora-está-disponível-para-todos/" target="_self">
+            <h1>Português</h1>
+            </a>
+           
+        </li>
+           <li>
+          
+            <a href="/ru/сервисное-приложение-p2p-ezconnect-от-компании-vivotek-освобождает-пользователей-от-рисков-информационной-безопасности/" target="_self">
+            <h1>Русский</h1>
+            </a>
+           
+        </li>
+           <li>
+          
+            <a href="/tw/晶睿通訊點對點網路傳輸服務-ezconnect-保障使用者連線的無縫安全/" target="_self">
+            <h1>繁體中文</h1>
+            </a>
+           
+        </li>
+           <li>
+          
+            <a href="/cn/晶睿通讯点对点网络传输服务-ezconnect-保障用户联机的无缝安全/" target="_self">
+            <h1>简体中文</h1>
+            </a>
+           
+        </li>
+          </ul>
+         </nav>
+       </div>
+      </div> -->
+
+
+      <div class="col-xs-0 col-sm-0 col-md-1 col-lg-1"></div>
+
+      </div>
+      <div class="div_clear_18"></div>
+    </div>
+    <!-- !LOGO AND LANGUAGE END -->
+
+
+
+    <!-- !CONTENT MAIN START -->
+
+
+    
+    <div class="container-fluid bg_blue_5">
+      <div class="row">
+
+       <div class="col-xs-1 col-md-2"></div>
+       <div class="col-xs-10 col-md-8">
+        <div class="div_clear_18"></div>
+        <p class="blue_3 mar_b_138">
+        <span class="iconic iconic-bookmark iconic-sm" title="Tel" aria-hidden="true"></span> VideoQ12</p>
+        <h2 class="white mar_b_138">
+        <span class="iconic iconic-chat iconic-md" title="chat" aria-hidden="true"></span> 
+        How to troubleshoot when you find the IR reflection problem on the camera</h2>
+        <div class="div_clear_8"></div>
+       </div>
+       <div class="col-xs-1 col-md-2"></div>
+
+      </div>
+    </div>
+
+
+
+
+    <div class="container-fluid">
+      <div class="row">
+       <div class="div_clear_68"></div>
+       <div class="col-xs-1 col-md-2"></div>
+       <div class="col-xs-10 col-md-8">
+
+
+
+       <h4>Introduction</h4>
+       <p>When adjusting the focus and angle of the lens on a camera equipped with IR LED, you may find image quality is poor in night mode. This is almost always due to IR reflection causing a clouded effect. Please refer to the two pictures below if you are having an issue with image quality to check if it is due to IR reflection.</p>
+       <p>Normal video</p>
+       <br>
+          <img src="/image/support/faq/videoq12_01.jpg" alt="" style="display:block;" width="358" height="273" /><p>Video affected by IR reflection</p>
+       <br>
+          <img src="/image/support/faq/videoq12_02.jpg" alt="" style="display:block;" width="358" height="273" /><p>This document describes how to troubleshoot IR reflection issues.</p>
+       <h4>Possible causes of IR reflection</h4>
+       <p>Following are some questions to answer as you troubleshoot the cause of any IR reflection you’re experiencing</p>
+       <ol>
+        <li>
+          Is there any dust on the sun shield ring? (IP8332)<br>
+          <br>
+          <img src="/image/support/faq/videoq12_03.jpg" alt="" style="display:block;" width="358" height="273" /><br>
+          Accumulated dust will reflect infrared, causing a blur ring in the image. Refer to the photo below, and see section "<a href="#23">Solving the problem - 3</a>" for instructions on how to fix the problem.<br>
+          <img src="/image/support/faq/videoq12_04.jpg" alt="" style="display:block;" width="358" height="273" />
+        </li>
+        <li>
+          Is the black mask in the right position, or is it blocking the IR LED? (FD8134/FD8161/FD8162F/D8135H/FD8335H)<br>
+          <img src="/image/support/faq/videoq12_05.jpg" alt="" style="display:block;" width="358" height="273" /><br><br>
+          <img src="/image/support/faq/videoq12_06.jpg" alt="" style="display:block;" width="358" height="273" />
+          If the black mask is positioned incorrectly, it will reflect infrared, causing image blurring. See section "<a href="#28">Solving the problem - 8</a>" for instructions on how to fix the problem.
+        </li>
+        <li>
+          Is the lens tilted at an angle between 0°and 70°? (FD8134V)<br>
+          <img src="/image/support/faq/videoq12_07.jpg" alt="" style="display:block;" width="358" height="273" /><br><br>
+          <img src="/image/support/faq/videoq12_08.jpg" alt="" style="display:block;" width="358" height="273" />If the tilt is outside this range, the rubber ring cannot create a seal with the cover. See section "<a href="#29">Solving the problem - 9</a>" for instructions on how to fix the problem.
+        </li>
+        <li>
+          Is the cover improperly fitted to the body of the camera? The cover of the camera may not be properly secured to the body. Refer to the photos below, and see section "<a href="#21">Solving the problem - 1</a>" for instructions on how to fix the problem.<br>
+          <img src="/image/support/faq/videoq12_09.jpg" alt="" style="display:block;" width="358" height="273" /><br><br>
+          <img src="/image/support/faq/videoq12_10.jpg" alt="" style="display:block;" width="358" height="273" />
+        </li>
+        <li>
+          Are the screws securing the cover to the body of the camera loose? The screws used to attach the cover of the camera to the body may have loosened. Refer to the photos below, and see section "<a href="#22">Solving the problem - 2</a>" for instructions on how to fix the problem.<br>
+          <img src="/image/support/faq/videoq12_11.jpg" alt="" style="display:block;" width="358" height="273" /><br><br>
+          <img src="/image/support/faq/videoq12_12.jpg" alt="" style="display:block;" width="358" height="273" />
+        </li>
+        <li>
+          Is the cover dirty or scratched? A dirty or scratched cover may adversely affect image quality. Refer to the photos below, and see section "<a href="#23">Solving the problem - 3</a>" for instructions on how to fix the problem.<br>
+          A dirty cover.<br>
+          <img src="/image/support/faq/videoq12_13.jpg" alt="" style="display:block;" width="358" height="273" /><br>
+          A scratched cover<br>
+          <img src="/image/support/faq/videoq12_14.jpg" alt="" style="display:block;" width="358" height="273" /><br>
+          Reflection<br>
+          <img src="/image/support/faq/videoq12_15.jpg" alt="" style="display:block;" width="358" height="273" />
+        </li>
+        <li>
+          Is the camera behind a glass window? Glass may reflect IR light and adversely affect image quality. Refer to the photos below, and see section "<a href="#24">Solving the problem - 4</a>" for instructions on how to fix the problem.<br>
+          <img src="/image/support/faq/videoq12_16.jpg" alt="" style="display:block;" width="358" height="273" />
+        </li>
+        <li>
+          Is the camera directly underneath a surface such as a ceiling? The surface may be reflecting IR light and thus adversely affecting image quality. Refer to the photo below, and see section "<a href="#25">Solving the problem - 5</a>" for instructions on how to fix the problem.<br>
+          <img src="/image/support/faq/videoq12_17.jpg" alt="" style="display:block;" width="358" height="273" />
+        </li>
+        <li>
+          Is there any condensation on the inside or outside surface of the camera cover? Any fogging or water droplets may adversely affect image quality. Refer to the photos below, and see section "<a href="#26">Solving the problem - 6</a>" for instructions on how to fix the problem.<br>Condensation on the cover.<br>
+          <img src="/image/support/faq/videoq12_18.jpg" alt="" style="display:block;" width="358" height="273" />IR reflection caused by fogging of the cover<br>
+          <img src="/image/support/faq/videoq12_19.jpg" alt="" style="display:block;" width="358" height="273" />
+        </li>
+        <li>
+          Istherubberringaroundthelensflushagainsttheinsidesurfaceofthe cover? A rubber ring is used to seal the area of the cover directly in front of the lens from light emanating from the LEDs surrounding the lens. The seal may be lost after a user adjusts a variable-focus lens. If this rubber ring is not flush against the inside cover surface, light may leak in and cause IR reflection. If it is flush against the cover, the ring will be slightly compressed due to pressure. Refer to the following figures, and see section "<a href="#27">Solving the problem - 7</a>" for instructions on how to fix the problem.<br>
+          <img src="/image/support/faq/videoq12_20.jpg" alt="" style="display:block;" width="358" height="273" /><br>
+          <img src="/image/support/faq/videoq12_21.jpg" alt="" style="display:block;" width="358" height="273" />
+        </li></ol><h4>Solving the problem</h4>
+       <p>This section describes fixes for the problems described in section "Possible causes of IR reflection"</p>
+       <ol><a name="21"></a><li>
+          Tighten the screws securing the cover to the body of the camera.<br>
+          <img src="/image/support/faq/videoq12_22.jpg" alt="" style="display:block;" width="358" height="273" /><br>
+          <img src="/image/support/faq/videoq12_23.jpg" alt="" style="display:block;" width="358" height="273" />
+        </li><a name="22"></a><li>
+          Tighten the screws on the camera body.<br>
+          <img src="/image/support/faq/videoq12_24.jpg" alt="" style="display:block;" width="358" height="273" /><br>
+          <img src="/image/support/faq/videoq12_25.jpg" alt="" style="display:block;" width="358" height="273" />
+        </li><a name="23"></a><li>
+          Clean the cover<ol>
+        <li>
+          Use compressed air to remove dust or other debris.<br>
+          <img src="/image/support/faq/videoq12_26.jpg" alt="" style="display:block;" width="358" height="273" />
+        </li>
+        <li>
+          Use an air gun with air compressor to remove dust or other debris<br>
+          <img src="/image/support/faq/videoq12_27.jpg" alt="" style="display:block;" width="358" height="273" /><br>
+          NOTE: Do not use clothing to clean the dome cover, as scratching may result. If the cover is scratched, please contact your vendor for a replacement.
+        </li>
+      </ol>
+      <a name="24"></a>
+    <li>
+      Adjusting the position of the camera may alleviate IR reflection. Otherwise, it may need to be moved away from the glass surface.
+    </li>
+    <a name="25"></a>
+    <li>
+      Covering the overhanging surface with a non-reflective material may help. Otherwise, the camera may need to be moved to another location.
+    </li>
+    <a name="26"></a>
+    <li>
+      Clear off any condensation on the inside or outside surface of the cover, and place a packet of silica gel desiccant inside the camera to absorb humidity<br>
+      Silica gel desiccant packet<br>
+      <img src="/image/support/faq/videoq12_28.jpg" alt="" style="display:block;" width="358" height="273" /><br>
+      Use double-sided adhesive tape to attach the desiccant packet to the inside of the camera<br>
+      <img src="/image/support/faq/videoq12_29.jpg" alt="" style="display:block;" width="358" height="273" />
+    </li>
+    <a name="27"></a>
+    <li>
+      Re-fit the rubber ring. Use the following steps to re-fit the rubber ring.<br><br>
+      <img src="/image/support/faq/videoq12_30.jpg" alt="" style="display:block;" width="358" height="273" />
+      <ol>
+        <li>
+          Loosen the screws on the circular base on which the IR LEDs are mounted<br>
+          <img src="/image/support/faq/videoq12_31.jpg" alt="" style="display:block;" width="358" height="273" />
+        </li>
+        <li>
+          Carefully remove the rubber ring<br>
+          <img src="/image/support/faq/videoq12_32.jpg" alt="" style="display:block;" width="358" height="273" />
+        </li>
+        <li>
+          Fit the rubber ring to the circular base again.<br>
+          <img src="/image/support/faq/videoq12_33.jpg" alt="" style="display:block;" width="358" height="273" />
+        </li>
+        <li>
+          Attach the base again with the screws.<br>
+          <img src="/image/support/faq/videoq12_34.jpg" alt="" style="display:block;" width="358" height="273" />If the problem persists, use a new rubber ring. If you do not have a new one available, contact your vendor for a replacement rubber ring.
+        </li>
+      </ol>
+    </li>
+    <a name="28"></a>
+    <li>
+      Adjust the black masks to the correct position.<br>
+      <img src="/image/support/faq/videoq12_35.jpg" alt="" style="display:block;" width="358" height="273" />
+    </li>
+    <a name="29"></a>
+    <li>
+      Use the tilt adjustment screw to adjust the tilt angle so that it is between 0°and 70°.<br>
+      <img src="/image/support/faq/videoq12_36.jpg" alt="" style="display:block;" width="358" height="273" />
+    </li>
+  </ol>
+  <h4>What to do if none of the fixes worked</h4>
+  <ol>
+    <li>
+      Take a snapshot of the video feed with the IR reflection visible.<br>
+      <img src="/image/support/faq/videoq12_37.jpg" alt="" style="display:block;" width="358" height="273" />
+    </li>
+    <li>Take a photo of the camera itself as it is installed on site.</li>
+    <li>Contact your vendor or our distributor for direct support.</li>
+  </ol>
+
+
+
+
+       </div>
+       <div class="div_clear_68"></div>
+       <div class="col-xs-1 col-md-2"></div>
+
+      </div>
+    </div>
+
+
+
+
+
+    <div class="container-fluid sia_pro_apply bg_blue_5">
+       <div class="row align_center">
+        <div class="col-sm-12">
+
+         <div class="div_clear_88"></div>
+         <h2 class="white font_size_238">Downloads</h2>
+         <div class="visible-xs hidden-sm hidden-md hidden-lg div_clear_28"></div>
+         <a href="http://download.vivotek.com/downloadfile/support/faq/videoq12.pdf" target="_blank"><br>
+          <img data-file-extension="PDF" data-src="/image/all/iconic/svg/smart/file.svg" class="iconic iconic-md iconic-size-lg white" alt="file"></a>
+         <div class="div_clear_18"></div>
+         </div>
+         <div class="div_clear_38"></div>
+         <div class="border_top_dot_w1_gray"></div>
+
+         <div class="div_clear_68"></div>
+         <div class="addthis_toolbox addthis_default_style addthis_32x32_style">
+          <a class="addthis_button_facebook"><i class="icon-fontello-facebook"></i></a>
+          <a class="addthis_button_twitter"><i class="icon-fontello-twitter"></i></a>
+          <a class="addthis_button_pinterest_share"><i class="icon-fontello-pinterest"></i></a>
+          <a class="addthis_button_linkedin"><i class="icon-fontello-linkedin"></i></a>
+          <a class="addthis_button_email"><i class="icon-fontello-at"></i></a>
+          <a class="addthis_button_qrfin"><i class="icon-fontello-qrcode"></i></a>
+          <a class="addthis_button_compact"><i class="icon-fontello-share"></i></a>
+         </div>
+         <div class="div_clear_38"></div>
+         <a href="videoqtop" class="gototop"><i class="icon-fontello-angle-up"></i></a>
+         <div class="div_clear_38"></div>
+        </div>
+       </div>
+    </div>
+    <!-- !CONTENT MAIN END -->
+
+
+
+
+ <!-- !JAVASCRIPT START -->
+ <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.1/jquery.min.js"></script>
+ <script>window.jQuery || document.write('<script src="js/jquery/jquery-1.10.1.min.js"><\/script>')</script>
+ <script src="../../js/bootstrap/bootstrap.min.js"></script>
+ <!-- !ICONIC 字型 START -->
+ <script src="../../js/iconic/iconic.min.js"></script>
+ <!-- !ICONIC 字型 END -->
+ <!-- !VU START -->
+ <script type="text/javascript"> 
+  adroll_adv_id = "Q5EVWUESQNFYTBVCGGOK6E"; 
+  adroll_pix_id = "QGLQD55G7ZGWLCEJ2KWV4X"; 
+  (function () {
+  var oldonload = window.onload; 
+  window.onload = function(){ 
+   __adroll_loaded=true; 
+   var scr = document.createElement("script"); 
+   var host = (("https:" == document.location.protocol) ? "https://s.adroll.com" : "http://a.adroll.com"); 
+   scr.setAttribute('async', 'true'); 
+   scr.type = "text/javascript"; 
+   scr.src = host + "/j/roundtrip.js"; 
+   ((document.getElementsByTagName('head') || [null])[0] || 
+    document.getElementsByTagName('script')[0].parentNode).appendChild(scr); 
+   if(oldonload){oldonload()}}; 
+  }()); 
+ </script>
+ <!-- !VU END -->
+ <!-- !GOOGLE-ANALYTICS START -->
+ <script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-1877002-1', 'auto');
+  ga('send', 'pageview');
+
+ </script>
+ <!-- !GOOGLE-ANALYTICS END -->
+ <!-- !JAVASCRIPT END -->
+
+
+
+</body>
+</html>
