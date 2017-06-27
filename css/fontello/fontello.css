@@ -1,0 +1,129 @@
+@font-face {
+  font-family: 'fontello';
+  src: url('../../fonts/fontello/font/fontello.eot?60278476');
+  src: url('../../fonts/fontello/font/fontello.eot?60278476#iefix') format('embedded-opentype'),
+       url('../../fonts/fontello/font/fontello.woff?60278476') format('woff'),
+       url('../../fonts/fontello/font/fontello.ttf?60278476') format('truetype'),
+       url('../../fonts/fontello/font/fontello.svg?60278476#fontello') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+/* Chrome hack: SVG is rendered more smooth in Windozze. 100% magic, uncomment if you need it. */
+/* Note, that will break hinting! In other OS-es font will be not as sharp as it could be */
+/*
+@media screen and (-webkit-min-device-pixel-ratio:0) {
+  @font-face {
+    font-family: 'fontello';
+    src: url('../font/fontello.svg?44062006#fontello') format('svg');
+  }
+}
+*/
+ 
+ [class^="icon-fontello-"]:before, [class*=" icon-fontello-"]:before {
+  font-family: "fontello";
+  font-style: normal;
+  font-weight: normal;
+  speak: none;
+ 
+  display: inline-block;
+  text-decoration: inherit;
+  width: 1em;
+  margin-right: .2em;
+  text-align: center;
+  /* opacity: .8; */
+ 
+  /* For safety - reset parent styles, that can break glyph codes*/
+  font-variant: normal;
+  text-transform: none;
+ 
+  /* fix buttons height, for twitter bootstrap */
+  line-height: 1em;
+ 
+  /* Animation center compensation - margins should be symmetric */
+  /* remove if not needed */
+  margin-left: .2em;
+ 
+  /* you can be more comfortable with increased icons size */
+  /* font-size: 120%; */
+ 
+  /* Font smoothing. That was taken from TWBS */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+ 
+  /* Uncomment for 3D effect */
+  /* text-shadow: 1px 1px 1px rgba(127, 127, 127, 0.3); */
+}
+ 
+.icon-fontello-print:before { content: '\e800'; } /* '' */
+.icon-fontello-vimeo:before { content: '\e801'; } /* '' */
+.icon-fontello-pinterest:before { content: '\e802'; } /* '' */
+.icon-fontello-linkedin:before { content: '\e803'; } /* '' */
+.icon-fontello-spin:before { content: '\e804'; } /* '' */
+.icon-fontello-youtube-2:before { content: '\e805'; } /* '' */
+.icon-fontello-mail:before { content: '\e806'; } /* '' */
+.icon-fontello-qrcode:before { content: '\e807'; } /* '' */
+.icon-fontello-facebook:before { content: '\e808'; } /* '' */
+.icon-fontello-file-archive:before { content: '\e809'; } /* '' */
+.icon-fontello-share:before { content: '\e80a'; } /* '' */
+.icon-fontello-youtube:before { content: '\e80b'; } /* '' */
+.icon-fontello-file-powerpoint:before { content: '\e80c'; } /* '' */
+.icon-fontello-file-excel:before { content: '\e80d'; } /* '' */
+.icon-fontello-location:before { content: '\e80e'; } /* '' */
+.icon-fontello-file-image:before { content: '\e80f'; } /* '' */
+.icon-fontello-download-cloud:before { content: '\e810'; } /* '' */
+.icon-fontello-file-video:before { content: '\e811'; } /* '' */
+.icon-fontello-thumbs-up:before { content: '\e812'; } /* '' */
+.icon-fontello-mobile:before { content: '\e813'; } /* '' */
+.icon-fontello-coffee:before { content: '\e814'; } /* '' */
+.icon-fontello-spin-2:before { content: '\e815'; } /* '' */
+.icon-fontello-home:before { content: '\e816'; } /* '' */
+.icon-fontello-file-pdf:before { content: '\e817'; } /* '' */
+.icon-fontello-window:before { content: '\e818'; } /* '' */
+.icon-fontello-twitter:before { content: '\e819'; } /* '' */
+.icon-fontello-gplus:before { content: '\e81a'; } /* '' */
+.icon-fontello-upload-cloud:before { content: '\e81b'; } /* '' */
+.icon-fontello-appstore:before { content: '\e81c'; } /* '' */
+.icon-fontello-doc-text:before { content: '\e81d'; } /* '' */
+.icon-fontello-google:before { content: '\e81e'; } /* '' */
+.icon-fontello-phone:before { content: '\e81f'; } /* '' */
+.icon-fontello-android:before { content: '\e820'; } /* '' */
+.icon-fontello-attention:before { content: '\e821'; } /* '' */
+.icon-fontello-comment-empty:before { content: '\e822'; } /* '' */
+.icon-fontello-calendar:before { content: '\e823'; } /* '' */
+.icon-fontello-instagram:before { content: '\e824'; } /* '' */
+.icon-fontello-flickr:before { content: '\e825'; } /* '' */
+.icon-fontello-file-code:before { content: '\e826'; } /* '' */
+.icon-fontello-address:before { content: '\e827'; } /* '' */
+.icon-fontello-videocam:before { content: '\e828'; } /* '' */
+.icon-fontello-angle-up:before { content: '\e829'; } /* '' */
+.icon-fontello-macstore:before { content: '\e82a'; } /* '' */
+.icon-fontello-article-alt:before { content: '\e82b'; } /* '' */
+.icon-fontello-na:before { content: '\e82c'; } /* '' */
+.icon-fontello-globe-inv:before { content: '\e82d'; } /* '' */
+.icon-fontello-globe-2:before { content: '\e82e'; } /* '' */
+.icon-fontello-dropbox:before { content: '\e82f'; } /* '' */
+.icon-fontello-plancast:before { content: '\e830'; } /* '' */
+.icon-fontello-paper-plane:before { content: '\e831'; } /* '' */
+.icon-fontello-edit:before { content: '\e832'; } /* '' */
+.icon-fontello-vcard:before { content: '\e833'; } /* '' */
+.icon-fontello-globe-3:before { content: '\e834'; } /* '' */
+.icon-fontello-star-empty:before { content: '\e835'; } /* '' */
+.icon-fontello-star:before { content: '\e836'; } /* '' */
+.icon-fontello-adult:before { content: '\e837'; } /* '' */
+.icon-fontello-comment:before { content: '\e838'; } /* '' */
+.icon-fontello-group:before { content: '\e83a'; } /* '' */
+.icon-fontello-attach:before { content: '\e83b'; } /* '' */
+.icon-fontello-money:before { content: '\e83c'; } /* '' */
+.icon-fontello-commerical-building:before { content: '\e83d'; } /* '' */
+.icon-fontello-address-book:before { content: '\e83e'; } /* '' */
+.icon-fontello-network:before { content: '\e83f'; } /* '' */
+.icon-fontello-quote-left:before { content: '\e840'; } /* '' */
+.icon-fontello-quote-right:before { content: '\e841'; } /* '' */
+.icon-fontello-address-book-alt:before { content: '\e842'; } /* '' */
+.icon-fontello-building:before { content: '\e844'; } /* '' */
+.icon-fontello-barcode:before { content: '\e845'; } /* '' */
+.icon-fontello-shop:before { content: '\e846'; } /* '' */
+.icon-fontello-cogs:before { content: '\e848'; } /* '' */
+.icon-fontello-info:before { content: '\e84a'; } /* '' */
+.icon-fontello-clock:before { content: '\e856'; } /* '' */
+.icon-fontello-at:before { content: '\e857'; } /* '' */

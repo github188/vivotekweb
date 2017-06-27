@@ -1,0 +1,625 @@
+<!DOCTYPE html>
+<html lang="en">
+<!--[if lt IE 7]><html class="no-js lt-ie9 lt-ie8 lt-ie7"><![endif]-->
+<!--[if IE 7]><html class="no-js lt-ie9 lt-ie8"><![endif]-->
+<!--[if IE 8]><html class="no-js lt-ie9"><![endif]-->
+<!--[if gt IE 8]><!--><html class="no-js"><!--<![endif]-->
+
+
+
+
+
+<head>
+ <meta charset="utf-8">
+ <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+ <title>Autodesk<sup>&reg;</sup> Revit<sup>&reg;</sup>:VIVOTEK Camera Families | 3D Software for Building Information Management (BIM)</title>
+ <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+ <meta name="description" content="VIVOTEK IP Camera Families are now available in Building Information Modeling (BIM) software Autodesk Revit.  Autodesk Revit is a single software application that supports a BIM workflow from concept to construction.  Users of Autodesk Revit can now use interactive 3D CAD VIVOTEK camera models directly in their building plans and incorporate VIVOTEK surveillance into their designs.  Everything from camera resolution to field of view to mounting options are addressed, ensuring full coverage is obtained through stunning 3D visualization.">
+ <meta name="keyword" content="vivotek, vms, professional video central management software,  vast, professional vms/cms software, video wall, unlimited number of cameras support">
+ <meta name="author" content="VIVOTEK">
+ <!-- SCHEMA.ORG MARKUP FOR FACEBOOK --> 
+ <meta property="og:title" content="Autodesk Revit: VIVOTEK Camera Families | 3D Software for Building Information Management (BIM)" >
+ <meta property="og:url" content="http://www.vivotek.com/autodesk_revit/">
+ <meta property="og:image" content="http://www.vivotek.com/image/products/banner/autodesk_seek.jpg">
+ <meta property="og:description" content="VIVOTEK IP Camera Families are now available in Building Information Modeling (BIM) software Autodesk Revit.  Autodesk Revit is a single software application that supports a BIM workflow from concept to construction.  Users of Autodesk Revit can now use interactive 3D CAD VIVOTEK camera models directly in their building plans and incorporate VIVOTEK surveillance into their designs.  Everything from camera resolution to field of view to mounting options are addressed, ensuring full coverage is obtained through stunning 3D visualization.">
+ <meta name="keyword" content="Autodesk Revit VIVOTEK Camera Families, 3D Software for Building Information Management (BIM)" >
+ <meta property="og:site_name" content="VIVOTEK"/>
+ <!-- TWITTER CARD DATA -->
+ <meta name="twitter:card" content="summary_large_image">
+ <meta name="twitter:site" content="@vivotek">
+ <meta name="twitter:creator" content="@vivotek">
+ <!-- OTHER OPEN GRAPH DATA --> 
+ <meta property="og:type" content="product" />
+ <link rel="stylesheet" href="/css/bootstrap.min.css">
+ <link rel="stylesheet" href="/css/bootstrap-theme.min.css">
+ <link rel="stylesheet" href="/css/fontello/fontello.min.css">
+ <link rel="stylesheet" href="/css/fontello/animation.css">
+ <link rel="stylesheet" href="/css/jplist/styles.min.css">
+ <link rel="stylesheet" href="/css/jplist/jplist.min.css">
+ <link rel="stylesheet" href="/css/rus/jquery.tosrus.all.css">
+ <link rel="stylesheet" href="/css/mgmenu_universal/mgmenu.min.css">
+ <link rel="stylesheet" href="/css/zozotabs/zozo.tabs.min.css">
+ <link rel="stylesheet" href="/css/zozotabs/zozo.tabs.flat.min.css">
+ <link rel="stylesheet" href="/css/vivotek.min.css">
+ <style type="text/css">
+ .jplist-grid-view .list-item .block .dl_btn { display: block; height: 3.8em;}
+ 
+ img {
+  margin-bottom: 30px;
+ }
+
+ h4 {
+  padding-bottom: 15px;
+ }
+
+ .horizontal_pic {
+  float: left;
+ }
+
+ </style>
+ <!--[if lt IE 9]>
+  <link rel="stylesheet" href="/image/all/iconic/font/css/iconic-glyphs-legacy.css">
+ <![endif]-->
+ <script src="http://www.google-analytics.com/ga.js"></script>
+ <script src="/js/modernizr/modernizr-2.6.2-respond-1.1.0.min.js"></script>
+ <!-- BROWSER FAVICON -->
+ <link rel="icon" href="image/all/VIVOTEK_icon.ico">
+ <!-- iPad RETINA -->
+ <link rel="apple-touch-icon-precomposed" sizes="144x144" href="image/all/VIVOTEK_icon_ipad_r.png">
+ <!-- iPhone RETINA -->
+ <link rel="apple-touch-icon-precomposed" sizes="114x114" href="image/all/VIVOTEK_icon_iphone_r.png">
+ <!-- iPad -->
+ <link rel="apple-touch-icon-precomposed" sizes="72x72" href="image/all/VIVOTEK_icon_ipad.png">
+ <!-- iPhone -->
+ <link rel="apple-touch-icon-precomposed" sizes="57x57" href="image/all/VIVOTEK_icon_iphone.png">
+</head>
+
+
+
+
+<body class="homebody">
+<!--[if lt IE 7]>
+<p class="chromeframe">
+You are using an <strong>outdated</strong>
+browser. Please
+<a href="http://browsehappy.com/">upgrade your browser</a>
+or
+<a href="http://www.google.com/chromeframe/?redirect=true">activate Google Chrome Frame</a>
+to improve your experience.
+</p>
+<![endif]-->
+
+
+
+
+
+ <!-- NAV MEGA MENU START -->
+ <div class="navbar navbar-static-top vivotek_home_navbar" role="navigation">
+ <!--  <div class="navbar navbar-default navbar-static-top vivotek_home_navbar" role="navigation"> -->
+
+
+
+ <!-- !LOGO AND LANGUAGE START -->
+ <a name="top"></a>
+  <div class="container-fluid bg_white">
+   <div class="row">
+
+    <div class="col-xs-0 col-sm-0 col-md-0 col-lg-1"></div>
+    <div class="col-xs-10 col-sm-10 col-md-9 col-lg-8"><div class="div_clear_8"></div><a href="http://www.vivotek.com/" target="_self"><img src="/image/all/VIVOTEK_logo.svg" class="vivotek_logoimg" /></a><div class="div_clear_8"></div></div>
+       
+
+    <!-- <div class="col-xs-2 col-sm-2 col-md-2 col-lg-2">
+     <div class="div_clear_1_68"></div>
+     <div class="btn-group pull-right vivotek_lang">
+      <h1 class="sr-only">Language Navigation</h1>
+      <nav>
+      <button type="button" class="btn btn-default dropdown-toggle vivotek_nav_dropdown-toggle" data-toggle="dropdown">
+       <i class="icon-fontello-globe-3 blue font_size_138"></i>
+       <span class="caret"></span>
+      </button>
+      <ul class="dropdown-menu vivotek_lang_dropdown-menu">
+       <li>
+        <a target="_self" href="/ip8362/" class="active">
+        <h1>English</h1>
+        </a>
+       </li>
+       <li>
+        <a target="_self" href="/de/ip8362/">
+        <h1>Deutsch</h1>
+        </a>
+       </li>
+       <li>
+        <a target="_self" href="/es/ip8362/">
+        <h1>Español</h1>
+        </a>
+       </li>
+       <li>
+        <a target="_self" href="/fr/ip8362/">
+        <h1>Français</h1>
+        </a>
+       </li>
+       <li>
+        <a target="_self" href="/jp/ip8362/">
+        <h1>日本語</h1>
+        </a>
+       </li>
+       <li>
+        <a target="_self" href="/pt/ip8362/">
+        <h1>Português</h1>
+        </a>
+       </li>
+       <li>
+        <a target="_self" href="/ru/ip8362/">
+        <h1>Русский</h1>
+        </a>
+       </li>
+       <li>
+        <a target="_self" href="/tw/ip8362/">
+        <h1>繁體中文</h1>
+        </a>
+       </li>
+       <li>
+        <a target="_self" href="/cn/ip8362/">
+        <h1>简体中文</h1>
+        </a>
+       </li>
+      </ul>
+     </nav>
+     </div>
+    </div> -->
+
+
+    <div class="col-xs-0 col-sm-0 col-md-1 col-lg-1"></div>
+
+   </div>
+ </div>
+ <!-- !LOGO AND LANGUAGE END -->
+
+
+
+   </div>
+  </div>
+  <!-- NAV MEGA MENU CONTAINER END -->   
+
+
+
+ </div>
+ <!-- NAV MEGA MENU END -->
+
+
+
+
+
+ <!-- !CONTENT MAIN START -->
+ <div class="container">
+  <div class="row">
+  <div class="col-md-12">
+    <h1 class="pro_head">Autodesk<sup>&reg;</sup> Revit<sup>&reg;</sup>:VIVOTEK Camera Families | 3D Software for Building Information Management (BIM)</h1>
+    <img src="/image/products/banner/autodesk_revit_banner.jpg" alt="Autodesk Revit Banner" class="width_100">
+  </div>
+
+  <!-- ZOZO TABS START -->
+  <div id="tabbed-nav" class="pro">
+    <ul>
+      <li data-link="overview"><a>Overview</a></li>
+      <!-- <li data-link="steps"><a>Steps</a></li> -->
+      <li data-link="ui"><a>UI</a></li>
+      <!-- <li data-link="specifications"><a>Specifications</a></li> -->
+      <!-- <li data-link="system"><a>System Requirements</a></li> -->
+      <!-- <li data-link="video"><a>Video</a></li> -->
+      <!-- <li data-link="bandwidth"><a>Bandwidth Calculator</a></li> -->
+      <li data-link="downloads"><a>Downloads</a></li>
+      <!-- <li data-link="others"><a>Others</a></li> -->
+      <!-- <li data-link="success"><a>Success Stories</a></li> -->
+    </ul>
+
+    <!-- OVERVIEW TAB START -->
+    <div>
+      <div class="row">
+        <div class="col-md-1"></div>
+        <div class="col-md-10">
+          <h3>Overview</h3>
+          <p class="t84">VIVOTEK IP Camera Families are now available in Building Information Modeling (BIM) software Autodesk Revit.  Autodesk Revit is a single software application that supports a BIM workflow from concept to construction.  Users of Autodesk Revit can now use interactive 3D CAD VIVOTEK camera models directly in their building plans and incorporate VIVOTEK surveillance into their designs.  Everything from camera resolution to field of view to mounting options are addressed, ensuring full coverage is obtained through stunning 3D visualization.</p>
+
+          <div class="div_clear_8"></div>
+
+          <h3>Provided Capabilities</h3>
+          <ul class="pro_ul_t84">
+            <li>3D Design Visualization</li>
+            <li>Focal Length Adjustments for Targeted H-FOV/V-FOV</li>
+            <li>Object Range, Camera Resolution, Camera Position, and Camera Angle Adjustments</li>
+            <li>Choose Mounting Options</li>
+          </ul>
+
+          <div class="div_clear_8"></div>
+
+          <h3>Features</h3>
+          <ul class="pro_ul_t84">
+            <li>Increased Efficiency </li>
+            <li>Ensure Full Surveillance Coverage</li>
+            <li>Save, Print, Collaborate, and Export in Autodesk</li>
+          </ul>
+
+          <div class="div_clear_8"></div>
+
+          <h3>System Requirements &nbsp;
+            <a href="https://knowledge.autodesk.com/support/revit-products/troubleshooting/caas/sfdcarticles/sfdcarticles/System-requirements-for-Autodesk-Revit-2017-products.html" target="_blank">
+              <button type="button" class="btn btn-info btm-sm">
+                <span class="glyphicon glyphicon-arrow-right" aria-hidden="true"></span>
+              </button>
+            </a>        
+          </h3>
+          <div class="div_clear_38"></div>
+        </div>
+        <div class="col-md-1"></div>
+      </div>
+    </div>
+    <!-- OVERVIEW TAB END -->
+
+    <!-- UI TAB START -->
+    <div>
+        <div class="row">
+          <div class="col-md-1"></div>
+          <div class="col-md-10">
+            <div id="vivocam_ui" class="rus_thumbs">
+                <li style="color:#1587CD;list-style:disc;margin-bottom:0px;">
+                  <h4 class="mar_b_0" style="color:#1587CD;">VIVOTEK Devices Illustration</h4>
+                </li>
+                <img src="/image/products/others/autodesk_devices_illustration1.jpg" alt="Devices Illustration1" style="width:100%;height:100%;"/>                
+                <img src="/image/products/others/autodesk_devices_illustration2.jpg" alt="Devices Illustration2" style="width:100%;height:100%;"/>                
+                <img src="/image/products/others/autodesk_devices_illustration3.jpg" alt="Devices Illustration3" style="width:100%;height:100%;"/>
+                <div class="div_clear_38"></div>
+
+                <li style="color:#1587CD;list-style:disc;margin-bottom:0px;">
+                  <h4 class="mar_b_0" style="color:#1587CD;">3D View of VIVOTEK Camera on Autodesk&reg; Revit&reg;</h4>
+                </li>
+                <img src="/image/products/others/autodesk_3d_view1.jpg" alt="3D View1" style="width:100%;height:100%;"/>
+                <img src="/image/products/others/autodesk_3d_view2.jpg" alt="3D View2" class="horizontal_pic" style="width:49%;height:49%;margin-right: 18px;"/>
+                <img src="/image/products/others/autodesk_3d_view3.jpg" alt="3D View3" class="horizontal_pic" style="width:49%;height:49%;"/>
+                <div class="div_clear_38"></div>
+
+                <li style="color:#1587CD;list-style:disc;margin-bottom:0px;">
+                  <h4 class="mar_b_0" style="color:#1587CD;">3D View of VIVOTEK Camera on Autodesk&reg; Revit&reg; (with F.O.V.)</h4>
+                </li>
+                <img src="/image/products/others/autodesk_3d_view_fov1.jpg" alt="3D View (with F.O.V.)" class="horizontal_pic" style="width:49%;height:49%;margin-right: 18px;"/>
+                <img src="/image/products/others/autodesk_3d_view_fov2.jpg" alt="3D View (with F.O.V.)" class="horizontal_pic" style="width:49%;height:49%;"/>
+            </div>
+
+          </div>
+          <div class="col-md-1"></div>
+        </div>
+      </div>
+    <!-- UI TAB END -->
+
+    <!-- DOWNLOAD TAB START -->
+    <div>
+      <div class="row">
+        <div class="col-md-12">
+          <h3>Downloads</h3>
+          <p>VIVOTEK Camera Families are available for download free from Autodesk Seek.  Once downloaded, load the VIVOTEK cameras into Autodesk Revit.</p>
+          
+          <!-- JPLIST TABLE START -->
+          <div id="demodl" class="box jplist">
+            <!-- FILTER PANEL START -->
+            <div class="jplist-panel box panel-top">
+              <div 
+                class="jplist-views" 
+                data-control-type="views" 
+                data-control-name="views" 
+                data-control-action="views"
+                data-default="jplist-grid-view"
+                style="display:none;">
+                <button type="button" class="jplist-view jplist-list-view" data-type="jplist-list-view"></button>
+                <button type="button" class="jplist-view jplist-grid-view" data-type="jplist-grid-view"></button>
+                <button type="button" class="jplist-view jplist-thumbs-view" data-type="jplist-thumbs-view"></button>
+              </div>
+            </div>
+            <!-- FILTER PANEL END -->
+            <!-- DATA START -->
+            <div class="list box text-shadow jplist_tbale_area jplist_tbale_pro">
+
+             <!-- SOFTWARE -->
+              <div class="list-item box">
+                <div class="img"><img data-file-extension="SOFT" data-src="/image/all/iconic/svg/smart/file.svg" class="iconic iconic-md iconic-size-lg" alt="file"></div>
+                <div class="block">
+                  <h1 class="jplist_dl_title"></h1>
+                  <div class="dl_btn">
+                    <a href="http://download.vivotek.com/downloadfile/downloads/software/ipvsdt.zip" target="_blank" class="btn btn-default btn-sm mar_t_068">Ver.8.1</a>
+                   <!--  <a href="http://download.vivotek.com/downloadfile/downloads/software/vast_playback.zip" target="_blank" class="btn btn-default btn-xs">Playback 1.10.0.202</a>
+                    <a href="http://download.vivotek.com/downloadfile/downloads/software/vast_lveclient.zip" target="_blank" class="btn btn-default btn-xs">LiveClient 1.10.0.202</a>
+                    <a href="http://download.vivotek.com/downloadfile/downloads/software/vast_matrix.zip" target="_blank" class="btn btn-default btn-xs">Matrix 1.10.0.202</a> -->
+                  </div>
+                  <div class="div_clear_18"></div>
+                </div>
+              </div>
+
+               <!-- MANUAL -->
+              <!-- <div class="list-item box">
+                <div class="img"><img data-file-extension="Man" data-src="/image/all/iconic/svg/smart/file.svg" class="iconic iconic-md iconic-size-lg" alt="file"></div>
+                <div class="block">
+                  <h1 class="jplist_dl_title">User's Manual</h1>
+                  <div class="dl_btn">
+                    <a href="http://download.vivotek.com/downloadfile/downloads/usersmanuals/ipvsdtmanual_en.pdf" target="_blank" class="btn btn-default btn-sm">Download</a>
+                  </div>
+                  <div class="div_clear_18"></div>
+                </div>
+              </div> -->
+
+            </div>
+            <!-- DATA END -->
+          </div>
+          <!-- JPLIST TABLE END -->
+        </div>
+      </div>
+    </div>
+    <!-- DOWNLOAD TAB END -->
+
+   </div>
+   <!-- ZOZO TABS END -->
+
+      <div class="container-fluid sia_pro_apply">
+       <div class="row align_center">
+        <div class="col-sm-12">
+         <div class="border_top_dot_w1_gray"></div>
+         <div class="div_clear_68"></div>
+         <div class="addthis_toolbox addthis_default_style addthis_32x32_style pro">
+          <a class="addthis_button_facebook pro"><i class="icon-fontello-facebook"></i></a>
+          <a class="addthis_button_twitter pro"><i class="icon-fontello-twitter"></i></a>
+          <a class="addthis_button_pinterest_share pro"><i class="icon-fontello-pinterest"></i></a>
+          <a class="addthis_button_linkedin pro"><i class="icon-fontello-linkedin"></i></a>
+          <a class="addthis_button_email pro"><i class="icon-fontello-at"></i></a>
+          <a class="addthis_button_qrfin pro"><i class="icon-fontello-qrcode"></i></a>
+          <a class="addthis_button_compact pro"><i class="icon-fontello-share"></i></a>
+         </div>
+         <div class="div_clear_38"></div>
+         <a href="#top" class="gototop pro"><i class="icon-fontello-angle-up"></i></a>
+         <div class="div_clear_38"></div>
+        </div>
+       </div>
+      </div>
+
+  </div>
+ </div>
+ <!-- !CONTENT MAIN END -->
+
+ <!-- !FOOTER START -->
+ <footer>
+ 
+ <!-- !FOOTER NAV START -->
+ <div class="jumbotron vivotek_footer_jumbotron">
+  <div class="container">
+  
+   <div class="row">
+   
+   <!-- Sitelink starts -->
+   <!-- !FOOTER SUB NAV START -->
+   <h1 class="sr-only">Sub Navigation</h1>
+   <nav>
+   <ul class="col-sm-12 col-md-8 nav nav-pills vivotek_footer_nav">
+    <li class="dropup">
+     <a href="/about-vivotek/" class="dropdown-toggle" data-toggle="dropdown"><h1>About VIVOTEK <b class="caret"></b></h1></a>
+     <ul class="dropdown-menu vivotek_footer_nav-dropdown-menu">
+     <li><a href="/about-vivotek/" target="_self"><h2>Overview</h2></a></li>
+     <li><a href="/milestones/" target="_self"><h2>Milestone</h2></a></li>
+     <li><a href="/awards/" target="_self"><h2>Awards</h2></a></li>
+     <li><a href="http://green.vivotek.com/" target="_blank"><h2>Green VIVOTEK</h2></a></li>
+     <li><a href="/patent/" target="_self"><h2>Patent</h2></a></li>
+     <li><a href="/privacy/" target="_self"><h2>Privacy Policy</h2></a></li>
+     </ul>
+    </li>
+    <li class="dropup">
+     <a href="/news/" class="dropdown-toggle" data-toggle="dropdown"><h1>Pressroom <b class="caret"></b></h1></a>
+     <ul class="dropdown-menu vivotek_footer_nav-dropdown-menu">
+     <li><a href="/news/" target="_self"><h2>News</h2></a></li>
+     <li><a href="/success-stories/" target="_self"><h2>Success Stories</h2></a></li>
+     <li><a href="/e-newsletters/" target="_self"><h2>E-Newsletters</h2></a></li>
+     </ul>
+    </li>
+    <li><a href="/event/" target="_self"><h1>Events</h1></a></li>
+    <li><a href="/careers/" target="_self"><h1>Career</h1></a></li>
+    <li><a href="/tw/投資人園地/" target="_self"><h1>Investors</h1></a></li>
+    <li><a href="/contact/" target="_self"><h1>Contact Us</h1></a></li>
+    <li><a href="/sitemap/" target="_self"><h1>Site Map</h1></a></li>
+    <!-- <li><a href="http://www.vivotek.com/profile/" target="_self">My Profile</a></li> -->
+   </ul>
+   </nav>
+   <!-- !FOOTER SUB NAV END -->
+  
+   <!-- !FOOTER SOCIAL MEDIA START -->
+   <h1 class="sr-only">VIVOTEK @ Social Media</h1>
+   <nav>
+   <ul class="col-sm-12 col-md-4 list-unstyled list-inline tooltips vivotek_footer_social">
+    <li id="enews"><a href="/e-newsletters/" data-toggle="tooltip" data-placement="bottom" title="" data-original-title="Subscribe eNews" target="_blank"><i class="ss-icon">&#xF652;</i><span class="sr-only"><h1>Subscribe Monthly eNews</h1></span></a></li>
+    <li id="youtube"><a href="http://www.youtube.com/user/vivotekweb/" data-toggle="tooltip" data-placement="top" title="" data-original-title="VIVOTEK @ YouTube" target="_blank"><i class="ss-icon">&#xF630;</i><span class="sr-only"><h1>VIVOTEK @ YouTube</h1></span></a></li>
+    <li id="facebook"><a href="http://www.facebook.com/VIVOTEK/" data-toggle="tooltip" data-placement="bottom" title="" data-original-title="Follow VIVOTEK @ Facebook" target="_blank"><i class="ss-icon">&#xF610;</i><span class="sr-only"><h1>Follow VIVOTEK @ Facebook</h1></span></a></li>
+    <li id="twitter"><a href="http://twitter.com/vivotek/" data-toggle="tooltip" data-placement="top" title="" data-original-title="Follow VIVOTEK's Tweets" target="_blank"><i class="ss-icon">&#xF611;</i><span class="sr-only"><h1>Follow VIVOTEK's Tweets</h1></span></a></li>
+   </ul>
+   </nav>
+   <!-- !FOOTER SOCIAL MEDIA END -->
+   <!-- Sitelink ends -->
+  
+   </div>
+  
+  </div>
+ </div>
+ <!-- !FOOTER NAV END -->
+ 
+ <!-- !FOOTER BOTTOM END -->
+ <div class="container vivotek_footer_copyright_container">
+ 
+  <div class="row">
+
+  <!-- !FOOTER EMC START -->
+  <!-- <h1 class="sr-only">VIVOTEK Quality Certification</h1>
+  <section>
+   <img src="/image/homepage/emc.png" alt="VIVOTEK Quality Certification" class="col-sm-12 col-md-4 pull-right vivotek_footer_emc">
+   <ul class="sr-only">
+    <li><h1>FCC</h1></li>
+    <li><h1>CE</h1></li>
+    <li><h1>TL9000</h1></li>
+    <li><h1>TUV</h1></li>
+    <li><h1>RoHS</h1></li>
+    <li><h1>IEC</h1></li>
+    <li><h1>IECQ</h1></li>
+   </ul>
+  </section> -->
+  <!-- !FOOTER EMC END -->
+  <!-- !FOOTER COPYRIGHT START -->
+  <h1 class="sr-only">Copyright</h1>
+  <section>
+   <h2 class="col-sm-12 col-md-8 vivotek_footer_copyright">Copyright &copy; VIVOTEK Inc. All rights reserved.</h2>
+  </section>
+  <!-- !FOOTER OVER START -->
+  
+  </div>
+ 
+ </div>
+ <!-- !FOOTER BOTTOM END -->
+ 
+ </footer>
+ <!-- !FOOTER END -->
+
+
+
+
+
+ <!-- !JAVASCRIPT START -->
+ <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.1/jquery.min.js"></script>
+ <script>window.jQuery || document.write('<script src="/js/jquery/jquery-1.10.1.min.js"><\/script>')</script>
+ <script src="/js/bootstrap/bootstrap.min.js"></script>
+ <script src="/js/bootstrap/application.min.js"></script>
+ <script src="http://cdnjs.cloudflare.com/ajax/libs/jquery-throttle-debounce/1.1/jquery.ba-throttle-debounce.min.js"></script>
+ <script src="/js/bootstrap/h.min.js"></script>
+ <script src="/js/bootstrap/highlight.min.js"></script>
+ <script src="/js/bootstrap/holder.min.js"></script>
+ <script src="/js/bootstrap/jquery.min.js"></script>
+ <!-- !ICONIC 字型 START -->
+ <script src="/js/iconic/iconic.min.js"></script>
+ <!-- !ICONIC 字型 END -->
+ <!-- !ZOZOTABS JAVASCRIPT START -->
+ <script src="/js/zozotabs/zozo.tabs.min.js"></script>
+ <script>
+  jQuery(document).ready(function ($) {
+    $("#tabbed-nav").zozoTabs({
+      bordered:false,
+      deeplinking: true,
+      defaultTab: "overview",
+      position: "top-compact",
+      rounded: false,
+      spaced: true,
+      style: "clean",
+      theme: "flat-alizarin",
+      animation: {
+        easing: "easeInOutExpo",
+        duration: 600,
+        effects: "slideH"
+      },
+      size:"large"
+    });
+  });
+ </script>
+ <!-- !ZOZOTABS JAVASCRIPT END -->
+ <!-- !JPLIST 表格篩選 START -->
+ <script src="/js/jplist/jplist.min.js"></script>
+ <script>
+  $('document').ready(function(){
+   $('#demoover').jplist({
+    itemsBox: '.list' 
+    ,itemPath: '.list-item' 
+    ,panelPath: '.jplist-panel'
+    ,deepLinking: true
+    ,'views':{
+    className: 'Views'
+    ,options: {}
+    }
+   });
+   $('#demodl').jplist({
+    itemsBox: '.list' 
+    ,itemPath: '.list-item' 
+    ,panelPath: '.jplist-panel'
+    ,deepLinking: true
+    ,'views':{
+    className: 'Views'
+    ,options: {}
+    }
+   });
+   $('#demoacc').jplist({
+    itemsBox: '.list' 
+    ,itemPath: '.list-item' 
+    ,panelPath: '.jplist-panel'
+    ,deepLinking: true
+    ,'views':{
+    className: 'Views'
+    ,options: {}
+    }
+   });
+   $('#demopoe').jplist({
+    itemsBox: '.list' 
+    ,itemPath: '.list-item' 
+    ,panelPath: '.jplist-panel'
+    ,deepLinking: true
+    ,'views':{
+    className: 'Views'
+    ,options: {}
+    }
+   });
+   $('#demosuccess').jplist({
+    itemsBox: '.list' 
+    ,itemPath: '.list-item' 
+    ,panelPath: '.jplist-panel'
+    ,deepLinking: true
+    ,'views':{
+    className: 'Views'
+    ,options: {}
+    }
+   });
+  });
+ </script>
+ <!-- !JPLIST 表格篩選 END -->
+ <!-- !模糊背景圖 START -->
+ <script src="/js/bg_blue_scroll/bg_blue_scroll_successstories_style_7.js"></script>
+ <!-- !模糊背景圖 END -->
+ <!-- SHART - ADD THIS TOOL START -->
+ <script type="text/javascript" src="//s7.addthis.com/js/300/addthis_widget.js#pubid=vivotekweb" async></script>
+ <!-- SHART - ADD THIS TOOL END -->
+ <!-- !VU START -->
+ <script type="text/javascript"> 
+  adroll_adv_id = "Q5EVWUESQNFYTBVCGGOK6E"; 
+  adroll_pix_id = "QGLQD55G7ZGWLCEJ2KWV4X"; 
+  (function () {
+  var oldonload = window.onload; 
+  window.onload = function(){ 
+   __adroll_loaded=true; 
+   var scr = document.createElement("script"); 
+   var host = (("https:" == document.location.protocol) ? "https://s.adroll.com" : "http://a.adroll.com"); 
+   scr.setAttribute('async', 'true'); 
+   scr.type = "text/javascript"; 
+   scr.src = host + "/j/roundtrip.js"; 
+   ((document.getElementsByTagName('head') || [null])[0] || 
+    document.getElementsByTagName('script')[0].parentNode).appendChild(scr); 
+   if(oldonload){oldonload()}}; 
+  }()); 
+ </script>
+ <!-- !VU END -->
+ <!-- !GOOGLE-ANALYTICS START -->
+ <script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-1877002-1', 'auto');
+  ga('set', 'contentGroup1', 'Products');
+  ga('set', 'contentGroup2', 'Software - VAST');
+  ga('set', 'contentGroup3', '1MP');
+  ga('set', 'contentGroup4', 'Indoor');
+  ga('send', 'pageview');
+
+ </script>
+ <!-- !GOOGLE-ANALYTICS END -->
+ <!-- !JAVASCRIPT END -->
+
+
+
+</body>
+</html>

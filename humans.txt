@@ -1,0 +1,25 @@
+VIVOTEK is built by a large team of engineers, designers, researchers, marketing specialist and others.
+
+/* Team */
+	Web Master: Sean Lin
+	Contact: linyuwei [at] vivotek.com
+	From: New Taipei City, Taiwan
+
+	MIS: Alan Liu
+
+	MIS: Stephen
+
+
+/* SITE */
+Last update: 2016
+
+Language: English
+                            
+Standards: HTML5, CSS3, JavaScript..etc
+                            
+Components: jQuery, etc.
+
+IDE: Sublime Text
+
+Framework: Bootstrap
+

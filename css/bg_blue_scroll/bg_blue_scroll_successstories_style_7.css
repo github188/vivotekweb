@@ -1,0 +1,137 @@
+/*body {
+  font-size: 14px;
+  font-family: Sans-Serif;
+}
+* {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+a {
+  text-decoration: none;
+}
+*/
+
+
+.blurimg {
+  position: relative;
+  width: 100%;
+  height: 440px;
+  z-index: -1;
+  top: 0;
+  left: 0;
+}
+
+.blurimg > div {
+  position: fixed;
+  width: 100%;
+  height: 440px;
+  background-repeat: no-repeat;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  background-size: cover;
+  background-position: center center;
+}
+
+.blur {
+  opacity: 0;
+  -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=0)";
+  filter: alpha(opacity=0);
+}
+
+.con {
+  height: 1300px;
+  background: #fff;
+  z-index: 1;
+  padding: 0px 20px;
+}
+
+.con div {
+  max-width: 600px;
+  margin: 0 auto;
+  padding-top: 40px;
+}
+
+
+
+
+
+
+
+
+/*successstories_style_7_banner {
+  z-index: 1;
+  position: absolute;
+  top: 0;
+  width: 100%;
+  padding: 0px 20px;
+}
+successstories_style_7_banner > div {
+  max-width: 600px;
+  margin: 0 auto;
+  padding-top: 150px;
+  height: 380px;
+  text-align: center;
+  color: White;
+}
+successstories_style_7_banner > div a {
+  font-size: 0.8em;
+  letter-spacing: 0.08em;
+  color: rgba(255,255,255,0.85);
+  line-height: 30px;
+  padding: 7px 14px;
+  border: 1px solid rgba(255,255,255,0.3);
+  -webkit-border-radius: 2em;
+  border-radius: 2em;
+  -webkit-transition: all 0.3s ease;
+  -moz-transition: all 0.3s ease;
+  -o-transition: all 0.3s ease;
+  -ms-transition: all 0.3s ease;
+  transition: all 0.3s ease;
+}
+successstories_style_7_banner > div a:hover {
+  background: #fff;
+  color: Gray;
+}
+successstories_style_7_banner p {
+  font-size: 1.5em;
+  margin-bottom: 0.7em;
+  font-family: Times New Roman;
+}
+h1 {
+  font-weight: 800;
+  font-size: 3.4em;
+  margin-bottom: 0.2em;
+}
+nav {
+  max-width: 600px;
+  margin: 0 auto;
+  height: 60px;
+  border-top: 1px rgba(255,255,255,0.35) solid;
+}
+nav ul li {
+  display: inline-block;
+  margin-right: 20px;
+}
+nav ul li a {
+  font-weight: 800;
+  font-size: 11px;
+  text-transform: uppercase;
+  letter-spacing: 0.2em;
+  color: rgba(255,255,255,0.5);
+  -webkit-transition: color 0.3s linear;
+  -moz-transition: color 0.3s linear;
+  -o-transition: color 0.3s linear;
+  -ms-transition: color 0.3s linear;
+  transition: color 0.3s linear;
+  line-height: 60px;
+  display: block;
+}
+nav ul li a.active {
+  -webkit-box-shadow: 0px -1px 0px #fff;
+  box-shadow: 0px -1px 0px #fff;
+}
+nav ul li a.active,
+nav ul li a:hover {
+  color: #fff;
+}*/
