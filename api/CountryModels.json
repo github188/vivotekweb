@@ -169,6 +169,22 @@
     "Type": "Products"
   },  
   {
+    "productName": "IB8360",
+    "Hide": true,
+    "CommingSoon": false,
+    "CountryUS": "US",
+    "CountryCA": "CA",
+    "Type": "Products"
+  },
+  {
+    "productName": "IB8360-W",
+    "Hide": true,
+    "CommingSoon": false,
+    "CountryUS": "US",
+    "CountryCA": "CA",
+    "Type": "Products"
+  },
+  {
     "productName": "IB8367",
     "Hide": true,
     "CommingSoon": false,
@@ -699,7 +715,31 @@
     "CountryUS": "US",
     "CountryCA": "CA",
     "Type": "Products"
-  },  
+  },
+  {
+    "productName": "SD9365-EHL",
+    "Hide": true,
+    "CommingSoon": false,
+    "CountryUS": "US",
+    "CountryCA": "CA",
+    "Type": "Products"
+  },
+  {
+    "productName": "SD9366-EH",
+    "Hide": true,
+    "CommingSoon": false,
+    "CountryUS": "US",
+    "CountryCA": "CA",
+    "Type": "Products"
+  },
+  {
+    "productName": "SD9366-EHL",
+    "Hide": true,
+    "CommingSoon": false,
+    "CountryUS": "US",
+    "CountryCA": "CA",
+    "Type": "Products"
+  },
   {
     "productName": "SC8131",
     "Hide": true,
@@ -989,6 +1029,14 @@
     "Type": "Menu"
   },
   {
+    "productName": "1-CH VS8100-v2",
+    "Hide": true,
+    "CommingSoon": false,
+    "CountryUS": "US",
+    "CountryCA": "CA",
+    "Type": "Menu"
+  },
+  {
     "productName": "Equipment Purchasing Section",
     "Hide": true,
     "CommingSoon": false,
@@ -1006,6 +1054,14 @@
   },
   {
     "productName": "VMS VAST 2",
+    "Hide": true,
+    "CommingSoon": false,
+    "CountryUS": "US",
+    "CountryCA": "CA",
+    "Type": "Menu"
+  },
+  {
+    "productName": "CaMateCM80 Series",
     "Hide": true,
     "CommingSoon": false,
     "CountryUS": "US",
