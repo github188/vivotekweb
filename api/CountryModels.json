@@ -515,6 +515,14 @@
     "Type": "Products"
   },
   {
+    "productName": "FD8366-V",
+    "Hide": true,
+    "CommingSoon": false,
+    "CountryUS": "US",
+    "CountryCA": "CA",
+    "Type": "Products"
+  },
+  {
     "productName": "FD8367-TV",
     "Hide": true,
     "CommingSoon": false,
@@ -741,6 +749,22 @@
     "Type": "Products"
   },
   {
+    "productName": "---",
+    "Hide": true,
+    "CommingSoon": false,
+    "CountryUS": "US",
+    "CountryCA": "CA",
+    "Type": "Products"
+  },
+  {
+    "productName": "SD9365/66 Kit",
+    "Hide": true,
+    "CommingSoon": false,
+    "CountryUS": "US",
+    "CountryCA": "CA",
+    "Type": "Products"
+  },
+  {
     "productName": "SC8131",
     "Hide": true,
     "CommingSoon": false,
@@ -848,6 +872,30 @@
     "productName": "AW-GET-126A-240",
     "Hide": false,
     "CommingSoon": true,
+    "CountryUS": "US",
+    "CountryCA": "CA",
+    "Type": "Products"
+  },
+  {
+    "productName": "AP-GIC-011A-060",
+    "Hide": true,
+    "CommingSoon": false,
+    "CountryUS": "US",
+    "CountryCA": "CA",
+    "Type": "Products"
+  },
+  {
+    "productName": "AP-GIC-011A-095",
+    "Hide": true,
+    "CommingSoon": false,
+    "CountryUS": "US",
+    "CountryCA": "CA",
+    "Type": "Products"
+  },
+  {
+    "productName": "AP-GIC-015B-095",
+    "Hide": true,
+    "CommingSoon": false,
     "CountryUS": "US",
     "CountryCA": "CA",
     "Type": "Products"
