@@ -58,7 +58,7 @@
   {
     "productName": "IP816A-LPC-v2 Kit",
     "Hide": false,
-    "CommingSoon": true,
+    "CommingSoon": false,
     "CountryUS": "US",
     "CountryCA": "CA",
     "Type": "Products",
@@ -178,8 +178,8 @@
   },
   {
     "productName": "IB8360-W",
-    "Hide": true,
-    "CommingSoon": false,
+    "Hide": false,
+    "CommingSoon": true,
     "CountryUS": "US",
     "CountryCA": "CA",
     "Type": "Products"
@@ -516,8 +516,8 @@
   },
   {
     "productName": "FD8366-V",
-    "Hide": true,
-    "CommingSoon": false,
+    "Hide": false,
+    "CommingSoon": true,
     "CountryUS": "US",
     "CountryCA": "CA",
     "Type": "Products"
@@ -661,7 +661,7 @@
   {
     "productName": "FE9182-H",
     "Hide": false,
-    "CommingSoon": true,
+    "CommingSoon": false,
     "CountryUS": "US",
     "CountryCA": "CA",
     "Type": "Products",
@@ -676,6 +676,22 @@
     "Type": "Products",
     "Soon": true,
     "New": true
+  },
+  {
+    "productName": "FE9191",
+    "Hide": true,
+    "CommingSoon": false,
+    "CountryUS": "US",
+    "CountryCA": "CA",
+    "Type": "Products"
+  },
+  {
+    "productName": "FE9391-EV",
+    "Hide": true,
+    "CommingSoon": false,
+    "CountryUS": "US",
+    "CountryCA": "CA",
+    "Type": "Products"
   },
   {
     "productName": "SD8161",
