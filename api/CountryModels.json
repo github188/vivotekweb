@@ -1,5 +1,13 @@
 [
   {
+    "productName": "CC8371-HV",
+    "Hide": true,
+    "CommingSoon": false,
+    "CountryUS": "US",
+    "CountryCA": "CA",
+    "Type": "Products"
+  },
+  {
     "productName": "IP8151",
     "Hide": true,
     "CommingSoon": false,
