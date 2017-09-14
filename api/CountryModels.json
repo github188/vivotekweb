@@ -314,6 +314,14 @@
     "removeNew": true
   },
   {
+    "productName": "MD8564-EH",
+    "Hide": true,
+    "CommingSoon": false,
+    "CountryUS": "US",
+    "CountryCA": "CA",
+    "Type": "Products"    
+  },
+  {
     "productName": "FD8134V",
     "Hide": true,
     "CommingSoon": false,
@@ -616,6 +624,13 @@
     "CommingSoon": false,
     "CountryUS": "US",
     "CountryCA": "CA",
+    "Type": "Products"
+  },
+  {
+    "productName": "FD8182-F1",
+    "Hide": true,
+    "CommingSoon": false,
+    "CountryUS": "TW",
     "Type": "Products"
   },
   {
