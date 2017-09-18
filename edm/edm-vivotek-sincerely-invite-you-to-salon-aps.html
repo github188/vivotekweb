@@ -1,0 +1,300 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <!-- utf-8 works for most cases -->
+    <meta name="viewport" content="width=device-width">
+    <!-- Forcing initial-scale shouldn't be necessary -->
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <!-- Use the latest (edge) version of IE rendering engine -->
+    <meta name="x-apple-disable-message-reformatting">
+    <!-- Disable auto-scale in iOS 10 Mail entirely -->
+    <title>VIVOTEK sincerely invite you to Salon APS | VIVOTEK</title>
+    <!-- The title tag shows in email notifications, like Android 4.4. -->
+
+    <!-- Web Font / @font-face : BEGIN -->
+    <!-- NOTE: If web fonts are not required, lines 10 - 27 can be safely removed. -->
+
+    <!-- Desktop Outlook chokes on web font references and defaults to Times New Roman, so we force a safe fallback font. -->
+    <!--[if mso]>
+		<style>
+			* {
+				font-family: sans-serif !important;
+			}
+		</style>
+	<![endif]-->
+
+    <!-- All other clients get the webfont reference; some will render the font and others will silently fail to the fallbacks. More on that here: http://stylecampaign.com/blog/2015/02/webfont-support-in-email/ -->
+    <!--[if !mso]><!-->
+    <!-- insert web font reference, eg: <link href='https://fonts.googleapis.com/css?family=Roboto:400,600' rel='stylesheet' type='text/css'> -->
+    <!--<![endif]-->
+
+    <!-- Web Font / @font-face : END -->
+
+    <!-- CSS Reset -->
+    <style>
+        /* What it does: Remove spaces around the email design added by some email clients. */
+        /* Beware: It can remove the padding / margin and add a background color to the compose a reply window. */        
+        html,
+        body {
+            margin: 15px auto !important;
+            padding: 0 !important;
+            height: 100% !important;
+            width: 100% !important;
+            font-family: 'Open Sans', 'Noto Sans', -apple-system, BlinkMacSystemFont, 'Century Gothic', CenturyGothic, 'Helvetica Neue', Helvetica, sans-serif;
+        }
+
+        /* What it does: Stops email clients resizing small text. */                
+        * {
+            -ms-text-size-adjust: 100%;
+            -webkit-text-size-adjust: 100%;
+        }
+
+        /* What it does: Centers email on Android 4.4 */        
+        div[style*="margin: 16px 0"] {
+            margin: 0 !important;
+        }
+
+        /* What it does: Stops Outlook from adding extra spacing to tables. */        
+        table,
+        td {
+            mso-table-lspace: 0pt !important;
+            mso-table-rspace: 0pt !important;
+        }
+
+        /* What it does: Fixes webkit padding issue. Fix for Yahoo mail table alignment bug. Applies table-layout to the first 2 tables then removes for anything nested deeper. */        
+        table {
+            border-spacing: 0 !important;
+            border-collapse: collapse !important;
+            table-layout: fixed !important;
+            margin: 0 auto !important;
+        }        
+        table table table {
+            table-layout: auto;
+        }
+
+        /* What it does: Uses a better rendering method when resizing images in IE. */        
+        img {
+            -ms-interpolation-mode: bicubic;
+        }
+
+        /* What it does: A work-around for iOS meddling in triggered links. */        
+        *[x-apple-data-detectors] {
+            color: inherit !important;
+            text-decoration: none !important;
+        }
+
+        /* What it does: A work-around for Gmail meddling in triggered links. */        
+        .x-gmail-data-detectors,
+        .x-gmail-data-detectors *,
+        .aBn {
+            border-bottom: 0 !important;
+            cursor: default !important;
+        }
+
+        /* What it does: Prevents Gmail from displaying an download button on large, non-linked images. */        
+        .a6S {
+            display: none !important;
+            opacity: 0.01 !important;
+        }
+
+        /* If the above doesn't work, add a .g-img class to any image in question. */        
+        img.g-img + div {
+            display: none !important;
+        }
+
+        /* What it does: Prevents underlining the button text in Windows 10 */        
+        .button-link {
+            text-decoration: none !important;
+        }
+
+        /* What it does: Removes right gutter in Gmail iOS app: https://github.com/TedGoas/Cerberus/issues/89  */
+        /* Create one of these media queries for each additional viewport size you'd like to fix */
+        /* Thanks to Eric Lepetit (@ericlepetitsf) for help troubleshooting */        
+        @media only screen and (min-device-width: 375px) and (max-device-width: 413px) {
+            /* iPhone 6 and 6+ */
+            .email-container {
+                min-width: 375px !important;
+            }
+            html,
+            body {
+                margin: 0 auto !important;
+            }
+        }
+        
+        .email-table tr td {
+            font-family: 'Open Sans', 'Noto Sans', -apple-system, BlinkMacSystemFont, 'Century Gothic', CenturyGothic, 'Helvetica Neue', Helvetica, sans-serif;
+        }
+    </style>
+
+    <!-- What it does: Makes background images in 72ppi Outlook render at correct size. -->
+    <!--[if gte mso 9]>
+	<xml>
+		<o:OfficeDocumentSettings>
+			<o:AllowPNG/>
+			<o:PixelsPerInch>96</o:PixelsPerInch>
+		</o:OfficeDocumentSettings>
+	</xml>
+	<![endif]-->
+
+    <!-- Progressive Enhancements -->
+    <style>
+        /* What it does: Hover styles for buttons */
+        
+        .button-td,
+        .button-a {
+            transition: all 100ms ease-in;
+        }
+        
+        .button-td:hover,
+        .button-a:hover {
+            background: #0074A9 !important;
+            border-color: #0074A9 !important;
+        }
+        /* Media Queries */
+        
+        @media screen and (max-width: 600px) {
+            .email-container,
+            .email-table {
+                width: 100% !important;
+                margin: auto !important;
+            }
+            /* What it does: Forces elements to resize to the full width of their container. Useful for resizing images beyond their max-width. */
+            .fluid {
+                max-width: 100% !important;
+                height: auto !important;
+                margin-left: auto !important;
+                margin-right: auto !important;
+            }
+            /* What it does: Forces table cells into full-width rows. */
+            .stack-column,
+            .stack-column-center {
+                display: block !important;
+                width: 100% !important;
+                max-width: 100% !important;
+                direction: ltr !important;
+            }
+            /* And center justify these ones. */
+            .stack-column-center {
+                text-align: center !important;
+            }
+            /* What it does: Generic utility class for centering. Useful for images, buttons, and nested tables. */
+            .center-on-narrow {
+                text-align: center !important;
+                display: block !important;
+                margin-left: auto !important;
+                margin-right: auto !important;
+                float: none !important;
+            }
+            table.center-on-narrow {
+                display: inline-block !important;
+            }
+            /* What it does: Adjust typography on small screens to improve readability */
+            h1 {
+                font-size: 18px !important;
+            }
+            h2,
+            .x-footer {
+                font-size: 12px !important;
+            }
+            .email-container p {
+                font-size: 12pt !important;
+                line-height: 26pt !important;
+            }
+            html,
+            body {
+                margin: 0 auto !important;
+            }
+
+        }
+        
+        @media screen and (max-width: 600px) {
+            .email-table tr td,
+            ul li,
+            ol li {
+                font-size: 12pt !important;
+                line-height: 26pt !important;
+            }
+        }
+    </style>
+
+</head>
+
+<body width="100%" bgcolor="#EFEFEF" style="margin: 0; mso-line-height-rule: exactly; background: #EFEFEF;">
+    <center style="width: 100%; background: #EFEFEF; text-align: left;">
+
+        <!-- Visually Hidden Preheader Text : BEGIN -->
+        <div style="display:none; font-size:1px; line-height:1px; max-height:0px; max-width:0px; opacity:0; overflow:hidden; mso-hide:all; font-family: 'Open Sans', 'Noto Sans', -apple-system, BlinkMacSystemFont, 'Century Gothic', CenturyGothic, 'Helvetica Neue', Helvetica, sans-serif;">
+            VIVOTEK sincerely invite you to Salon APS | VIVOTEK
+        </div>
+        <!-- Visually Hidden Preheader Text : END -->
+
+        <!-- Email Body : BEGIN -->
+        <table role="presentation" aria-hidden="true" cellspacing="0" cellpadding="0" border="0" align="center" width="600" style="margin: auto; background: #EFEFEF;" class="email-container">
+
+            <!-- Hero Image, Flush : BEGIN -->
+            <tr>
+                <td colspan="3" bgcolor="#ffffff">
+                    <a href="http://www.vivotek.com" target="_blank"><img src="http://www.vivotek.com/image/pressroom/edm/edm-vivotek-sincerely-invite-you-to-salon-aps.jpg" aria-hidden="true" width="600" height="" alt="VIVOTEK sincerely invite you to Salon APS" border="0" align="center" style="width: 100%; max-width: 600px; height: auto; background: #dddddd;" class="g-img">
+                    </a>
+                </td>
+            </tr>                  
+            <!-- Hero Image, Flush : END -->
+
+        </table>
+        <!-- Email Body : END -->
+
+        <!-- Email Footer : BEGIN -->
+        <table role="presentation" aria-hidden="true" cellspacing="0" cellpadding="0" border="0" align="center" width="600" style="margin: auto; background:#F6F6F6;" class="email-container">
+            <tr>
+                <td valign="top" class="hh-force-col" style="background:#F6F6F6; padding: 15px 0;">
+                    <p style="margin: 0; padding: 15px 10px; font-family: 'Open Sans', 'Noto Sans', -apple-system, BlinkMacSystemFont, 'Century Gothic', CenturyGothic, 'Helvetica Neue', Helvetica, sans-serif; font-size: 16px; line-height: 27px; color: #888888;font-weight: normal;" align="center">Connect with Us</p>
+                    <table cellspacing="0" cellpadding="0" border="0" align="center" style="margin: auto; background:#F6F6F6;" class="email-container">
+                        <tr>
+                            <td width="50"></td>
+                            <td width="50" style="padding: 5px 10px; text-align: center;">
+                                <a href="http://www.facebook.com/VIVOTEKGlobal/" target="_blank" title="Follow VIVOTEK on Facebook">
+                                    <img src="http://www.vivotek.com/image/pressroom/edm/facebook-logo-40-c.png" height="40" width="40" border="0" style="text-align: right; margin-left: 15px;" alt="Facebook">
+                                </a>
+                            </td>
+                            <td width="50" style="padding: 5px 10px; text-align: center;">
+                                <a href="http://twitter.com/vivotek/" target="_blank" title="Follow VIVOTEK on Twitter">
+                                    <img src="http://www.vivotek.com/image/pressroom/edm/twitter-logo-40-w-c.png" height="40" width="40" border="0" style="text-align: right; margin-left: 15px;" alt="Twitter">
+                                </a>
+                            </td>
+                            <td width="50" style="padding: 5px 10px; text-align: center;">
+                                <a href="http://www.youtube.com/user/vivotekweb/" target="_blank" title="Follow VIVOTEK on YouTube">
+                                    <img src="http://www.vivotek.com/image/pressroom/edm/youtube-logo-40-c.png" height="40" width="40" border="0" style="text-align: right; margin-left: 15px;" alt="YouTube">
+                                </a>
+                            </td>
+                            <td width="50"></td>
+                        </tr>
+                    </table>
+                </td>
+            </tr>
+
+            <tr>
+                <td style="padding: 15px 10px; width: 100%;font-size: 12px; font-family: 'Open Sans', 'Noto Sans', -apple-system, BlinkMacSystemFont, 'Century Gothic', CenturyGothic, 'Helvetica Neue', Helvetica, sans-serif; line-height:18px; color: #acacac;" class="x-gmail-data-detectors" align="center">
+                    <span class="x-footer">© 2017 VIVOTEK Inc., All Rights Reserved.<br><br>
+                        If you have any questions, please <a href="http://www.vivotek.com/contact/" target="_blank"><span style="color: #acacac;">contact us</span></a>.<br>
+                    <a href="http://www.vivotek.com/edm/edm-vivotek-sincerely-invite-you-to-salon-aps.html?utm_source=email&utm_campaign=edm-vivotek-sincerely-invite-you-to-salon-aps&utm_medium=email&utm_content=copy" target="_blank">
+                        <webversion>web version</webversion>
+                    </a>
+                    |
+                    <a href="http://www.vivotek.com/e-newsletters/?utm_source=email&utm_campaign=edm-vivotek-sincerely-invite-you-to-salon-aps&utm_medium=email&utm_content=subscribe" target="_blank">
+                        <span style="color: #acacac;">Subscribe to eNews</span>
+                    </a>
+                    |                    
+                        <span style="color: #acacac;"><unsubscribe>Unsubscribe</unsubscribe> to eNews</span>                    
+                    </span>
+                </td>
+            </tr>
+        </table>
+        <!-- Email Footer : END -->
+
+    </center>
+    <img src="http://www.google-analytics.com/collect?v=1&tid=UA-1876002-1&cid=en&t=event&ec=email&ea=open&el=recipient-id&cs=email&cm=email&cn=edm-vivotek-sincerely-invite-you-to-salon-aps" />
+</body>
+
+</html>
