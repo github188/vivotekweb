@@ -1,13 +1,5 @@
 [
   {
-    "productName": "CC8371-HV",
-    "Hide": true,
-    "CommingSoon": false,
-    "CountryUS": "US",
-    "CountryCA": "CA",
-    "Type": "Products"
-  },
-  {
     "productName": "IP8151",
     "Hide": true,
     "CommingSoon": false,
@@ -187,7 +179,7 @@
   {
     "productName": "IB8360-W",
     "Hide": false,
-    "CommingSoon": true,
+    "CommingSoon": false,
     "CountryUS": "US",
     "CountryCA": "CA",
     "Type": "Products"
@@ -307,7 +299,7 @@
   {
     "productName": "MD8565-N",
     "Hide": false,
-    "CommingSoon": true,
+    "CommingSoon": false,
     "CountryUS": "US",
     "CountryCA": "CA",
     "Type": "Products",
@@ -533,7 +525,7 @@
   {
     "productName": "FD8366-V",
     "Hide": false,
-    "CommingSoon": true,
+    "CommingSoon": false,
     "CountryUS": "US",
     "CountryCA": "CA",
     "Type": "Products"
@@ -628,10 +620,11 @@
   },
   {
     "productName": "FD8182-F1",
-    "Hide": true,
+    "Hide": false,
     "CommingSoon": false,
     "CountryUS": "TW",
-    "Type": "Products"
+    "Type": "Products",
+    "New": true
   },
   {
     "productName": "FD8372",
@@ -925,11 +918,12 @@
   },
   {
     "productName": "AP-GIC-011A-095",
-    "Hide": true,
+    "Hide": false,
     "CommingSoon": false,
     "CountryUS": "US",
     "CountryCA": "CA",
-    "Type": "Products"
+    "Type": "Products",
+    "New": true
   },
   {
     "productName": "AP-GIC-015B-095",
@@ -942,7 +936,7 @@
   {
     "productName": "AA-351",
     "Hide": false,
-    "CommingSoon": true,
+    "CommingSoon": false,
     "CountryUS": "US",
     "CountryCA": "CA",
     "Type": "Products"
@@ -950,7 +944,7 @@
   {
     "productName": "AA-352",
     "Hide": false,
-    "CommingSoon": true,
+    "CommingSoon": false,
     "CountryUS": "US",
     "CountryCA": "CA",
     "Type": "Products"
@@ -1116,8 +1110,16 @@
     "Type": "Menu"
   },
   {
-    "productName": "1-CH VS8100-v2",
+    "productName": "1-CH VS8100",
     "Hide": true,
+    "CommingSoon": false,
+    "CountryUS": "US",
+    "CountryCA": "CA",
+    "Type": "Menu"
+  },
+  {
+    "productName": "1-CH VS8100-v2",
+    "Hide": false,
     "CommingSoon": false,
     "CountryUS": "US",
     "CountryCA": "CA",

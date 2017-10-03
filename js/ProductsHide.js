@@ -95,12 +95,10 @@ function productsshide(maintype, pagetype) {
 								}
 							}
 							if (item.New == true) {
-								if (pagetype == "Products") {
-									var comingSpan = $(this).find('.h3.text-danger').text();
-									if (($(this).find('span').text().length <= 0) || comingSpan == "") {
-										var comsubobj = $(this).find("em");
-										comsubobj.append("<br><span class='new'>NEW</span>");
-									}
+								var comingSpan = $(this).find('.h3.text-danger').text();
+								if (($(this).find('span').text().length <= 0) || comingSpan == "") {
+									var comsubobj = $(this).find("em");
+									comsubobj.append("<br><span class='new'>NEW</span>");
 								}
 							}
 							if (item.removeNew == true) {
