@@ -3,6 +3,7 @@ Allow: /
 Disallow: /*.php$
 Disallow: /web/
 Disallow: /design-tool/
+Disallow: /support/faq/
 Disallow: /an-ip-surveillance-system-enabled-students-at-national-chi-nan-university-to-use-the-library-safely-and-effectively/
 Disallow: /brand-new-commercial-center-in-tehran-equips-itself-with-vivotek-surveillance-solutions/
 Disallow: /iran-premier-college-expands-security-systems-with-vivotek-solutions/
@@ -26,3 +27,7 @@ Disallow: /vivotek-preserves-canada-aboriginal-cultural-and-heritage-centre/
 Disallow: /vivotek-protects-melli-bank-and-the-wealth-of-islamic-world/
 Disallow: /vivotek-protects-the-mad-koosh-factory-in-iran/
 Disallow: /vivotek-secured-assan-motor-and-atlas-khodro-in-iran/
+Disallow: /where-to-buy/iran
+Disallow: /where-to-buy/cuba
+Disallow: /where-to-buy/sudan
+Disallow: /where-to-buy/syria
