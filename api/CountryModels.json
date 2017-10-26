@@ -297,6 +297,13 @@
     "Type": "Products"
   },
   {
+    "productName": "MD8562",
+    "Hide": true,
+    "CommingSoon": false,
+    "CountryTW": "TW",
+    "Type": "Products"
+  },
+  {
     "productName": "MD8565-N",
     "Hide": false,
     "CommingSoon": false,
@@ -420,8 +427,14 @@
     "productName": "FD8355EHV",
     "Hide": true,
     "CommingSoon": false,
-    "CountryUS": "US",
-    "CountryCA": "CA",
+    "CountryTW": "TW",
+    "Type": "Products"
+  },
+  {
+    "productName": "FD8355HV",
+    "Hide": true,
+    "CommingSoon": false,
+    "CountryTW": "TW",
     "Type": "Products"
   },
   {
@@ -842,6 +855,13 @@
     "CountryUS": "US",
     "CountryCA": "CA",
     "Type": "Products"
+  },
+  {
+    "productName": "IP8355H",
+    "Hide": true,
+    "CommingSoon": false,
+    "CountryTW": "TW",
+    "Type": "Products"
   },  
   {
     "productName": "IP8152",
@@ -1154,6 +1174,13 @@
     "CommingSoon": true,
     "CountryUS": "US",
     "CountryCA": "CA",
+    "Type": "Products"
+  },
+  {
+    "productName": "SR-64UXA/TR1",
+    "Hide": true,
+    "CommingSoon": false,
+    "CountryTW": "TW",
     "Type": "Products"
   },
   {

@@ -59,6 +59,18 @@
  <link rel="apple-touch-icon-precomposed" sizes="72x72" href="image/all/VIVOTEK_icon_ipad.png">
  <!-- iPhone -->
  <link rel="apple-touch-icon-precomposed" sizes="57x57" href="image/all/VIVOTEK_icon_iphone.png">
+ 
+ <!-- !JAVASCRIPT START -->
+ <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.1/jquery.min.js"></script>
+ <script>window.jQuery || document.write('<script src="/js/jquery/jquery-1.10.1.min.js"><\/script>')</script>
+ <script src="/js/bootstrap/bootstrap.min.js"></script>
+ <script src="/js/bootstrap/application.min.js"></script>
+ <script src="http://cdnjs.cloudflare.com/ajax/libs/jquery-throttle-debounce/1.1/jquery.ba-throttle-debounce.min.js"></script>
+ 
+ <script src="/js/bootstrap/highlight.min.js"></script>
+ <script src="/js/bootstrap/holder.min.js"></script>
+ <script src="/js/bootstrap/jquery.min.js"></script>
+
 	<!-- Google Tag Manager -->
 	<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
 	new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
@@ -215,6 +227,27 @@ to improve your experience.
         <div class="col-md-10">
 
           <h4 id="eos" class="red_5"><strong>This model is discontinued. The recommended replacement is <a href="/md8563-eh/" target="_blank" class="red_5"><u><span>MD8563-EH</span></u></a>.</strong></h4>
+
+          <!-- VU setting -->
+          <script>
+          $.ajax({
+            url: "http://freegeoip.net/json/",
+            type: 'GET',
+            async: false,          
+            success: function (json) {
+
+              if (json.country_code === "CA" || json.country_code === "US") {
+
+                function removeEos() {
+                    var list = document.getElementById("eos");
+                    list.removeChild(list.childNodes[0]);
+                }
+
+                removeEos();
+              }
+            },
+          })
+          </script>
 
           <h3>Overview</h3>
           <p class="t84">VIVOTEK MD8562 are compact, 2-megapixel network cameras geared toward transportation applications such as buses, trains, and other vehicles. With full EN50155 compliance & IP67-rated design, the camera can withstand shock, vibration, humidity, dust, and temperature fluctuations, maintaining stable and reliable video during vehicle movement. Furthermore, the vandal-proof metal housing effectively provides robust protection from vandalism. As such, the combination of high resolution imaging and protective housing endows the MD8562 with the rugged reliability required to maximize passenger safety and optimize mobile surveillance.</p>
@@ -1087,16 +1120,6 @@ to improve your experience.
 
 
  <!-- !JAVASCRIPT START -->
- <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.1/jquery.min.js"></script>
- <script>window.jQuery || document.write('<script src="/js/jquery/jquery-1.10.1.min.js"><\/script>')</script>
- <script src="/js/bootstrap/bootstrap.min.js"></script>
- <script src="/js/bootstrap/application.min.js"></script>
- <script src="http://cdnjs.cloudflare.com/ajax/libs/jquery-throttle-debounce/1.1/jquery.ba-throttle-debounce.min.js"></script>
- 
- <script src="/js/bootstrap/highlight.min.js"></script>
- <script src="/js/bootstrap/holder.min.js"></script>
- <script src="/js/bootstrap/jquery.min.js"></script>
-
  <!-- !ICONIC 字型 START -->
  <script src="/js/iconic/iconic.min.js"></script>
  <!-- !ICONIC 字型 END -->
