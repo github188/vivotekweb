@@ -640,7 +640,7 @@
   },
   {
     "productName": "FD8182-F1",
-    "Hide": false,
+    "Hide": true,
     "CommingSoon": false,
     "CountryUS": "TW",
     "Type": "Products",
