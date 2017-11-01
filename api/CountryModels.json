@@ -170,7 +170,7 @@
   },  
   {
     "productName": "IB8360",
-    "Hide": true,
+    "Hide": false,
     "CommingSoon": false,
     "CountryUS": "US",
     "CountryCA": "CA",
@@ -314,11 +314,11 @@
   },
   {
     "productName": "MD8564-EH",
-    "Hide": true,
+    "Hide": false,
     "CommingSoon": false,
     "CountryUS": "US",
     "CountryCA": "CA",
-    "Type": "Products"    
+    "Type": "Products"
   },
   {
     "productName": "FD8134V",
@@ -778,7 +778,7 @@
   },
   {
     "productName": "SD9365-EHL",
-    "Hide": true,
+    "Hide": false,
     "CommingSoon": false,
     "CountryUS": "US",
     "CountryCA": "CA",
@@ -786,7 +786,7 @@
   },
   {
     "productName": "SD9366-EH",
-    "Hide": true,
+    "Hide": false,
     "CommingSoon": false,
     "CountryUS": "US",
     "CountryCA": "CA",
@@ -794,7 +794,7 @@
   },
   {
     "productName": "SD9366-EHL",
-    "Hide": true,
+    "Hide": false,
     "CommingSoon": false,
     "CountryUS": "US",
     "CountryCA": "CA",
