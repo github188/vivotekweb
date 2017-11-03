@@ -237,19 +237,19 @@ to improve your experience.
           <div class="div_clear_18"></div>
 
           <h3>Overview</h3>
-          <p class="t84">VIVOTEK VAST is the professional video/central management software designed for managing all VIVOTEK IP surveillance products with intuitive functions and numerous features. It integrates the new generation H.265 video codec, and supports hundreds of cameras and stations in a hierarchical structure of system for monitoring, recording, playback and event trigger management with ease-of-use and efficient control. Moreover, VAST also offers the video wall solution, VAST Matrix, for hundreds of cameras live view monitoring.</p>
-          <p class="t84">VAST integrates VIVOTEK network cameras to provide diverse solutions and applications, such as seamless recording with the cameras for uninterrupted video recording, Panoramic PTZ for 360° seamless surveillance solution and VCA metadata Integration like Line Crossing Detection, Loitering Detection, Field Detection and People Counting Reports. VAST performs remote management with full range of the server &amp; client structure and constitutes a robust system for various applications, such as Retail, Residential and Industrial.</p>
+          <p class="t84">VIVOTEK’s VAST is an intuitive professional video/central management software designed for managing all VIVOTEK IP surveillance products. It integrates next generation H.265 video codec and supports hundreds of cameras and stations in a hierarchical system structure for monitoring, recording, playback and event trigger management with effortless control. Furthermore, VAST offers the video wall solution, VAST Matrix, for hundreds of live view camera monitoring.</p>
+
+          <p class="t84">VAST expertly integrates with VIVOTEK’s network cameras to provide the most expansive solutions and applications in video surveillance. Seamless recording with cameras for uninterrupted video recording, Panoramic PTZ for 360° seamless surveillance and VCA metadata Integration like Line Crossing Detection, Loitering Detection, Field Detection and People Counting Reports are among the highlights of this integration. At the system level, VAST supports failover redundancy to avoid single points of failure and ensures maximum system up time. It also supports setup of the VAST server on a virtual machine by using one powerful physical server running multiple VASTs on it. VAST performs remote management with the full range of the server &amp; client structures and constitutes a robust system for various applications, such as Retail, Residential and Industrial.</p>
           <div class="div_clear_18"></div>
 
 
-          <h3>New Features in Version 1.12</h3>
+          <h3>New Features in Version 1.13</h3>
           <ul class="pro_ul_t84">
-            <li>Multi-Stream Recording</li>
-            <li>VCA Counting Report</li>
-            <li>HTTP Secure Support</li>
-            <li>Multicast Support (Matrix Only)</li>
-            <li>User Management Enhancement</li>
-            <li>New I/O Box integration</li>
+            <li>Failover Redundancy</li>
+            <li>Virtual Machine Supported</li>
+            <li>RTSP Streaming Recording</li>
+            <li>Joystick Enhancement</li>
+            <li>ONVIF Event Support in Alarm Management</li>
           </ul>
           <div class="div_clear_18"></div>
 
@@ -258,7 +258,7 @@ to improve your experience.
             <li>128-channel Live Video Monitoring with Dual Monitors</li>
             <li>16-channel Synchronous Playback</li>
             <li>Video Wall Solution "VAST Matrix" for Unlimited Live Views</li>
-            <li>Auto Stream Size for Reducing Display Loading</li>
+            <li>Auto Stream Size for Reducing Display Loading (Live-Client/Matrix)</li>
             <li>Instant Replay &amp; Playback on Live Client</li>
             <li>Intelligent Alarm Management and Acknowledgement</li>
             <li>Overall Device Management through Intuitive E-map Feature</li>
@@ -267,6 +267,8 @@ to improve your experience.
             <li>Logical Tree Management</li>
             <li>Windows Active Directory Integration</li>
             <li>VIVOTEK Exclusive Feature: Panoramic PTZ, Seamless Recording and VCA Counting Solution</li>
+            <li>Failover Solution</li>
+            <li>Virtual Machine Solution</li>
           </ul>
           <div class="div_clear_18"></div>
 
@@ -379,7 +381,7 @@ to improve your experience.
                           Version
                       </td>
                       <td>
-                          1.12
+                          1.13
                       </td>
                   </tr>
                   <tr class="spec_cal">
@@ -476,7 +478,7 @@ to improve your experience.
                       </td>
                       <td>
                          Multi Layout Display: 1x1, 2x2, 1+5, 3x3, 1+12, 4x4, 5x5, 1+31, 8x8, 1P+2, 1P+6, 1P+8, 2V, 3V, 4V, 2V+3<br>
-                         Single Layout Display, Full Screen Display, Sequential Display
+                         Single Layout Display, Full Screen Display, Sequential Display, Layout Rotate
                       </td>
                   </tr>
                   <tr>
@@ -728,7 +730,7 @@ to improve your experience.
                           Camera Event
                       </td>
                       <td>
-                          Motion, DI/O, Video Lost/Restore, PIR, Tampering, Temperature, IR, PPTZ, Line Crossing Detection, Loitering Detection, Field Detection
+                          Motion, DI/O, Video Lost/Restore, PIR, Tampering, Temperature, IR, PPTZ, Line Crossing Detection, Loitering Detection, Field Detection, Audio detection, SD Card life Expectancy Detection, Shock Detection, ONVIF Motion Event, ONVIF DI/O, ONVIF Video Lost/Restore
                       </td>
                   </tr>
                   <tr>
@@ -744,7 +746,8 @@ to improve your experience.
                           Substation
                       </td>
                       <td>
-                          Substation Connection Status
+                          Substation Connection Status, Substation DI/DO Trigger* <br>
+                          * Support for VIVOTEK's ND Series NVR
                       </td>
                   </tr>
                   <tr>
@@ -810,6 +813,15 @@ to improve your experience.
                   </tr>
                   <tr>
                       <td>
+                          Device
+                      </td>
+                      <td>
+                          Camera, External DI/O, Substation camera, Substation DI/DO* <br>
+                          * Support for VIVOTEK's ND Series NVR
+                      </td>
+                  </tr>
+                  <tr>
+                      <td>
                           Marked
                       </td>
                       <td>
@@ -821,7 +833,7 @@ to improve your experience.
                           Event Notification
                       </td>
                       <td>
-                          Event Icon Light Flash
+                          Event Icon Light Flash, Show Live Streaming on E-map
                       </td>
                   </tr>
                   <tr class="spec_cal">
@@ -1023,6 +1035,14 @@ to improve your experience.
                   </tr>
                   <tr>
                       <td>
+                          Video Source
+                      </td>
+                      <td>
+                          VIVOTEK Cameras, ONVIF Cameras, RTSP URL
+                      </td>
+                  </tr>
+                  <tr>
+                      <td>
                           Basic Setting
                       </td>
                       <td>
@@ -1094,6 +1114,14 @@ to improve your experience.
                           PTZ Control (Up, Down, Left, Right &amp; Zoom In/Out)
                       </td>
                   </tr>
+                  <tr>
+                      <td>
+                          ONVIF Event
+                      </td>
+                      <td>
+                          Motion Event, DI/DO, Video Lost/Restore
+                      </td>
+                  </tr>
                    <tr>
                       <td>
                           ONVIF Discovery
@@ -1152,6 +1180,15 @@ to improve your experience.
                           Seamless Recording<br>
                           Standard VCA Integration (Line Crossing &amp; Loitering &amp; Field Detection)<br>
                           VCA Counting Solution
+                      </td>
+                  </tr>
+                  <tr>
+                      <td>
+                          Failover Redundancy
+                      </td>
+                      <td>
+                          Support N x M Structure* <br>
+                          * Only Support VAST Server
                       </td>
                   </tr>
               </tbody>
@@ -1647,7 +1684,7 @@ to improve your experience.
                   <div class="block">
                     <h1 class="jplist_dl_title">Release Note</h1>
                     <div class="dl_btn">
-                      <a href="http://download.vivotek.com/downloadfile/downloads/releasenote/vastreleasenote_en.pdf?v=1.12.5.301" target="_blank" class="btn btn-default btn-sm">Download</a>
+                      <a href="http://download.vivotek.com/downloadfile/downloads/releasenote/vastreleasenote_en.pdf" target="_blank" class="btn btn-default btn-sm">Download</a>
                     </div>
                     <div class="div_clear_18"></div>
                   </div>
@@ -1659,9 +1696,9 @@ to improve your experience.
                   <div class="block">
                     <h1 class="jplist_dl_title">VAST<sup>*</sup></h1>
                     <div class="dl_btn">
-                      <a href="http://download.vivotek.com/downloadfile/downloads/software/vast_aio.zip?v=1.12.5.301" target="_blank" class="btn btn-default btn-xs">AIO 1.12.5.301</a>
-                      <a href="http://download.vivotek.com/downloadfile/downloads/software/vast_playback.zip?v=1.12.5.301" target="_blank" class="btn btn-default btn-xs">Playback 1.12.5.301</a>
-                      <a href="http://download.vivotek.com/downloadfile/downloads/software/vast_liveclient.zip?v=1.12.5.301" target="_blank" class="btn btn-default btn-xs">LiveClient 1.12.5.301</a>
+                      <a href="http://download.vivotek.com/downloadfile/downloads/software/vast_aio.zip" target="_blank" class="btn btn-default btn-xs">AIO 1.13.1.10</a>
+                      <a href="http://download.vivotek.com/downloadfile/downloads/software/vast_playback.zip" target="_blank" class="btn btn-default btn-xs">Playback 1.13.1.10</a>
+                      <a href="http://download.vivotek.com/downloadfile/downloads/software/vast_liveclient.zip" target="_blank" class="btn btn-default btn-xs">LiveClient 1.13.1.10</a>
                       <!-- <a href="http://download.vivotek.com/downloadfile/downloads/software/vast_matrix.zip" target="_blank" class="btn btn-default btn-xs">Matrix 1.10.0.202</a> -->
                     </div>
                     <div class="div_clear_18"></div>
