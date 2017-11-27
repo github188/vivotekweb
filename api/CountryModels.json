@@ -297,6 +297,14 @@
     "Type": "Products"
   },
   {
+    "productName": "MA8391-ETV",
+    "Hide": true,
+    "CommingSoon": false,
+    "CountryUS": "US",
+    "CountryCA": "CA",
+    "Type": "Products"
+  },
+  {
     "productName": "MD8562",
     "Hide": true,
     "CommingSoon": false,
@@ -872,6 +880,14 @@
     "Type": "Products"
   },  
   {
+    "productName": "RX9401",
+    "Hide": true,
+    "CommingSoon": false,
+    "CountryUS": "US",
+    "CountryCA": "CA",
+    "Type": "Products"
+  },  
+  {
     "productName": "AM-212",
     "Hide": true,
     "CommingSoon": false,
@@ -1232,8 +1248,8 @@
     "Type": "Menu"
   },
   {
-    "productName": "VMS VAST 2",
-    "Hide": false,
+    "productName": "Multi-Adjustable Views Cameras",
+    "Hide": true,
     "CommingSoon": false,
     "CountryUS": "US",
     "CountryCA": "CA",
@@ -1246,6 +1262,14 @@
     "CountryUS": "US",
     "CountryCA": "CA",
     "Type": "Menu"
+  },
+  {
+    "productName": "Video Receivers",
+    "Hide": true,
+    "CommingSoon": false,
+    "CountryUS": "US",
+    "CountryCA": "CA",
+    "Type": "Tabs"
   },
   {
     "productName": "Legacy Products",
