@@ -298,7 +298,7 @@
   },
   {
     "productName": "MA8391-ETV",
-    "Hide": true,
+    "Hide": false,
     "CommingSoon": false,
     "CountryUS": "US",
     "CountryCA": "CA",
@@ -1249,7 +1249,7 @@
   },
   {
     "productName": "Multi-Adjustable Views Cameras",
-    "Hide": true,
+    "Hide": false,
     "CommingSoon": false,
     "CountryUS": "US",
     "CountryCA": "CA",
