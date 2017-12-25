@@ -337,6 +337,14 @@
     "Type": "Products"
   },
   {
+    "productName": "ND8312",
+    "Hide": true,
+    "CommingSoon": false,
+    "CountryUS": "US",
+    "CountryCA": "CA",
+    "Type": "Products"
+  },
+  {
     "productName": "FD8134V",
     "Hide": true,
     "CommingSoon": false,
