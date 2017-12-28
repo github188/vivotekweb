@@ -242,6 +242,30 @@ to improve your experience.
 
 
  <!-- !JAVASCRIPT START -->
+ <script src="//code.jquery.com/jquery-1.10.2.js"></script>
+ <script>
+ $("#nav").load("//www.vivotek.com/website/nav.html");
+ $("#footer").load("//www.vivotek.com/website/footer.html");
+ </script>
+ <!-- !MEGA MENU UNIVERSAL JAVASCRIPT START -->
+ <script src="js/mgmenu_universal/mgmenu_plugins.min.js"></script>
+ <script src="js/mgmenu_universal/mgmenu.min.js"></script>
+ <script>
+ $(document).ready(function($) {
+   $('#mgmenu1').universalMegaMenu({
+     menu_effect: 'hover_fade',
+     menu_speed_show: 300,
+     menu_speed_hide: 200,
+     menu_speed_delay: 200,
+     menu_click_outside: true,
+     menubar_trigger: false,
+     menubar_hide: false,
+     menu_responsive: true
+   });
+   megaMenuContactForm();
+ });
+ </script>
+ <!-- !MEGA MENU UNIVERSAL JAVASCRIPT END -->
  <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.1/jquery.min.js"></script>
  <script>window.jQuery || document.write('<script src="js/jquery/jquery-1.10.1.min.js"><\/script>')</script>
  <script src="../../js/bootstrap/bootstrap.min.js"></script>

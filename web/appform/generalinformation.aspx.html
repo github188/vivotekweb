@@ -1,14 +1,15 @@
 
 
 <html xmlns="http://www.w3.org/1999/xhtml">
-<head><meta charset="utf-8" /><meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" /><title>
+<head>
+  <base href="//www.vivotek.com/website/"><meta charset="utf-8" /><meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" /><title>
 	VIVOTEK - General Information
-</title><meta name="description" content="VIVOTEK - General Information" /><meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" /><link rel="stylesheet" href="../../css/bootstrap.min.css" /><link rel="stylesheet" href="../../css/bootstrap-theme.min.css" /><link rel="stylesheet" href="../../css/vivotek.min.css" />
+</title><meta name="description" content="VIVOTEK - General Information" /><meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" /><link rel="stylesheet" href="css/bootstrap.min.css" /><link rel="stylesheet" href="css/bootstrap-theme.min.css" /><link rel="stylesheet" href="css/vivotek.min.css" />
  <!--[if lt IE 9]>
-  <link rel="stylesheet" href="/image/all/iconic/font/css/iconic-glyphs-legacy.css" />
+  <link rel="stylesheet" href="image/all/iconic/font/css/iconic-glyphs-legacy.css" />
  <![endif]-->
- <script src="http://www.google-analytics.com/ga.js"></script>
- <script src="../../js/modernizr/modernizr-2.6.2-respond-1.1.0.min.js"></script>
+ <script src="//www.google-analytics.com/ga.js"></script>
+ <script src="js/modernizr/modernizr-2.6.2-respond-1.1.0.min.js"></script>
  <!-- BROWSER FAVICON -->
  <link rel="icon" href="image/all/VIVOTEK_icon.ico" />
  <!-- iPad RETINA -->
@@ -407,6 +408,30 @@ to improve your experience.
 
 
  <!-- !JAVASCRIPT START -->
+ <script src="//code.jquery.com/jquery-1.10.2.js"></script>
+ <script>
+ $("#nav").load("//www.vivotek.com/website/nav.html");
+ $("#footer").load("//www.vivotek.com/website/footer.html");
+ </script>
+ <!-- !MEGA MENU UNIVERSAL JAVASCRIPT START -->
+ <script src="js/mgmenu_universal/mgmenu_plugins.min.js"></script>
+ <script src="js/mgmenu_universal/mgmenu.min.js"></script>
+ <script>
+ $(document).ready(function($) {
+   $('#mgmenu1').universalMegaMenu({
+     menu_effect: 'hover_fade',
+     menu_speed_show: 300,
+     menu_speed_hide: 200,
+     menu_speed_delay: 200,
+     menu_click_outside: true,
+     menubar_trigger: false,
+     menubar_hide: false,
+     menu_responsive: true
+   });
+   megaMenuContactForm();
+ });
+ </script>
+ <!-- !MEGA MENU UNIVERSAL JAVASCRIPT END -->
  <!-- !GOOGLE-ANALYTICS START -->
  <script>
   (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){

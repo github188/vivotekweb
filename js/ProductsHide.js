@@ -26,7 +26,7 @@ function productsshide(maintype, pagetype) {
 	var accessoriesfind = ".block .jplist_pro_title_acc_model";
 	var poefind = ".block .jplist_pro_title_poe_no";
 	$.ajax({
-		url: "http://freegeoip.net/json/",
+		url: "//freegeoip.net/json/",
 		type: 'GET',
 		async: false,
 		success: function (json) {
@@ -34,8 +34,9 @@ function productsshide(maintype, pagetype) {
 		},
 	})
 	$.ajax({
-		url: encodeURI("http://www.vivotek.com/api/CountryModels.json"),
+		url: encodeURI("//www.vivotek.com/website/api/CountryModels.json"),
 		type: 'GET',
+		dataType: 'text',
 		success: function (json) {
 			var modelsarr = $.parseJSON(json);
 			$.each(modelsarr, function (i, item) {
