@@ -8558,29 +8558,28 @@ to improve your experience.
  $("#nav").load("//www.vivotek.com/website/nav.html");
  $("#footer").load("//www.vivotek.com/website/footer.html");
  </script>
- <!-- !MEGA MENU UNIVERSAL JAVASCRIPT START -->
- <script src="js/mgmenu_universal/mgmenu_plugins.min.js"></script>
- <script src="js/mgmenu_universal/mgmenu.min.js"></script>
- <script>
- $(document).ready(function($) {
-   $('#mgmenu1').universalMegaMenu({
-     menu_effect: 'hover_fade',
-     menu_speed_show: 300,
-     menu_speed_hide: 200,
-     menu_speed_delay: 200,
-     menu_click_outside: true,
-     menubar_trigger: false,
-     menubar_hide: false,
-     menu_responsive: true
-   });
-   megaMenuContactForm();
- });
- </script>
- <!-- !MEGA MENU UNIVERSAL JAVASCRIPT END -->
  <!-- !JPLIST 表格篩選 START -->
  <script src="js/jplist/jplist.min.js"></script>
  <!-- !JPLIST 表格篩選 END -->
-
+ <!-- !MEGA MENU UNIVERSAL JAVASCRIPT START -->
+ <script src="js/mgmenu_universal/mgmenu_plugins.js"></script>
+ <script src="js/mgmenu_universal/mgmenu.js"></script>
+ <script>
+  $(document).ready(function($){
+    $('#mgmenu1').universalMegaMenu({
+      menu_effect: 'hover_fade',
+      menu_speed_show: 300,
+      menu_speed_hide: 200,
+      menu_speed_delay: 200,
+      menu_click_outside: true,
+      menubar_trigger : true,
+      menubar_hide : false,
+      menu_responsive: true
+    });
+  megaMenuContactForm(); 
+  });
+ </script>
+ <!-- !MEGA MENU UNIVERSAL JAVASCRIPT END -->
  <!-- !VU START -->
  <script type="text/javascript"> 
   adroll_adv_id = "Q5EVWUESQNFYTBVCGGOK6E"; 
