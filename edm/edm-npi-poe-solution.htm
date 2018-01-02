@@ -1,0 +1,397 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd"><head>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>[NPI] PoE Solution</title>
+<meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+
+<style type="text/css">
+body {margin: 0px auto; display:block; font-family: 'Century Gothic', Arial, Helvetica, sans-serif; font-size: 14px; color: #595959; line-height: 120%;}
+a:link, a:hover, a:active, a:visited, a:visited:hover, a:visited:active {text-decoration:underline;color:#0099FF;}
+img {border:0}
+td img {display: block;}
+::selection{background: #72D0EB; color: #FFF; text-shadow: none;}
+
+@media only screen and (max-width: 480px) {
+  .MobileW100 {width:100% !important;}
+  .MobileW88 {width:88% !important;}
+  .MobileW78 {width:78% !important;}
+  .MobileW68 {width:68% !important;}
+  .MobileW50 {width:50% !important;}
+  .MobileW25px {width:25px !important;}
+
+  .MobileH50 {height:50% !important;}
+  .MobileH15px {height:15px !important;}
+  .MobileH18px {height:18px !important;}
+  .MobileH38px {height:38px !important;}
+  .MobileH68px {height:68px !important;}
+
+  .MobileHL {font-size:20px !important; line-height:20px !important;}
+  .MobileCopyDear{font-size:16px !important; line-height:16px !important; line-height:26px !important;}
+  .MobileCopy {font-size:16px !important; line-height:16px !important; line-height:26px !important;}
+  .MobileSL {font-size:16px !important; line-height:20px !important;}
+  .MobileSpec {font-size:16px !important; line-height:20px !important; padding-right:50px !important;}
+
+  .MobileF25 {font-size:25px !important; line-height:25px !important;}
+  .MobileF20 {font-size:20px !important; line-height:20px !important;}
+  .MobileF18 {font-size:18px !important; line-height:18px !important;}
+  .MobileF16{font-size:16px !important; line-height:16px !important;}
+  .MobileF14{font-size:14px !important; line-height:14px !important;}
+  .MobileF12{font-size:12px !important; line-height:12px !important;}
+
+  .MobileDisplayNo {display: none !important; height: 0 !important;}
+
+  .MobileLogo {width:190px; height:50px;}
+
+  .MobileW25pxDisBlock {width:25px !important; margin-bottom:18px !important; display:block !important;}
+  .MobileTdMobileSL {vertical-align:top !important;}
+
+  .MobileCenter {text-align:center; }
+
+  .MobileTd {
+    width: 100%;
+  }
+
+
+  a.MobileButton, a.MobileButtonUn {display:block; position:relative; margin:0 2px 12px 2px; padding:12px 2px; background-color:#3BB3E0; color:#FFF !important; text-decoration:none !important;}
+  a.MobileButtonUn{color:#FFF !important; background-color:#DDD !important;}
+  a.MobileButton{
+    background-image: linear-gradient(bottom, rgb(44,160,202) 0%, rgb(62,184,229) 100%);
+    background-image: -o-linear-gradient(bottom, rgb(44,160,202) 0%, rgb(62,184,229) 100%);
+    background-image: -moz-linear-gradient(bottom, rgb(44,160,202) 0%, rgb(62,184,229) 100%);
+    background-image: -webkit-linear-gradient(bottom, rgb(44,160,202) 0%, rgb(62,184,229) 100%);
+    background-image: -ms-linear-gradient(bottom, rgb(44,160,202) 0%, rgb(62,184,229) 100%);
+    background-image: -webkit-gradient(linear, left bottom, left top, color-stop(0, rgb(44,160,202)), color-stop(1, rgb(62,184,229)));
+    -webkit-border-radius: 3px; -moz-border-radius: 3px; -o-border-radius: 3px; border-radius: 3px;
+    -webkit-box-shadow: inset 0px 1px 0px #2ab7ec, 0px 3px 0px 0px #156785, 0px 5px 5px #999;
+    -moz-box-shadow: inset 0px 1px 0px #2ab7ec, 0px 3px 0px 0px #156785, 0px 5px 5px #999;
+    -o-box-shadow: inset 0px 1px 0px #2ab7ec, 0px 3px 0px 0px #156785, 0px 5px 5px #999;
+    box-shadow: inset 0px 1px 0px #2ab7ec, 0px 3px 0px 0px #156785, 0px 5px 5px #999;
+  }
+  a.MobileButtonUn{
+    background-image: linear-gradient(bottom, rgb(208,208,208) 0%, rgb(238,238,238) 100%);
+    background-image: -o-linear-gradient(bottom, rgb(208,208,208) 0%, rgb(238,238,238) 100%);
+    background-image: -moz-linear-gradient(bottom, rgb(208,208,208) 0%, rgb(238,238,238) 100%);
+    background-image: -webkit-linear-gradient(bottom, rgb(208,208,208) 0%, rgb(238,238,238) 100%);
+    background-image: -ms-linear-gradient(bottom, rgb(208,208,208) 0%, rgb(238,238,238) 100%);
+    background-image: -webkit-gradient(linear, left bottom, left top, color-stop(0, rgb(208,208,208)), color-stop(1, rgb(238,238,238)));
+    -webkit-border-radius: 3px; -moz-border-radius: 3px; -o-border-radius: 3px; border-radius: 3px;
+    -webkit-box-shadow: inset 0px 1px 0px #EEE, 0px 3px 0px 0px #999, 0px 5px 5px #999;
+    -moz-box-shadow: inset 0px 1px 0px #EEE, 0px 3px 0px 0px #999, 0px 5px 5px #999;
+    -o-box-shadow: inset 0px 1px 0px #EEE, 0px 3px 0px 0px #999, 0px 5px 5px #999;
+    box-shadow: inset 0px 1px 0px #EEE, 0px 3px 0px 0px #999, 0px 5px 5px #999;
+  }
+
+}
+</style>
+</head>
+
+<body bgcolor="#EFEFEF" topmargin="0" leftmargin="0" marginheight="0" marginwidth="0" style="height:auto; padding:0; margin:0; -webkit-text-size-adjust:none; -ms-text-size-adjust:100%;">
+
+<table style="margin:0pt auto; font-family: 'Century Gothic', Arial, Helvetica, sans-serif; background-color: #EFEFEF;" align="center" border="0" cellpadding="0" cellspacing="0" width="100%">
+<tr>
+ <td>
+  <table style="margin:0px auto; font-family: 'Century Gothic', Arial, Helvetica, sans-serif; background-color: #EFEFEF;" align="center" border="0" cellpadding="0" cellspacing="0" width="718" class="MobileW100">
+  <tr>
+   <td>
+
+   <!-- BRAND START -->
+   <table style="margin:0px auto; font-family: 'Century Gothic', Arial, Helvetica, sans-serif; background-color: #FFFFFF;" align="center" border="0" cellpadding="0" cellspacing="0" width="100%">
+   <tr>
+    <td>
+
+    <!-- WEBSITE VERSION START -->  
+    <table style="background:#F6FCFF; color:#C8C8C8; width:100%" align="center" border="0" cellpadding="0" cellspacing="0">
+     <tr height="30">
+      <td align="center">
+        <span style="font-size:12px; font-family: Arial, Helvetica, sans-serif;">
+          <a href="https://www.vivotek.com/website/edm/edm-npi-poe-solution.htm?utm_source=email&utm_campaign=edm-npi-poe-solution&utm_medium=email&utm_content=copy" target="_blank">
+            <span style="color:#C8C8C8; font-size:12px">Web version</span>
+          </a>
+        </span>
+      </td>
+     </tr>
+    </table>
+    <!-- WEBSITE VERSION END -->
+           
+    <!-- BRAND LOGO START -->   
+    <table width="320" border="0" cellspacing="0" cellpadding="0" align="left" class="MobileW50">
+    <tr><td colspan="3" height="18" class="MobileH18px">&nbsp;</td></tr>
+    <tr>
+     <td width="8">&nbsp;</td>
+     <td>
+     <a href="https://www.vivotek.com/" target="_blank"><img src="https://www.vivotek.com/website/image/all/vivotek-logo.png" border="0" align="left" width="190" height="50" class="MobileLogo" alt="VIVOTEK" /></a>
+     </td>
+    </tr>
+    <tr><td colspan="7" height="50">&nbsp;</td></tr>
+    </table>
+    <!-- BRAND LOGO END -->
+    </td>
+   </tr>
+   </table>
+   <!-- BRAND END -->  
+
+   <!-- BANNER START -->
+   <table style="margin:0px auto; font-family: 'Century Gothic', Arial, Helvetica, sans-serif; background-color: #FFFFFF;" align="center" border="0" cellpadding="0" cellspacing="0" width="100%">
+   <tr>
+    <td bgcolor="#FFFFFF">
+
+    <!-- BRAND MODEL START -->   
+    <table style="margin:0px auto; font-family: 'Century Gothic', Arial, Helvetica, sans-serif; background-color: #FFFFFF;" width="300" border="0" cellspacing="0" cellpadding="0" align="left" class="MobileW50">
+    <tr>
+     <td width="40">&nbsp;</td>
+     <td width="220" height="112"></td>
+     <td width="5">&nbsp;</td>
+    </tr>
+    <tr>
+     <td width="40" class="MobileW25pxDisBlock">&nbsp;</td>
+     <td width="220">
+      <h1 style="margin:0; padding:0; color:#000; font-size:34px; font-family: Arial,Helvetica,sans-serif; line-height:60px;" class="MobileHL MobileF25">
+        PoE Solution
+      </h1>
+    </td>
+    <td width="5">&nbsp;</td>
+    </tr>
+    <tr><td colspan="7" height="10">&nbsp;</td></tr>
+    <!-- <tr>
+     <td width="50" class="MobileW25pxDisBlock">&nbsp;</td>
+     <td width="280" class="MobileTdMobileSL">
+      <h2 style="margin:0; padding:0; color:#000; font-size:20px; font-family: Arial,Helvetica,sans-serif; font-weight:100; line-height: 28px;" class="MobileSL">
+        180° Panoramic IR Camera
+      </h2>
+     </td>
+     <td width="20">&nbsp;</td>
+    </tr> -->
+    </table>
+    <!-- BRAND MODEL END -->
+    <!-- BRAND PRO START -->   
+    <table width="390" border="0" cellspacing="0" cellpadding="0" bgcolor="#FFFFFF" align="center" class="MobileW50">
+    <tr>
+     <td width="370" bgcolor="#FFFFFF">
+     <img src="https://www.vivotek.com/website/image/pressroom/edm/edm-npi-poe-solution.jpg" width="370" border="0" class="MobileW100" alt="PoE Solution" />
+     </td>
+     <td width="20">&nbsp;</td>
+    </tr>
+    </table>
+    <!-- BRAND PRO END -->
+
+    </td>
+   </tr>
+   </table>
+   <!-- BANNER END -->
+
+   <!-- SUB START -->
+   <table style="margin:0px auto; font-family: 'Century Gothic', Arial, Helvetica, sans-serif; background-color: #FFFFFF;" align="center" border="0" cellpadding="0" cellspacing="0" width="100%">
+   <tr class="MobileDisplayNo">
+    <td width="50" bgcolor="#FFFFFF">&nbsp;</td>
+    <td width="512" height="5" bgcolor="#FFFFFF">&nbsp;</td>
+    <td rowspan="3" width="158" height="30" bgcolor="#FFFFFF" class="MobileDisplayNo"><img src="https://www.vivotek.com/website/image/pressroom/edm/sub_right.png" border="0" class="MobileDisplayNo" alt="PoE Solution" /></td>
+   </tr>
+   <tr>
+    <td width="50" bgcolor="#008cd3">&nbsp;</td>
+    <td width="512" height="57" bgcolor="#008cd3">
+      <h2 style="margin:0; padding:0; color:#FFF; font-size:16px; font-weight:100; line-height:22px;" class="MobileSpec">
+        PoE Switch • Outdoor Solution • Enclosure • IR Illuminator
+      </h2>
+    </td>
+   </tr>
+   <tr>
+    <td width="50" height="5" bgcolor="#FFFFFF" class="MobileH50">&nbsp;</td>
+    <td width="512" bgcolor="#FFFFFF">&nbsp;</td>
+   </tr>
+   </table>
+   <!-- SUB END -->   
+        
+   <!-- COPY START -->
+   <table style="margin:0px auto; font-family: 'Century Gothic', Arial, Helvetica, sans-serif; background-color: #FFFFFF;" align="center" border="0" cellpadding="0" cellspacing="0" width="100%">
+   <tr>
+    <td width="50" bgcolor="#FFFFFF">&nbsp;</td>
+    <td width="618" bgcolor="#FFFFFF">
+    <p style="font-size:16px; color:#666; font-family: Arial,Helvetica,sans-serif;" class="MobileCopyDear">Dear VIVOTEKer,</p>
+    <p style="font-size:16px; color:#666; font-family: Arial,Helvetica,sans-serif; line-height: 28px;" class="MobileCopy">We would like to share our latest PoE solutions, including long-range PoE switches, outdoor PoE switches, enclosures and IR illuminators. The long-range PoE solution not only delivers power and data up to 300m, but also provides smart management for IP surveillance networks. The vandal proof outdoor PoE solution is designed as the ideal solution for outdoor scenarios with moisture issues. Further, the enclosures empower VIVOTEK’s network cameras with multiple functionalities. The IR illuminators provide greater night vision and flexible F.O.V. for LPR applications. VIVOTEK’s PoE solutions are dedicated to build up an intelligent, comprehensive and protective system for IP surveillance, and help users to deploy various applications more efficiently.</p>
+
+    <p style="font-size:16px; color:#666; font-family: Arial,Helvetica,sans-serif; line-height: 28px;" class="MobileCopy">Product Line:</p>
+
+    <ul>
+      <li style="font-size:16px; color:#666; font-family: Arial,Helvetica,sans-serif; line-height: 28px;" class="MobileCopy">PoE Solution: Unmanaged and VivoCam L2+ PoE Switch/PoE Injector and Extender</li>
+      <li style="font-size:16px; color:#666; font-family: Arial,Helvetica,sans-serif; line-height: 28px;" class="MobileCopy">Outdoor Solution: All-in-One outdoor PoE Switch</li>
+      <li style="font-size:16px; color:#666; font-family: Arial,Helvetica,sans-serif; line-height: 28px;" class="MobileCopy">Enclosure: AC and PoE input enclosure with optional IR LED</li>
+      <li style="font-size:16px; color:#666; font-family: Arial,Helvetica,sans-serif; line-height: 28px;" class="MobileCopy">IR Illuminator: CaMate series with CVA technology</li>
+    </ul>
+
+    <p style="font-size:16px; color:#666; font-family: Arial,Helvetica,sans-serif; line-height: 28px;" class="MobileCopy">For further information about PoE solution, please refer to the table below. </p>
+
+    <p style="font-size:16px; color:#666; font-family: Arial,Helvetica,sans-serif; line-height: 28px;" class="MobileCopy">Have a good day and happy selling!</p>
+    <br>
+
+    <p style="font-size:20px; color:#008cd3; font-family: Arial,Helvetica,sans-serif; font-weight:500;" class="MobileF20">Patrick Wang</p>
+     <p style="font-size:16px; color:#008cd3; font-family: Arial,Helvetica,sans-serif;" class="MobileF18">Email: <a href="mailto:Patrick.Wang@vivotek.com" target="_blank" style="color:#0099FF; text-decoration:underline;">Patrick.Wang@vivotek.com</a></p>
+     <p style="font-size:16px; color:#008cd3; font-family: Arial,Helvetica,sans-serif;" class="MobileF18">Tel:  <a href="tel:+886282455282,,,5454" target="_blank" style="color:#0099FF; text-decoration:underline;">+886-2-82455282 ext.5454</a></p>
+
+    </td>
+    <td width="50" bgcolor="#FFFFFF">&nbsp;</td>
+   </tr>
+   </table>
+   <!-- COPY END -->  
+
+   <!-- PPT START -->
+   <table style="margin:0px auto; font-family: 'Century Gothic', Arial, Helvetica, sans-serif; background-color: #FFFFFF;" align="center" border="0" cellpadding="0" cellspacing="0" width="100%">
+   <tr>
+    <td bgcolor="#FFFFFF">
+
+    <!-- PPT VIDEO START -->   
+    <!-- <table width="330" border="0" cellspacing="0" cellpadding="0" bgcolor="#FFFFFF" align="left" class="MobileW100">
+    <tr>
+     <td width="50" bgcolor="#FFFFFF" class="MobileW25px">&nbsp;</td>
+     <td width="280"><a href="https://youtu.be/qGKhEaBXuIQ" target="_blank" title="Slide Video"><img src="https://www.vivotek.com/website/image/pressroom/edm/pro_cc8371-hv_npi/ppt.jpg" alt="Slide Video" class="MobileW88" border="0" /></a></td>
+    </tr>
+    </table> -->
+    <!-- PPT VIDEO END -->
+    <!-- PPT PM START -->   
+    <!-- <table width="338" border="0" cellspacing="0" cellpadding="0" bgcolor="#FFFFFF" align="left" class="MobileW100">
+    <tr class="MobileDisplayNo">
+      <td width="30" height="88" bgcolor="#FFFFFF">&nbsp;</td>
+      <td width="338" bgcolor="#FFFFFF">&nbsp;</td>
+    </tr>
+    <tr>
+      <td bgcolor="#FFFFFF" class="MobileH38px"></td>
+      <td bgcolor="#FFFFFF"></td>
+    </tr>
+    <tr>
+     <td width="30" bgcolor="#FFFFFF">&nbsp;</td>
+     <td width="338" bgcolor="#FFFFFF">
+     <p style="font-size:20px; color:#2C90CE; font-family: Arial,Helvetica,sans-serif; font-weight:500;" class="MobileF20">Jesse Chen</p>
+     <p style="font-size:14px; color:#2C90CE; font-family: Arial,Helvetica,sans-serif;" class="MobileF18">Email: <a href="mailto:Jesse.Chen@vivotek.com" target="_blank" style="color:#0099FF; text-decoration:underline;">Jesse.Chen@vivotek.com</a></p>
+     <p style="font-size:14px; color:#2C90CE; font-family: Arial,Helvetica,sans-serif;" class="MobileF18">Tel:  <a href="tel:+886282455282,,,5117" target="_blank" style="color:#0099FF; text-decoration:underline;">+886-2-82455282 ext.5117</a></p>
+     </td>
+    </tr>
+    </table> -->
+    <!-- PPT PM END -->
+
+    </td>
+   </tr>
+   <tr>
+    <td height="28" colspan="3" bgcolor="#FFFFFF">&nbsp;</td>
+   </tr>
+   </table>
+   <!-- PPT END -->  
+
+   <!-- METERIAL START -->
+   <table width="718" border="0" cellspacing="1" cellpadding="0" bgcolor="#FFFFFF" align="left" class="MobileW100">
+    <!-- <tr>
+     <td bgcolor="#FFFFFF">&nbsp;</td>
+     <td colspan="5" bgcolor="#FFFFFF"><p align="left" style="font-size:16px; color:#008cd3; font-family: Arial,Helvetica,sans-serif; font-weight:800; line-height: 20px;" class="MobileF20">Video Clips</p></td>
+     <td bgcolor="#FFFFFF">&nbsp;</td>
+    </tr> -->
+    <tr bgcolor="#FFFFFF">
+     <td width="50" bgcolor="#FFFFFF">&nbsp;</td>
+     <td width="618">
+     <!-- METERIAL TABLE START -->
+      <table width="618" border="0" cellspacing="0" cellpadding="0" bgcolor="#B6D8EE" align="left" class="MobileW100">
+
+      <tr>
+       <td bgcolor="#FFFFFF" height="38">
+        <a href="https://www.youtube.com/watch?v=z3X6jZsJjnQ" target="_blank">
+          <img src="https://www.vivotek.com/website/image/pressroom/edm/edm-webinar.png" border="0" class="MobileW100" alt="Outdoor PoE Switch" />
+        </a>
+        <p align="center" style="font-size:16px; color:#666; font-family: Arial,Helvetica,sans-serif; font-weight:100;" class="MobileF14">Webinar</p>
+        <p align="center" style="font-size:16px; color:#666; font-family: Arial,Helvetica,sans-serif; font-weight:100;" class="MobileF14">
+          <a href="https://www.youtube.com/watch?v=z3X6jZsJjnQ" target="_blank">Outdoor PoE Switch</a>
+        </p>
+      </td>
+       <td bgcolor="#FFFFFF">
+        <a href="https://www.youtube.com/watch?v=yUkJsF56Kdw" target="_blank">
+          <img src="https://www.vivotek.com/website/image/pressroom/edm/edm-video.png" border="0" class="MobileW100" alt="Enclosures" />
+        </a>
+        <p align="center" style="font-size:16px; color:#666; font-family: Arial,Helvetica,sans-serif; font-weight:100;" class="MobileF14">Video</p>        
+        <p align="center" style="font-size:16px; color:#666; font-family: Arial,Helvetica,sans-serif; font-weight:100;" class="MobileF14">
+          <a href="https://www.youtube.com/watch?v=yUkJsF56Kdw" target="_blank">Enclosures</a>
+        </p>       
+       </td>
+       <td bgcolor="#FFFFFF">
+        <a href="http://download.vivotek.com/downloadfile/downloads/flyer/poe_flyer.pdf" target="_blank">
+          <img src="https://www.vivotek.com/website/image/pressroom/edm/edm-poe-flyer.png" border="0" class="MobileW100" alt="PoE Flyer" />
+        </a>
+        <p align="center" style="font-size:16px; color:#666; font-family: Arial,Helvetica,sans-serif; font-weight:100;" class="MobileF14">Flyer</p>
+        <p align="center" style="font-size:16px; color:#666; font-family: Arial,Helvetica,sans-serif; font-weight:100;" class="MobileF14">
+          <a href="http://download.vivotek.com/downloadfile/downloads/flyer/poe_flyer.pdf" target="_blank">PoE Flyer</a>
+        </p>
+      </td>
+      </tr>
+
+     </table>
+     <!-- METERIAL TABLE END -->
+     </td>
+     <td width="50" bgcolor="#FFFFFF">&nbsp;</td>
+    </tr>
+    <tr>
+     <td height="28" bgcolor="#FFFFFF">&nbsp;</td>
+     <td bgcolor="#FFFFFF">&nbsp;</td>
+     <td bgcolor="#FFFFFF">&nbsp;</td>
+    </tr>
+  </table>
+  <!-- METERIAL END -->
+
+  <!-- Email Footer : BEGIN -->
+  <table role="presentation" aria-hidden="true" cellspacing="0" cellpadding="0" border="0" align="center" width="718" style="margin: auto; background:#F6F6F6;" class="MobileW100">
+    <tr>
+      <td valign="top" class="hh-force-col" style="background:#F6F6F6; padding: 15px 0;">
+        <p style="margin: 0; padding: 15px 10px; font-family: 'Open Sans', 'Noto Sans', -apple-system, BlinkMacSystemFont, 'Century Gothic', CenturyGothic, 'Helvetica Neue', Helvetica, sans-serif; font-size: 16px; line-height: 27px; color: #888888;font-weight: normal;" align="center">Connect with Us</p>
+
+        <table cellspacing="0" cellpadding="0" border="0" align="center" style="margin: auto; background:#F6F6F6;" class="email-container">
+          <tr>
+            <td width="50"></td>
+            <td width="50" style="padding: 5px 10px; text-align: center;">
+              <a href="http://www.facebook.com/VIVOTEKGlobal/" target="_blank" title="Follow VIVOTEK on Facebook">
+                <img src="https://www.vivotek.com/website/image/pressroom/edm/facebook-logo-40-c.png" height="40" width="40" border="0" style="text-align: right; margin-left: 15px;" alt="Facebook">
+              </a>
+            </td>
+            <td width="50" style="padding: 5px 10px; text-align: center;">
+              <a href="https://www.linkedin.com/company-beta/18162775/" target="_blank" title="Follow VIVOTEK on Linkedin">
+                <img src="https://www.vivotek.com/website/image/pressroom/edm/linkedin-logo-35.png" height="35" width="44" border="0" style="text-align: right; margin-left: 15px;" alt="Linkedin">
+              </a>
+            </td>
+            <td width="50" style="padding: 5px 10px; text-align: center;">
+              <a href="http://twitter.com/vivotek/" target="_blank" title="Follow VIVOTEK on Twitter">
+                <img src="https://www.vivotek.com/website/image/pressroom/edm/twitter-logo-40-w-c.png" height="40" width="40" border="0" style="text-align: right; margin-left: 15px;" alt="Twitter">
+              </a>
+            </td>
+            <td width="50" style="padding: 5px 10px; text-align: center;">
+              <a href="http://www.youtube.com/user/vivotekweb/" target="_blank" title="Follow VIVOTEK on YouTube">
+                <img src="https://www.vivotek.com/website/image/pressroom/edm/youtube-logo-40-c.png" height="40" width="40" border="0" style="text-align: right; margin-left: 15px;" alt="YouTube">
+              </a>
+            </td>
+            <td width="50"></td>
+          </tr>
+        </table>
+
+      </td>
+    </tr>
+
+    <tr>
+      <td style="padding: 15px 10px; width: 100%;font-size: 12px; font-family: 'Open Sans', 'Noto Sans', -apple-system, BlinkMacSystemFont, 'Century Gothic', CenturyGothic, 'Helvetica Neue', Helvetica, sans-serif; line-height:18px; color: #acacac;" class="x-gmail-data-detectors" align="center">
+        <span class="x-footer">© 2017 VIVOTEK Inc., All Rights Reserved.<br><br>
+          If you have any questions, please <a href="https://www.vivotek.com/contact/" target="_blank"><span style="color: #acacac;">contact us</span></a>.<br>
+          <!-- <a href="https://www.vivotek.com/website/edm/edm-npi-poe-solution.htm?utm_source=email&utm_campaign=edm-npi-poe-solution&utm_medium=email&utm_content=copy" target="_blank">
+            <webversion>web version</webversion>
+          </a>
+          | -->
+          <a href="https://www.vivotek.com/?utm_source=email&utm_campaign=edm-npi-poe-solution&utm_medium=email&utm_content=subscribe" target="_blank">
+            <span style="color: #acacac;">Subscribe to eNews</span>
+          </a>
+          |
+          <span style="color: #acacac;"><a href="https://www.vivotek.com/my-account" target="_blank">Unsubscribe</a> to eNews</span>
+        </span>
+      </td>
+    </tr>
+  </table>
+  <!-- Email Footer : END -->
+
+   </td>
+  </tr>
+  </table>
+ </td>
+</tr>
+</table>
+<img src="http://www.google-analytics.com/collect?v=1&tid=UA-1876002-1&cid=en&t=event&ec=email&ea=open&el=recipient-id&cs=email&cm=email&cn=edm-npi-poe-solution" />
+</body>
+</html>
