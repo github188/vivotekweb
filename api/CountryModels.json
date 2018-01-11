@@ -719,6 +719,22 @@
     "Type": "Products"
   },
   {
+    "productName": "FD9367-EHTV",
+    "Hide": true,
+    "CommingSoon": false,
+    "CountryUS": "US",
+    "CountryCA": "CA",
+    "Type": "Products"
+  },
+  {
+    "productName": "FD9367-HTV",
+    "Hide": true,
+    "CommingSoon": false,
+    "CountryUS": "US",
+    "CountryCA": "CA",
+    "Type": "Products"
+  },
+  {
     "productName": "FD9381-EHTV",
     "Hide": false,
     "CommingSoon": false,
