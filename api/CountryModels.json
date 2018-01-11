@@ -337,6 +337,13 @@
     "Type": "Products"
   },
   {
+    "productName": "ND8212W",
+    "Hide": true,
+    "CommingSoon": false,
+    "CountryUS": "TW",
+    "Type": "Products"
+  },
+  {
     "productName": "ND8312",
     "Hide": true,
     "CommingSoon": false,
@@ -1285,6 +1292,13 @@
     "CommingSoon": false,
     "CountryUS": "US",
     "CountryCA": "CA",
+    "Type": "Menu"
+  },
+  {
+    "productName": "4-CH",
+    "Hide": true,
+    "CommingSoon": false,
+    "CountryUS": "TW",
     "Type": "Menu"
   },
   {
