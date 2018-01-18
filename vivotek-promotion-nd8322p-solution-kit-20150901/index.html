@@ -30,7 +30,11 @@
  <meta name="twitter:description" content="Introducing a range of bundle kit options for any scenario, from small to large-scale applications. Each package includes 1x 8-CH PoE NVR (the ND8322P ), and your choice of network cameras, (the IB8369A or FD8369A-V or FD8169A or FE8180 ). These bundle kits are perfect for a diverse range of applications, such as shops, factories, and even homes.">
  <meta name="twitter:image" content="https://www.vivotek.com/website/image/homepage/ban_2_1_nd8322p_solution_kit.jpg"> 
  <meta name="twitter:image:alt" content="ND8322P Solution Kit | VIVOTEK">
- 
+  <!-- !JAVASCRIPT --> 
+  <script src="//code.jquery.com/jquery-1.10.2.js"></script>
+  <script src="js/load.js"></script>
+  <!-- CSS -->  
+  <link rel="stylesheet" href="css/load.css"> 
  <link rel="stylesheet" href="css/bootstrap.min.css">
  <link rel="stylesheet" href="css/bootstrap-theme.min.css">
  <link rel="stylesheet" href="css/fontello/fontello.min.css">
@@ -138,18 +142,13 @@
 <!-- Google Tag Manager (noscript) -->
 <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-KV2JCZ"
  height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
-<!-- End Google Tag Manager (noscript) -->
-<!--[if lt IE 7]>
-<p class="chromeframe">
-You are using an <strong>outdated</strong>
-browser. Please
-<a href="http://browsehappy.com/">upgrade your browser</a>
-or
-<a href="http://www.google.com/chromeframe/?redirect=true">activate Google Chrome Frame</a>
-to improve your experience.
-</p>
-<![endif]-->
-
+  <div class='loader'>
+    <div class='loader-container'>
+      <div class='progress progress-striped active'>
+        <div class='progress-bar progress-bar-color' id='bar' role='progressbar' style='width: 0%;'></div>
+      </div>
+    </div>
+  </div>
 <!-- NAV MEGA MENU START -->
 <div class="navbar navbar-static-top vivotek_home_navbar" role="navigation">
   <!-- NAV MEGA MENU CONTAINER START -->
