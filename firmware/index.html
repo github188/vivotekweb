@@ -999,35 +999,30 @@
       <!-- VU BROCHURE setting -->
       <script>
       $.ajax({
-          url: "//freegeoip.net/json/",
-          type: 'GET',
-          async: false,          
-          success: function (json) {            
-
-                      if (json.country_code === "CA" || json.country_code === "US") {                       
-
-                        function removeBro() {
-                            var list = document.getElementById("brochurelist");
-                            while (list.hasChildNodes()) {
-                                list.removeChild(list.childNodes[0]);
-                            }
-                        }
-
-                        function vuBrochure() {
-                            var vu = document.createElement("a");
-                            var t = document.createTextNode("English 2017 Ver.1");
-                            vu.setAttribute('href', "http://download.vivotek.com/downloadfile/downloads/brochure/brochure_en-vu.pdf");
-                            vu.setAttribute('target', "_blank");
-                            vu.setAttribute('class', "btn btn-default btn-sm");
-                            vu.appendChild(t);
-                            document.getElementById("brochurelist").appendChild(vu);
-                        }          
-                                    
-                        removeBro();
-                        vuBrochure();
-                      }
-
-                    },
+        url: "//freegeoip.net/json/",
+        type: 'GET',
+        async: false,
+        success: function (json) {
+          if (json.country_code === "CA" || json.country_code === "US") {
+            function removeBro() {
+                var list = document.getElementById("brochurelist");
+                while (list.hasChildNodes()) {
+                    list.removeChild(list.childNodes[0]);
+                }
+            }
+            function vuBrochure() {
+                var vu = document.createElement("a");
+                var t = document.createTextNode("English 2018 Ver.1");
+                vu.setAttribute('href', "http://download.vivotek.com/downloadfile/downloads/brochure/brochure_en-vu.pdf");
+                vu.setAttribute('target', "_blank");
+                vu.setAttribute('class', "btn btn-default btn-sm");
+                vu.appendChild(t);
+                document.getElementById("brochurelist").appendChild(vu);
+            }
+            removeBro();
+            vuBrochure();
+          }
+        },
       })
       </script>
 
