@@ -741,6 +741,22 @@
     "Type": "Products"
 },
 {
+    "productName": "FD9167-H",
+    "Hide": true,
+    "CommingSoon": false,
+    "CountryUS": "US",
+    "CountryCA": "CA",
+    "Type": "Products"
+},
+{
+    "productName": "FD9167-HT",
+    "Hide": true,
+    "CommingSoon": false,
+    "CountryUS": "US",
+    "CountryCA": "CA",
+    "Type": "Products"
+},
+{
     "productName": "FD9181-HT",
     "Hide": false,
     "CommingSoon": false,
@@ -774,6 +790,14 @@
 },
 {
     "productName": "FD9367-HTV",
+    "Hide": true,
+    "CommingSoon": false,
+    "CountryUS": "US",
+    "CountryCA": "CA",
+    "Type": "Products"
+},
+{
+    "productName": "FD9367-HV",
     "Hide": true,
     "CommingSoon": false,
     "CountryUS": "US",
