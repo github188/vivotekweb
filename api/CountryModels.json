@@ -273,6 +273,22 @@
     "Type": "Products"
 },
 {
+    "productName": "IB9365-EHT",
+    "Hide": true,
+    "CommingSoon": false,
+    "CountryUS": "US",
+    "CountryCA": "CA",
+    "Type": "Products"
+},
+{
+    "productName": "IB9365-HT",
+    "Hide": true,
+    "CommingSoon": false,
+    "CountryUS": "US",
+    "CountryCA": "CA",
+    "Type": "Products"
+},
+{
     "productName": "IB9367-H",
     "Hide": true,
     "CommingSoon": false,
