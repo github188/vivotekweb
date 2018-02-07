@@ -105,6 +105,14 @@
     "Type": "Products"
 },
 {
+    "productName": "IP9191-HP",
+    "Hide": true,
+    "CommingSoon": false,
+    "CountryUS": "US",
+    "CountryCA": "CA",
+    "Type": "Products"
+},
+{
     "productName": "IP8331",
     "Hide": true,
     "CommingSoon": false,
