@@ -1089,7 +1089,7 @@
 },
 {
     "productName": "AW-FGT-180C-250",
-    "Hide": true,
+    "Hide": false,
     "CommingSoon": false,
     "CountryUS": "US",
     "CountryCA": "CA",
@@ -1097,7 +1097,7 @@
 },
 {
     "productName": "AW-FGT-260C-380",
-    "Hide": true,
+    "Hide": false,
     "CommingSoon": false,
     "CountryUS": "US",
     "CountryCA": "CA",
