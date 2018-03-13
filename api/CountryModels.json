@@ -1249,23 +1249,7 @@
     "Type": "Products"
 },
 {
-    "productName": "AE-243",
-    "Hide": false,
-    "CommingSoon": true,
-    "CountryUS": "US",
-    "CountryCA": "CA",
-    "Type": "Products"
-},
-{
     "productName": "AE-239",
-    "Hide": false,
-    "CommingSoon": true,
-    "CountryUS": "US",
-    "CountryCA": "CA",
-    "Type": "Products"
-},
-{
-    "productName": "AE-244",
     "Hide": false,
     "CommingSoon": true,
     "CountryUS": "US",
@@ -1321,7 +1305,7 @@
     "Type": "Products"
 },
 {
-    "productName": "AM-21D",
+    "productName": "AE-23L",
     "Hide": false,
     "CommingSoon": true,
     "CountryUS": "US",
@@ -1329,9 +1313,25 @@
     "Type": "Products"
 },
 {
-    "productName": "AM-21E",
+    "productName": "AE-243",
     "Hide": false,
     "CommingSoon": true,
+    "CountryUS": "US",
+    "CountryCA": "CA",
+    "Type": "Products"
+},
+{
+    "productName": "AE-244",
+    "Hide": false,
+    "CommingSoon": true,
+    "CountryUS": "US",
+    "CountryCA": "CA",
+    "Type": "Products"
+},
+{
+    "productName": "AE-301",
+    "Hide": true,
+    "CommingSoon": false,
     "CountryUS": "US",
     "CountryCA": "CA",
     "Type": "Products"
@@ -1345,7 +1345,15 @@
     "Type": "Products"
 },
 {
-    "productName": "AM-811",
+    "productName": "AM-21D",
+    "Hide": false,
+    "CommingSoon": true,
+    "CountryUS": "US",
+    "CountryCA": "CA",
+    "Type": "Products"
+},
+{
+    "productName": "AM-21E",
     "Hide": false,
     "CommingSoon": true,
     "CountryUS": "US",
@@ -1393,7 +1401,7 @@
     "Type": "Products"
 },
 {
-    "productName": "AE-23L",
+    "productName": "AM-811",
     "Hide": false,
     "CommingSoon": true,
     "CountryUS": "US",
