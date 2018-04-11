@@ -4,11 +4,6 @@
 <!--[if IE 7]><html class="no-js lt-ie9 lt-ie8"><![endif]-->
 <!--[if IE 8]><html class="no-js lt-ie9"><![endif]-->
 <!--[if gt IE 8]><!--><html class="no-js"><!--<![endif]-->
-
-
-
-
-
 <head>
   <base href="//www.vivotek.com/website/">
  <meta charset="utf-8">
@@ -133,6 +128,17 @@
       }
     });
  });
+ </script>
+ <script>
+ 	document.addEventListener('DOMContentLoaded', function(){
+ 	  var es = document.getElementsByClassName('hash')
+ 	  for(var i=0; i<es.length; i++){
+ 	    es[i].addEventListener('click', function(e) {
+ 	      e.preventDefault()
+ 	      document.location.hash = e.target.getAttribute('href')
+ 	    })
+ 	  }
+ 	})
  </script>
  <!-- !JPLIST 表格篩選 END -->
  <!-- favicon -->
@@ -986,29 +992,29 @@ to improve your experience.
              <span class="caret"></span>
            </button>
            <ul class="dropdown-menu" aria-labelledby="dropdownMenu1">
-             <li><a href="#abus">ABUS</a></li>
-             <li><a href="#acesee">Acesee</a></li>
-             <li><a href="#arecont">Arecont</a></li>
-             <li><a href="#axis">Axis</a></li>
-             <li><a href="#basler ">Basler</a></li>
-             <li><a href="#bosch">Bosch</a></li>
-             <li><a href="#brickcom">Brickcom</a></li>
-             <li><a href="#dahua">Dahua</a></li>
-             <li><a href="#eneo ">ENEO</a></li>
-             <li><a href="#ganz">GANZ</a></li>
-             <li><a href="#hikvision">Hikvision</a></li>
-             <li><a href="#kedacom ">KEDACOM</a></li>
-             <li><a href="#marshall electronics">Marshall Electronics</a></li>
-             <li><a href="#netron">Netron</a></li>
-             <li><a href="#panasonic">Panasonic</a></li>
-             <li><a href="#puwell">Puwell</a></li>
-             <li><a href="#raylios">Raylios</a></li>
-             <li><a href="#samsung">Samsung</a></li>
-             <li><a href="#sony">Sony</a></li>
-             <li><a href="#sunell">Sunell</a></li>
-             <li><a href="#udp ">UDP </a></li>
-             <li><a href="#varcon">VARCON</a></li>
-             <li><a href="#xts">XTS</a></li>      
+             <li><a class="hash" href="#abus">ABUS</a></li>
+             <li><a class="hash" href="#acesee">Acesee</a></li>
+             <li><a class="hash" href="#arecont">Arecont</a></li>
+             <li><a class="hash" href="#axis">Axis</a></li>
+             <li><a class="hash" href="#basler ">Basler</a></li>
+             <li><a class="hash" href="#bosch">Bosch</a></li>
+             <li><a class="hash" href="#brickcom">Brickcom</a></li>
+             <li><a class="hash" href="#dahua">Dahua</a></li>
+             <li><a class="hash" href="#eneo ">ENEO</a></li>
+             <li><a class="hash" href="#ganz">GANZ</a></li>
+             <li><a class="hash" href="#hikvision">Hikvision</a></li>
+             <li><a class="hash" href="#kedacom ">KEDACOM</a></li>
+             <li><a class="hash" href="#marshall electronics">Marshall Electronics</a></li>
+             <li><a class="hash" href="#netron">Netron</a></li>
+             <li><a class="hash" href="#panasonic">Panasonic</a></li>
+             <li><a class="hash" href="#puwell">Puwell</a></li>
+             <li><a class="hash" href="#raylios">Raylios</a></li>
+             <li><a class="hash" href="#samsung">Samsung</a></li>
+             <li><a class="hash" href="#sony">Sony</a></li>
+             <li><a class="hash" href="#sunell">Sunell</a></li>
+             <li><a class="hash" href="#udp ">UDP </a></li>
+             <li><a class="hash" href="#varcon">VARCON</a></li>
+             <li><a class="hash" href="#xts">XTS</a></li>
            </ul>
          </div>
          <!-- DROPDOWN END -->
@@ -2712,7 +2718,7 @@ to improve your experience.
 		   <div class="div_clear_68"></div>
 
        <div class="hidden-xs">
-           <p><a id="goTop" class="gotop" href="#top">TOP</a></p>
+           <p><a id="goTop" class="gotop hash" href="#top">TOP</a></p>
        </div>
 
   <div id="addthis"></div>
