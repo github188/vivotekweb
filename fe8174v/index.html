@@ -42,8 +42,6 @@
  <!--[if lt IE 9]>
   <link rel="stylesheet" href="image/all/iconic/font/css/iconic-glyphs-legacy.css">
  <![endif]-->
- <script src="//www.google-analytics.com/ga.js"></script>
- <script src="js/modernizr/modernizr-2.6.2-respond-1.1.0.min.js"></script>
  <!-- BROWSER FAVICON -->
  <link rel="icon" href="image/all/VIVOTEK_icon.ico">
  <!-- iPad RETINA -->
@@ -54,7 +52,19 @@
  <link rel="apple-touch-icon-precomposed" sizes="72x72" href="image/all/VIVOTEK_icon_ipad.png">
  <!-- iPhone -->
  <link rel="apple-touch-icon-precomposed" sizes="57x57" href="image/all/VIVOTEK_icon_iphone.png">
-	<!-- Google Tag Manager -->
+
+ <!-- <script src="js/modernizr/modernizr-2.6.2-respond-1.1.0.min.js"></script> -->
+ <script src="//ajax.googleapis.com/ajax/libs/jquery/1.10.1/jquery.min.js"></script>
+ <script>window.jQuery || document.write('<script src="js/jquery/jquery-1.10.1.min.js"><\/script>')</script>
+ <script src="js/bootstrap/bootstrap.min.js"></script>
+ <script src="js/bootstrap/application.min.js"></script>
+ <script src="//cdnjs.cloudflare.com/ajax/libs/jquery-throttle-debounce/1.1/jquery.ba-throttle-debounce.min.js"></script>
+   
+ <script src="js/bootstrap/highlight.min.js"></script>
+ <script src="js/bootstrap/holder.min.js"></script>
+ <script src="js/bootstrap/jquery.min.js"></script>
+
+ 	<!-- Google Tag Manager -->
 	<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
 	new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
 	j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
@@ -208,6 +218,27 @@ to improve your experience.
       <div class="row">
         <div class="col-md-1"></div>
         <div class="col-md-10">
+
+          <h4 id="eos" class="red_5"><strong>This model is discontinued. The recommended replacement is <a href="fe9381-ehv/" target="_blank" class="red_5"><u>FE9381-EHV</u></a>.</strong></h4>
+
+          <!-- VU BROCHURE setting -->
+          <script>
+          $.ajax({
+            url: "//freegeoip.net/json/",
+            type: 'GET',
+            async: false,
+            success: function (json) {
+              if (json.country_code === "CA" || json.country_code === "US") {
+                function removeEos() {
+                    var list = document.getElementById("eos");
+                    list.removeChild(list.childNodes[0]);
+                }
+                removeEos();
+              }
+            },
+          })
+          </script>
+
           <h3>Overview</h3>
           <p class="t84">VIVOTEK FE8174V is the latest fisheye fixed dome network camera from VIVOTEK, featuring a detailed 5-Megapixel resolution sensor with superb image quality. Equipped with a fisheye lens for 180° panoramic view (wall mount) or 360° surround view (ceiling/floor/table mount) without blind spots, the camera is able to provide coverage of wide, open areas, such as airports, shopping malls, parking lots, retail stores, offices and more.</p>
           <p class="t84">The FE8174V offers various display layouts, including original surround view, panoramic view, and regional view for various mounting applications. With the latest cutting-edge image processing capabilities, hemispherical images captured from the fisheye camera can be converted into conventional rectilinear projection for viewing and analysis. The FE8174V is compatible with VIVOTEK’s Panoramic PTZ solution, allowing users to simultaneously monitor an area overview from a fisheye model while providing a detailed regional view from a speed dome camera. In addition, in both the panoramic as well as regional viewing modes, users can utilize the ultra-smooth ePTZ function to easily zoom in and focus on a region of interest (ROI). The new cutting-edge Pixel Calculator function helps the user to ensure the image quality of a desired area.</p>
