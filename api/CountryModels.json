@@ -1345,14 +1345,6 @@
     "Type": "Products"
 },
 {
-    "productName": "AM-719",
-    "Hide": true,
-    "CommingSoon": false,
-    "CountryUS": "US",
-    "CountryCA": "CA",
-    "Type": "Products"
-},
-{
     "productName": "AM-811",
     "Hide": false,
     "CommingSoon": true,
