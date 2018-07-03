@@ -26,11 +26,11 @@ function productsshide(maintype, pagetype) {
 	var accessoriesfind = ".block .jplist_pro_title_acc_model";
 	var poefind = ".block .jplist_pro_title_poe_no";
 	$.ajax({
-		url: "//freegeoip.net/json/",
+		url: "https://geoip.nekudo.com/api",
 		type: 'GET',
 		async: false,
 		success: function (json) {
-			countcode = json.country_code;
+			countcode = json.country.code;
 		},
 	})
 	$.ajax({

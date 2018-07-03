@@ -242,12 +242,12 @@ to improve your experience.
   <!-- VU BROCHURE setting -->
   <!-- <script>
   $.ajax({
-      url: "//freegeoip.net/json/",
+      url: "https://geoip.nekudo.com/api",
       type: 'GET',
       async: false,          
       success: function (json) {            
 
-                  if (json.country_code === "CA" || json.country_code === "US") {                       
+                  if (json.country.code === "CA" || json.country.code === "US") {                       
 
                     function removeBan() {
                         var ban = document.getElementById("proban");

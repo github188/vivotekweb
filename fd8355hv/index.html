@@ -249,12 +249,12 @@ to improve your experience.
           <!-- VU setting -->
           <script>
           $.ajax({
-            url: "//freegeoip.net/json/",
+            url: "https://geoip.nekudo.com/api",
             type: 'GET',
             async: false,          
             success: function (json) {
 
-              if (json.country_code === "CA" || json.country_code === "US") {
+              if (json.country.code === "CA" || json.country.code === "US") {
 
                 function removeEos() {
                     var list = document.getElementById("eos");
