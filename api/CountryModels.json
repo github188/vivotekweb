@@ -97,6 +97,30 @@
     "Type": "Products"
 },
 {
+    "productName": "IP9165-HP",
+    "Hide": true,
+    "CommingSoon": false,
+    "CountryUS": "US",
+    "CountryCA": "CA",
+    "Type": "Products"
+},
+{
+    "productName": "IP9165-HT",
+    "Hide": true,
+    "CommingSoon": false,
+    "CountryUS": "US",
+    "CountryCA": "CA",
+    "Type": "Products"
+},
+{
+    "productName": "IP9165-LPC",
+    "Hide": true,
+    "CommingSoon": false,
+    "CountryUS": "US",
+    "CountryCA": "CA",
+    "Type": "Products"
+},
+{
     "productName": "IP9167-HP",
     "Hide": true,
     "CommingSoon": false,
@@ -1059,6 +1083,22 @@
     "productName": "AI-106",
     "Hide": false,
     "CommingSoon": true,
+    "CountryUS": "US",
+    "CountryCA": "CA",
+    "Type": "Products"
+},
+{
+    "productName": "AP-FEX-0150-T",
+    "Hide": true,
+    "CommingSoon": false,
+    "CountryUS": "US",
+    "CountryCA": "CA",
+    "Type": "Products"
+},
+{
+    "productName": "AP-FEX-0250-T",
+    "Hide": true,
+    "CommingSoon": false,
     "CountryUS": "US",
     "CountryCA": "CA",
     "Type": "Products"
