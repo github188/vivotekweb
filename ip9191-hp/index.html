@@ -73,6 +73,12 @@
     margin: 0 auto;
   }
   
+   .table tbody tr td, .table thead tr td {
+    text-align: center;
+    vertical-align: middle;
+    padding: 10px 5px;
+  }  
+
   </style>
   <!--[if lt IE 9]>
    <link rel="stylesheet" href="image/all/iconic/font/css/iconic-glyphs-legacy.css">
@@ -1292,7 +1298,7 @@
               Interface
             </td>
             <td>
-              10 Base-T/100 BaseTX Ethernet (RJ-45)<br>
+              10 Base-T/100 Base-TX Ethernet /1000 Base-T (RJ-45)<br>
               *It is highly recommended to use standard CAT5e &amp; CAT6 cables which are compliant with the 3P/ETL standard.
             </td>
           </tr>
@@ -1690,64 +1696,89 @@
         <div class="row">
           <div class="col-md-1"></div>
           <div class="col-md-10">
-            <h3>Accessories</h3>
-            <!-- JPLIST TABLE START -->
-            <div id="demoacc" class="box jplist">
-              <!-- FILTER PANEL START -->
-              <div class="jplist-panel box panel-top">
-                <div 
-                  class="jplist-views" 
-                  data-control-type="views" 
-                  data-control-name="views" 
-                  data-control-action="views"
-                  data-default="jplist-grid-view"
-                  style="display:none;">
-                  <button type="button" class="jplist-view jplist-list-view" data-type="jplist-list-view"></button>
-                  <button type="button" class="jplist-view jplist-grid-view" data-type="jplist-grid-view"></button>
-                  <button type="button" class="jplist-view jplist-thumbs-view" data-type="jplist-thumbs-view"></button>
-                </div>
+
+            <div class="row">
+              <div class="col-md-12">
+                <h3>Supported Lens List</h3>
+                <table class="table rwd-table table-striped">
+                  <thead>
+                    <tr class="spec_cal">
+                      <td>VIVOTEK model name</td>
+                      <td>Lens Brand</td>
+                      <td>Lens model</td>
+                      <td>focal length<br>(mm)</td>
+                      <td>F #</td>
+                      <td>Iris type</td>
+                      <td>Mount type</td>
+                      <td>IR correction</td>
+                      <td>Profile Version</td>
+                      <td>Lens Profile</td>
+                    </tr>
+                  </thead> 
+                  <tbody>
+                    <!-- AL-248 -->
+                    <tr>
+                      <td>IP9191-HP</td>
+                      <td>VIVOTEK</td>
+                      <td>AL-248</td>
+                      <td>12-50</td>
+                      <td>1.8</td>
+                      <td>P</td>
+                      <td>CS</td>
+                      <td>Yes</td>
+                      <td>V1.0</td>
+                      <td><a href="http://download.vivotek.com/downloadfile/products/accessories/IP9191-HP_AL-248.zip">Download</a></td>
+                    </tr>
+                    <!-- AL-24E -->
+                    <tr>
+                      <td>IP9191-HP</td>
+                      <td>VIVOTEK</td>
+                      <td>AL-24E</td>
+                      <td>3.9-10</td>
+                      <td>1.5</td>
+                      <td>P</td>
+                      <td>CS</td>
+                      <td>Yes</td>
+                      <td>N/A</td>
+                      <td>bundled in firmware</td>
+                    </tr>    
+                  </tbody>
+                </table>
               </div>
-              <!-- FILTER PANEL END -->
-              <!-- DATA START -->
-              <div class="list box text-shadow jplist_tbale_area jplist_tbale_pro">
 
-                 <!-- AL-248 -->
-                <div class="list-item box">
-                 <em class="jplist_pro_em">
-                  <span class="acc_category bg_amber_1">Lens</span>
-                 </em>
-                 <div class="img"><img src="image/all/icon_products/al-248.png" alt="AL-248" style="border: solid 10px rgba(254,235,182,1)"></div>
-                  <div class="block">
-                   <h1 class="jplist_pro_title_acc_model">AL-248</h1>
-                   <h1 class="jplist_pro_title_acc_pn">640019900G</h1>
-                   <p class="t84 jplist_pro_des_acc">12 ~ 50mm, F1.8, P-iris</p>
-                   <div class="acc_btn">
-                     <a href="accessories/al-248.html" target="_blank" class="btn btn-default btn-sm">More Info.</a>&nbsp;
-                     <!-- <a href="http://download.vivotek.com/downloadfile/downloads/datasheets/al-248datasheet_en.pdf" target="_blank" class="btn btn-default btn-sm">Datasheet</a>&nbsp; -->
-                     <!-- <a href="http://download.vivotek.com/downloadfile/downloads/usersmanuals/al-248manual_en.pdf" target="_blank" class="btn btn-default btn-sm">Manual</a>&nbsp; -->
-                     <a href="http://download.vivotek.com/downloadfile/downloads/productimages/al-248.png" target="_blank" class="btn btn-default btn-sm">Photo</a>&nbsp;
-                     <!-- <a href="http://download.vivotek.com/downloadfile/downloads/quickguides/al-248guide_en.pdf" target="_blank" class="btn btn-default btn-sm">QIG</a> -->
-                   </div>
-                   <div class="div_clear_38"></div>
-                   <p class="t84 theme">
-                    <span class="lens"><span class="iconic iconic-globe" title="Series" aria-hidden="true"></span> Lens</span>
-                   </p>
-                  </div>
-                 </div>
+              <div class="div_clear_18"></div>
 
-
-
+             <!-- <div class="col-md-5">
+              <h3>Accessories</h3>
+              <a href="http://download.vivotek.com/downloadfile/products/accessories/ip9191-hp_accessories.pdf" target="_blank">
+              <img src="image/products/others/ip9181-h_acc.jpg" alt="" class="width_100 text_center">
+              </a>
+              <div class="div_clear_8"></div>
+              <div class="dl_btn text_center">
+                <a href="http://download.vivotek.com/downloadfile/products/accessories/ip9191-hp_accessories.pdf" target="_blank" class="btn btn-default btn-sm">more info &#10148;</a>
               </div>
-              <!-- DATA END -->
-            </div>
-            <!-- JPLIST TABLE END -->
-          
+             </div> -->
+
+             <!-- <div class="clearfix div_clear_18 visible-xs-* visible-sm-* hidden-md hidden-lg"></div>
+             <div class="col-md-2 hidden-xs hidden-sm visible-md-* visible-lg-*"></div> -->
+
+             <div class="col-sm-12 col-md-5">
+              <h3>Accessories Ordering Guide</h3>
+              <a href="http://download.vivotek.com/downloadfile/products/accessories/box_camera_accessories_ordering_guide.pdf" target="_blank">
+              <img src="image/products/accessories/box_camera_accessories_ordering_guide.jpg" alt="Accessories Ordering Guide" class="width_100">
+              </a>
+              <div class="div_clear_8"></div>
+              <div class="dl_btn text_center">
+                <a href="http://download.vivotek.com/downloadfile/products/accessories/box_camera_accessories_ordering_guide.pdf" target="_blank" class="btn btn-default btn-sm">More Info. >></a>
+              </div>
+             </div>
+
+          <div class="col-md-1"></div>
           </div>
         </div>
       </div>
-
-
       <!-- ACCESSORIES TAB END -->
+
 
 
       <!-- OTHERS TAB START -->
