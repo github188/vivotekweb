@@ -121,6 +121,14 @@
     "Type": "Products"
 },
 {
+    "productName": "IP9165-LPC Kit",
+    "Hide": true,
+    "CommingSoon": false,
+    "CountryUS": "US",
+    "CountryCA": "CA",
+    "Type": "Products"
+},
+{
     "productName": "IP9167-HP",
     "Hide": true,
     "CommingSoon": false,
@@ -146,6 +154,14 @@
 },
 {
     "productName": "IP9191-HP",
+    "Hide": true,
+    "CommingSoon": false,
+    "CountryUS": "US",
+    "CountryCA": "CA",
+    "Type": "Products"
+},
+{
+    "productName": "IP9191-HT",
     "Hide": true,
     "CommingSoon": false,
     "CountryUS": "US",
@@ -1120,6 +1136,14 @@
     "Type": "Products"
 },
 {
+    "productName": "AP-FEX-0200-T",
+    "Hide": true,
+    "CommingSoon": false,
+    "CountryUS": "US",
+    "CountryCA": "CA",
+    "Type": "Products"
+},
+{
     "productName": "AW-FGT-100C-120",
     "Hide": true,
     "CommingSoon": false,
@@ -1338,6 +1362,14 @@
 },
 {
     "productName": "AE-301",
+    "Hide": true,
+    "CommingSoon": false,
+    "CountryUS": "US",
+    "CountryCA": "CA",
+    "Type": "Products"
+},
+{
+    "productName": "AL-24E",
     "Hide": true,
     "CommingSoon": false,
     "CountryUS": "US",
